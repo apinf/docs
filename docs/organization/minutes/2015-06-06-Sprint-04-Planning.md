@@ -12,7 +12,7 @@ Present:
 
 [Taija Bjorklund](/ep/profile/qMJYdtOf8Ww)
 
-[Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 Chandrashekar Challagonda
 
@@ -21,11 +21,11 @@ Chandrashekar Challagonda
 **#78 Choose one charting option for our platform**
 
 *   Assigned to [Damir Mustafin](/ep/profile/mBLmVlL59Yq)
-*   Time estimate: 2 
+*   Time estimate: 2
 
 **#57 Get analytics data from API Umbrella database**
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Time estimate: 20
 
 **#79 Implement design outlook in boilerplate project**
@@ -45,7 +45,7 @@ Chandrashekar Challagonda
 
 **#80 Display analytics data in chosen charting package**
 
-*   Assigned to [Brylie Christopher Oxley](https://apinf.hackpad.com/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Time estimate: 13
 
 **#69 Add API key field to user profile**
@@ -76,11 +76,11 @@ Chandrashekar Challagonda
 **#82 Determine how to schedule actions in Meteor, e.g. simple cron**
 
 *   Assigned to [Damir Mustafin](/ep/profile/mBLmVlL59Yq)
-*   Time estimate: 8 
+*   Time estimate: 8
 
 **#84 Finish writing API Umbrella wrapper functions for REST package**
 
-*   Assigned to [Brylie Christopher Oxley](https://apinf.hackpad.com/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Time estimate: 13
 
 **#86 Demonstrate progress in a JavaScript learning framework**
@@ -100,7 +100,7 @@ Chandrashekar Challagonda
 
 **#77 Sync data between API Umbrella and our platform, via the REST interface.**
 
-*   Assigned to [Brylie Christopher Oxley](https://apinf.hackpad.com/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Time estimate: 13
 
 **#85 Choose Bootstrap 3 Material Design Library with Meteor integration**

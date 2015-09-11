@@ -4,7 +4,7 @@ The purpose of the meeting was to discuss the big picture for APInf, review the 
 
 ## Present
 
-*   [Brylie Christopher Oxley](https://apinf.hackpad.com/ep/profile/wbZ2WS6e73L)
+*   [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Illya Nizyev
 *   Jarkko Moilanen
 *   [Taija Bjorklund](https://apinf.hackpad.com/ep/profile/qMJYdtOf8Ww)
@@ -29,7 +29,7 @@ Also, the desirable features listed in the first draft were feasible. Options fo
 
 For the purpose of documenting and discussing any future development ideas and needs (versions beyond MVP), we will set up a [roadmap document](/Roadmap-cggY9GWDqZs)  in Hackpad. 
 
-:alarm_clock:  **AP** [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L): set up the roadmap document.
+:alarm_clock:  **AP** [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie): set up the roadmap document.
 
 The following ideas were suggested to be included in the roadmap
 

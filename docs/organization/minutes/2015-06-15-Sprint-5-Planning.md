@@ -10,7 +10,7 @@
 
 [Taija Bjorklund](https://apinf.hackpad.com/ep/profile/qMJYdtOf8Ww)
 
-[Brylie Christopher Oxley](https://apinf.hackpad.com/ep/profile/wbZ2WS6e73L)
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 [Laura Ekman](/ep/profile/Gdh9g3Hy7P6)
 
@@ -23,7 +23,7 @@
 
 **#125 Create API Umbrella user in all relevant collections**
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Time estimate: 13
 
 **#116 Create schema for AdminUsers collection**
@@ -83,7 +83,7 @@
 
 **#75 Add rate limiting to API configuration form**
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Time estimate: 5
 
 **#127 Create content architecture map**
@@ -93,7 +93,7 @@
 
 **#72 Create a form or button for importing basic API configuration (API Umbrella)**
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Time estimate: 20
 
 **#123 Create LESS files for Apinf branding**
@@ -113,7 +113,7 @@
 
 **#124 Choose a learning resource and demonstrate progress**
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Time estimate: 
 
 **#131 Create Social media strategy document**
@@ -138,7 +138,7 @@
 
 **#99 Create RAML and/or Swagger file describing Admin API**
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Time estimate: 8
 
 **#117 Create wrapper for API Scopes**
@@ -161,6 +161,6 @@
 
 [Taija Bjorklund](https://apinf.hackpad.com/ep/profile/qMJYdtOf8Ww) - 13
 
-[Brylie Christopher Oxley](https://apinf.hackpad.com/ep/profile/wbZ2WS6e73L) - 46
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) - 46
 
 [Laura Ekman](https://apinf.hackpad.com/ep/profile/Gdh9g3Hy7P6) - 13

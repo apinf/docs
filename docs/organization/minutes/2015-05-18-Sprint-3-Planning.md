@@ -6,7 +6,7 @@
 *   [Illya Nizyev](/ep/profile/w4lbdyiXvgi) 
 *   [Taija Bjorklund](/ep/profile/qMJYdtOf8Ww) 
 *   [Vesa Harkonen](/ep/profile/mFT9pPj9CGy) 
-*   [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) 
+*   [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) 
 *   Laura Ekman
 
 ## Tasks

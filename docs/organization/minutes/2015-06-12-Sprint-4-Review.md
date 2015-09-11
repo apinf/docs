@@ -6,7 +6,7 @@
 *   [Taija Bjorklund](/ep/profile/qMJYdtOf8Ww)
 *   [Damir Mustafin](/ep/profile/mBLmVlL59Yq)
 *   [Laura Ekman](/ep/profile/Gdh9g3Hy7P6)
-*   [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   [Illya Nizyev](/ep/profile/w4lbdyiXvgi)
 
 **Brylie**

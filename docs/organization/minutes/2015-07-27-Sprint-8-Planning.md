@@ -4,7 +4,7 @@
 
 **Present:**
 
-[Brylie Christopher Oxley](https://apinf.hackpad.com/ep/profile/wbZ2WS6e73L)
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 [Damir Mustafin](/ep/profile/mBLmVlL59Yq)
 
@@ -36,13 +36,13 @@
 
 **# 177 Add new APIs to API Umbrella**
 
-    -  Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+    -  Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
     -  Estimated 5 hours
 
 **# 217 Define and implement most important privileges**
 
-    -  Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+    -  Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
     -  Estimated 13 hours
 
@@ -84,7 +84,7 @@
 
 **# 278 Document dashboard integration decision**
 
-    -  Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+    -  Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
     -  Estimated 5 hours
 
@@ -108,7 +108,7 @@
 
 **# 281 Organize workshop on functional testing**
 
-    -  Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+    -  Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
     -  Estimated 8 hours
 
@@ -138,7 +138,7 @@
 
 **# 222 Implement high priority Apinf endpoints     **
 
-    -  Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+    -  Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
     -  Estimated 8 hours
 

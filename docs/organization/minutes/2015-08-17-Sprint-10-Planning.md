@@ -8,7 +8,7 @@ Overview: community building activities, final touches to UI
 
 [Aseem Shakuntal](/ep/profile/sWTEun2Rf6U)
 
-[Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 [Damir Mustafin](/ep/profile/mBLmVlL59Yq)
 
@@ -32,7 +32,7 @@ Overview: community building activities, final touches to UI
 
 #379 Create non-technical diagram about Apinf
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) (5 h)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) (5 h)
 
 #372 Fix API catalogue table columns
 
@@ -44,7 +44,7 @@ Overview: community building activities, final touches to UI
 
 #326 Add view for user management
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) (13 h)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) (13 h)
 
 #287 Using Meteor roles, hide privileged sections of the dashboard from non-privileged users.
 
@@ -64,7 +64,7 @@ Overview: community building activities, final touches to UI
 
 #370 Add edit button to APIs displayed in My Managed APIs view
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) (3 h)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) (3 h)
 
 #369 Add route permission for editing api backend
 

@@ -4,7 +4,7 @@ Sprint 11: 31 August - 04 September
 
 **Present**
 
-[Brylie Christopher Oxley](https://apinf.hackpad.com/ep/profile/wbZ2WS6e73L)
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 [Laura Ekman](https://apinf.hackpad.com/ep/profile/Gdh9g3Hy7P6)
 
@@ -30,15 +30,15 @@ Sprint 11: 31 August - 04 September
 
 #334 Implement privileges for all apiBackends publication
 
-*   Assigned to [Brylie Christopher Oxley](https://apinf.hackpad.com/ep/profile/wbZ2WS6e73L) (5h)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) (5h)
 
 #369 Add route permission for editing api backend
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) (8h)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) (8h)
 
 #376 Organise brainstorming about Mindtrek workshop
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) (8h)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) (8h)
 
 #351 Add a method for selecting relevant Swagger file to Documentation browser
 
@@ -54,7 +54,7 @@ Sprint 11: 31 August - 04 September
 
 #408 Organise test camp
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) (13h)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) (13h)
 
 #414 Team business card design
 
@@ -78,7 +78,7 @@ Sprint 11: 31 August - 04 September
 
 #407 Test setting up development environment
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) (5h)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) (5h)
 
 #415 Allow yml and txt in API configuration import
 
@@ -94,4 +94,4 @@ Sprint 11: 31 August - 04 September
 
 #374 Re-organise project documentation
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) (5h)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) (5h)

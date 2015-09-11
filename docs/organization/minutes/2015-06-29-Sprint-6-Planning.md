@@ -2,7 +2,7 @@
 
 Present:
 
-[Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 [Damir Mustafin](/ep/profile/mBLmVlL59Yq)
 

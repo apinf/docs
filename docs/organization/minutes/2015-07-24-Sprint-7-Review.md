@@ -27,7 +27,7 @@ Sprint 7 review notes, organized by participant.
 
 *   Bookmark buttons
 
-        *   Pair programming with [Damir Mustafin](/ep/profile/mBLmVlL59Yq) and [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) 
+        *   Pair programming with [Damir Mustafin](/ep/profile/mBLmVlL59Yq) and [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) 
     *   Created button with toggle state
     *   Created bookmark toggle method on server
 
@@ -90,7 +90,7 @@ Sprint 7 review notes, organized by participant.
 
 *   Charts
 
-        *   Converted dashboard to DC.js, so that charts are integrated on dashboard (with [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) )
+        *   Converted dashboard to DC.js, so that charts are integrated on dashboard (with [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) )
     *   added loading state indicator to dashboard
     *   Dashboard has responsive design
     *   Added filtering widgets along top of charts

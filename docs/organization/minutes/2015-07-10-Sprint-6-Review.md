@@ -33,7 +33,7 @@
 
 *   #172 - choose project versioning schema. semantic versioning. made first initial release. releases every monday mornings. 
 
-[Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 *   #195 - bug that interfered with Juuso’s tasks. still in progress
 *   #185 - bug. collection hooks package conflicts. done

@@ -16,16 +16,16 @@ Sprint 2 timeframe: 4 - 15 May. Note that there is one national holiday during t
 
 **Task 24:**  Set up scaffold
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Use this as a model: meteor-boilerplate
 
 **Task 23**: Set up project repository
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 **Task 25**: Research API Umbrella Gatekeeper
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 **Task 6**: Brainstorm session about personas
 
@@ -42,12 +42,12 @@ Sprint 2 timeframe: 4 - 15 May. Note that there is one national holiday during t
 
 **Task 32**: Authentication
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 **Task  33**: User profiles
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 **Task 36**: Learn about Mango/Meteor aggregations
 
-*   Assigned to [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   Assigned to [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)

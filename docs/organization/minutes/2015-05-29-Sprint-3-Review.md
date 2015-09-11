@@ -2,7 +2,7 @@
 
 **Participants:**
 
-[Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 [Juuso Vallius](/ep/profile/tPN01rySCnJ)
 

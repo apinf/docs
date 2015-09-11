@@ -6,11 +6,11 @@ This meeting was to create basic user personas for the API User role. Personas c
 
 Present were:
 
-*   [Taija Bjorklund](/ep/profile/qMJYdtOf8Ww) 
-*   [Vesa Harkonen](/ep/profile/mFT9pPj9CGy) 
-*   [Brylie Christopher Oxley](https://apinf.hackpad.com/ep/profile/wbZ2WS6e73L) 
-*   [Juuso Vallius](/ep/profile/tPN01rySCnJ) 
-*   [Illya Nizyev](/ep/profile/w4lbdyiXvgi) 
+*   [Taija Bjorklund](/ep/profile/qMJYdtOf8Ww)
+*   [Vesa Harkonen](/ep/profile/mFT9pPj9CGy)
+*   [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) 
+*   [Juuso Vallius](/ep/profile/tPN01rySCnJ)
+*   [Illya Nizyev](/ep/profile/w4lbdyiXvgi)
 
 **Resources**
 

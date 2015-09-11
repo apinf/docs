@@ -4,7 +4,7 @@ The purpose of the meeting was to discuss Sprint practices and plan and assign t
 
 ## Present
 
-*   [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 *   Illya Nizyev
 *   [Taija Bjorklund](/ep/profile/qMJYdtOf8Ww)
 *   Vesa Härkönen
@@ -52,7 +52,7 @@ Task assigned to: [Taija Bjorklund](https://apinf.hackpad.com/ep/profile/qMJYdtO
 
 The idea is to document the current understanding of the project goal, requirements and the related user stories to the backlog.
 
-Task assigned to: [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L).
+Task assigned to: [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie).
 
 **Create baseline technical specification**
 

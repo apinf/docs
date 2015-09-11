@@ -6,7 +6,7 @@ Unit testing workshop this sprint
 
 **Present:**
 
-[Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 [Illya Nizyev](/ep/profile/w4lbdyiXvgi)
 

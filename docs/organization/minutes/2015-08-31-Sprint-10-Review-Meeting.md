@@ -5,7 +5,7 @@ The Sprint 10 review meeting consisted of the following team members:
 *   [Taija Bjorklund](/ep/profile/qMJYdtOf8Ww)
 *   [Illya Nizyev](/ep/profile/w4lbdyiXvgi)
 *   [Laura Ekman](/ep/profile/Gdh9g3Hy7P6)
-*   [Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+*   [Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 ## Illya Nizyev
 

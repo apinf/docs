@@ -2,7 +2,7 @@
 
 **Present**
 
-[Brylie Christopher Oxley](https://apinf.hackpad.com/ep/profile/wbZ2WS6e73L)
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 [Damir Mustafin](https://apinf.hackpad.com/ep/profile/mBLmVlL59Yq)
 
@@ -26,7 +26,7 @@ One week sprint - 15 tasks
 *   #324 - Create functionality to import single API backend configuration (3h)
 *   #326 - Add view for user management (13h)
 
-[Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L) 
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie) 
 
 *   #328 - Create apinf system model diagram (5h)
 *   #325 - Add managers to api backend schema (8h)

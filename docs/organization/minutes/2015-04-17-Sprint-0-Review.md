@@ -4,7 +4,7 @@ The purpose of the meeting was to review the tasks from APInf Sprint 0.
 
 ## Present
 
-[Brylie Christopher Oxley](/ep/profile/wbZ2WS6e73L)
+[Brylie Christopher Oxley](https://www.openhub.net/accounts/brylie)
 
 [Taija Bjorklund](/ep/profile/qMJYdtOf8Ww)
 
