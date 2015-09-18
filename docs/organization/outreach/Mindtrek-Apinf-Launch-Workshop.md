@@ -27,6 +27,16 @@ Introduction (10 Minutes)
 	* Administrator?
 	* Manager?
 
+Presentation
+------------
+* Tour of API community platforms
+  * [API Suomi](http://apisuomi.fi/)
+  * [Avoin Data](http://avoindata.net/)
+
+* Tour of API Proxy solutions
+	* [API Umbrella](http://apiumbrella.io) ([source](https://github.com/NREL/api-umbrella))
+	* [Tyk](https://tyk.io/) ([source](https://github.com/lonelycode/tyk))
+	* [Kong](https://getkong.org/) ([source](https://github.com/Mashape/kong))
 
 Hands-on exercise
 -----------------
@@ -37,15 +47,6 @@ Hands-on exercise
 	* App idea
 	* Multiple API data-sources
 	* Design-driven API mashup
-
-
-Presentation
-------------
-
-* Tour of API Proxy solutions
-	* [API Umbrella](http://apiumbrella.io) ([source](https://github.com/NREL/api-umbrella))
-	* [Tyk](https://tyk.io/) ([source](https://github.com/lonelycode/tyk))
-	* [Kong](https://getkong.org/) ([source](https://github.com/Mashape/kong))
 
 
 Open Questions
