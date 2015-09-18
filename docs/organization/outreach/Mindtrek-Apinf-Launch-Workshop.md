@@ -79,6 +79,7 @@ Workshop Outline
 
 * <http://ccvillage.buffalo.edu/Village/WC/wsc/workshop_design_strategies/obear_materials/01.html>
 * <http://www.crayola.com/~/media/Crayola/For%20Educators/Free%20Resources/downloads/Arts%20Infused%20Advocacy/3CCAC%20ADVOCACY%20Facilitator%20Notes.pdf>
+* https://github.com/apicraft/detroit2013/wiki/Ground-up-API-Design-Workshop
 
 
 Design Driven API
