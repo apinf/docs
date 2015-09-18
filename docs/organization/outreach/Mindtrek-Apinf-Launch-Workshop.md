@@ -29,6 +29,9 @@ Introduction (10 Minutes)
 
 Presentation
 ------------
+* Open API Definition
+  * [OpenKnowledge Finland - Open API Definition](https://github.com/okffi/open-api-definition 
+  
 * Tour of API community platforms
   * [API Suomi](http://apisuomi.fi/)
   * [Avoin Data](http://avoindata.net/)
