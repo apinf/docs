@@ -17,3 +17,6 @@ This document outlines existing standards for API description metadata.
 ## X-Road
 The X-Road initiative has provided documentation about their API standards, such as:
 * [X-Road v6.4 -tiedonsiirtoprotokolla](https://confluence.csc.fi/display/Palveluvayla/X-Road+v6.4+-tiedonsiirtoprotokolla)
+
+# International standards
+* [Dublin Core](http://dublincore.org/)
