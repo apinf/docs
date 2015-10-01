@@ -5,6 +5,10 @@ This document outlines existing standards for API description metadata.
 > Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource (NISO 2004, ISBN: 1-880124-62-9).
 
 # Governmental metadata standards
+## Australia
+* [AGLS Metadata Standard](http://www.agls.gov.au/)
+ 
+
 ## United States
 * [Common Core Metadata Schema](https://project-open-data.cio.gov/schema/)
 * [Project Open Data Metadata Schema](https://project-open-data.cio.gov/v1.1/schema/)
