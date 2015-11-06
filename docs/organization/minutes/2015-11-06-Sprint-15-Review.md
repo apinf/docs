@@ -45,7 +45,7 @@ Ville also focused on learning the code base. He helped with PRs.
 
 
 ## Damir
-### # 466 copy API key to clipboard
+### #466 copy API key to clipboard
 * Added Clipboard.js to project
 * Wrote template logic to
   * insert copy button
@@ -61,8 +61,8 @@ Ville also focused on learning the code base. He helped with PRs.
 * Currently downloads filtered results
 * Plan for additional feature to download all logs, including selecting fields
   
-  ### #517 REST calls through API Umbrella
-  * Deferred to next sprint
+ ### #517 REST calls through API Umbrella
+ * Deferred to next sprint
 
 
 
