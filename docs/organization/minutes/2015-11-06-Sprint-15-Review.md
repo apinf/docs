@@ -5,6 +5,7 @@
 * Ville Jyrkkä
 * Damir Mustafin
 * Illya Nizyev
+* Taija Björklund
 
 ## Illya
 ### #74 Custom branding
