@@ -42,3 +42,48 @@
 578 Invalid redirects to Privacy policy  and Terms of use
 * Assigned to Laura
 * Time estimate: 8
+
+327 Create a settings page for Apinf configuration options
+* Assigned to Illya
+* Time estimate: 20
+
+74 Create a form for choosing basic brand elements, for example, colors and logo
+* Assigned to Illya
+* Time estimate: 8
+
+624 Design link to API documentation
+* Assigned to Illya
+* Time estimate: 3
+ 
+641 Implement public API feedback voting
+* Assigned to Damir
+* Time estimate: 20
+ 
+649 Implement displaying API name in Swagger Viewer doc select
+* Assigned to Damir
+* Time estimate: 5
+  
+628 Re-design adding new API UI
+* Assigned to Brylie
+* Time estimate: 13
+   
+537 Admin API integration
+* Assigned to Brylie
+* Time estimate: 8
+    
+647 Functional testing: Test analytics dashboard
+* Assigned to Sara
+* Time estimate: ?
+     
+635 Protocol labels not visible
+* Assigned to Brylie
+* Time estimate: 5
+
+638 Add error log for the application
+* Assigned to Mauricio
+* Time estimate: ?
+
+648 Create document comparing API Umbrella and Kong
+* Assigned to Brylie
+* Time estimate: 8
+ 
