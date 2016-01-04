@@ -4,6 +4,7 @@
 * Brylie Oxley
 * Taija Björklund
 * Ville Jyrkkä
+* Damir Mustafin
 
 ## Tasks
 742 Fix subscription for latestApiBackends template
