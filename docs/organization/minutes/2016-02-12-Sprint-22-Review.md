@@ -50,3 +50,11 @@
 - #830 - Add navigation capabilities to Add API Wizard
 - #733 - Add help texts to Add API Wizard
 - #823 - Add 2016 to filter dropdown menu
+
+## Damir (via email)
+
+- #744 (automated testing) Since we are moving from "Velocity" to "Intern" as a testing solution for Apinf, there are some issues that pop up during the migration process. At the same time it took some time to do a research about Intern itself. Still working on this issue with Brylie's help.
+- #785 (data table header i18n) This issue required significant refactoring of the dashboard code. (Why this is happening is noted in the comments of that issue on GitHub (https://github.com/apinf/api-umbrella-dashboard/issues/785)).
+Having some progress in it. Dashboard code is refactored and deciding how to update data table headers is left.
+-⁠ #800 (Swagger UI Base URL) Resolved & closed.
+-⁠ #815 (Usage instructions fix) Resolved, closed & merged-⁠ #816 (Define date format in setting & user locale) Created PR #872.
