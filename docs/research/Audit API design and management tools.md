@@ -6,9 +6,20 @@
 
 *   This template is designed to provide a simple to use template when auditing the different products. You may want to look into following things:
 *
+### Common features
+Determine whether a given solution supports common features, such as:
 
-**Overview**
+- Analytics - visual display of API metrics, such as latency, number of requests, etc.
+- Availability - ensure API is running to meet SLAs, handle errors, offer fallback for failure 
+- Community - involving community members in the API planning and management process. E.g. roadmap. backlog, feedback
+- Deployment - options for deploying and managing the platform. E.g. Docker, SaaS, etc.
+- Documentation - support for displaying and browsing API documentation
+- Load management - handle API traffic, including rate limiting and load balancing
+- Monetization - support for financial streams, billing, and other API business models
+- Sandboxing - allow people to test the API endpoints without any additional software
+- Security - support for authentication and authorization. E.g. sign-in, permissions, roles
 
+### Overview
 *   General background information about the product and the company behind it.
 
 **Licensing & Openness**
