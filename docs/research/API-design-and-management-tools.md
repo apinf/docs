@@ -58,6 +58,16 @@ Format/specification and tools for API design, documentation, and development.
 
 [Website](https://apiblueprint.org/)
 
+## Apiary
+- [Website](https://apiary.io/)
+- [open-source](https://github.com/apiaryio)
+
+Apiary is an API design tool, that places design before development (design-first). It uses a human readable description format, called API Blueprint, which the company maintains as an open-source project.
+
+It is possible up a simple mock-server, based on the API description file. Collaborators can view the description file on Github, provide feedback, and participate in the design before committing to full-scale development.
+
+Apiary also maintain several command line tools for API testing and validation.
+
 ## Apigee
 
 ### Overview
