@@ -37,7 +37,9 @@ This document contains ideas from a workshop that was held in order to improve t
 ### Api lifecycle
  - Should we have labels for API lifecycle?
  - What would be the labels: testing, production, deprecated???
- - Do show all of these in catalog?
+ - Do we show all of these in catalog?
+   - Should be clear that testing APIs are only for testing. So that a developer visiting Apinf won't get impression of service, where nothing really works.
+ - When API owner adds an API and adds a 'production' label, should indicate to API owner clearly, what is expected from production API. Some level SLA, response time for error. 
 
 ### Monitoring 
 - threshold, trigger, action/notification
@@ -49,6 +51,7 @@ This document contains ideas from a workshop that was held in order to improve t
 - 30 points for ping quality
 - 30 points for star rating
 - We could also inform the user in the same way as e.g. LinkedIn does that by adding e.g. contact person you will reach a certain completeness rate
+- API owner's response time for problems or questions could be there also?
 
 ### Documentation and API testing / sandboxing
 - It must be easy to find the API documentation
