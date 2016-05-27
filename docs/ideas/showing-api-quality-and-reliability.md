@@ -1,6 +1,6 @@
 # Ideas for API quality and reliabity in Apinf
 
-This document contains ideas from a workshop that was held in order to improve the user experience of Apinf platform related to API quality, reliability.  if the Apinf catalog contains a large amount of apis that do not work at all, but the owners have neglected to remove them from the catalog, the users may get a bad impression of Apinf platform itself. The same also applies if the catalog includes a lot of testing apis, but users have no way of knowing that they have been created only for testing purposes. 
+This document contains ideas from a workshop that was held in order to improve the user experience of Apinf platform related to API quality, reliability. If the Apinf catalog contains a large amount of apis that do not work at all, but the owners have neglected to remove them from the catalog, the users may get a bad impression of Apinf platform itself. The same also applies if the catalog includes a lot of testing apis, but users have no way of knowing that they have been created only for testing purposes. 
 
 ##Ideas for improving the platform
 
