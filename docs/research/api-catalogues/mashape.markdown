@@ -8,27 +8,27 @@ trusted by +170,000 developers. powered by [Kong](http://getkong.org/).
 Determine whether a given solution supports common features, such as:
 
 - API list page
--- Browsing and searching
--- Metadata: categories
--- Sorting: relevant, recent, poular, my APIs
+    - Browsing and searching
+    - Metadata: categories
+    - Sorting: relevant, recent, poular, my APIs
 - API detail page
--- Documentation (based on swagger 1.2)
--- Pricing: handled on the site (PCI)
--- Announcements
--- Overview
+    - Documentation (based on swagger 1.2)
+    - Pricing: handled on the site (PCI)
+    - Announcements
+    - Overview
 - Add own API
 - Maturity
--- 10,000+ APIs
+    - 10,000+ APIs
 - Development
--- 8 SDKs for You
--- Test API
+    - 8 SDKs for You
+    - Test API
 - Community
--- Bookmark APIs and Follow Developers
--- Community Issues and Reviews
--- Report broken API
--- Followers and Developers
+    - Bookmark APIs and Follow Developers
+    - Community Issues and Reviews
+    - Report broken API
+    - Followers and Developers
 - Legal
--- Terms
+    - Terms
 
 ### UI
 Simple UI, clear navigation.
