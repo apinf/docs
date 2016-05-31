@@ -1,5 +1,5 @@
 ### Overview
-[ProgrammableWeb API Directory]{http://www.programmableweb.com/apis/directory}
+[ProgrammableWeb API Directory](http://www.programmableweb.com/apis/directory)
 Browse the world's largest API repository
 
 
