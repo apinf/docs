@@ -5,29 +5,29 @@ Browse the world's largest API repository
 
 ### Common features
 - API list page
--- Browsing and searching (search has keyword highlighted)
--- Pagination
--- Metadata: categories - a lot and multiselect
--- Sorting: category, updated
--- Last updated
--- Deprecated APIs (which are not included by default)
+    - Browsing and searching (search has keyword highlighted)
+    - Pagination
+    - Metadata: categories - a lot and multiselect
+    - Sorting: category, updated
+    - Last updated
+    - Deprecated APIs (which are not included by default)
 - API detail page
--- Summary: owner, SSL, contact, # follower/devs
--- Documentation
--- Related APIs
+    - Summary: owner, SSL, contact, # follower/devs
+    - Documentation
+    - Related APIs
 - Add own API
 - Maturity
--- 15,124 APIs (31/05/16)
+    - 15,124 APIs (31/05/16)
 - Development
--- Sample code - links to articles
--- How-to
+    - Sample code - links to articles
+    - How-to
 - Community
--- Social media
--- Comments
--- Followers
--- Tracking APIs > watchlist
+    - Social media
+    - Comments
+    - Followers
+    - Tracking APIs > watchlist
 - Legal
--- No info 
+    - No info 
 
 ### UI
 List is in a tabular view, not in card view
