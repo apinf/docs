@@ -8,13 +8,19 @@ General background information about the catalogue and the company behind it.
 ### Common features
 Determine whether a given solution supports common features, such as:
 
-- 
+- API list page
 
-### Licensing & Openness
-How is the product licensed?
-What price point does it fall into?
-Is the product open source?
-What are the tools for community involvement?
+- API detail page
+
+- Add own API
+- 
+- Maturity
+
+- Development
+
+- Community
+
+- Legal
 
 
 ### UI
