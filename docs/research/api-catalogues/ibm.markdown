@@ -7,21 +7,21 @@ IBM's APIs + your ideas = infinite possibilities
 Determine whether a given solution supports common features, such as:
 
 - API list page
--- Browsing and searching
--- Metadata: categories, stage (preview, beta, live)
--- Sorting: most recent, alpha
--- Cards and tabular view
+    - Browsing and searching
+    - Metadata: categories, stage (preview, beta, live)
+    - Sorting: most recent, alpha
+    - Cards and tabular view
 - API detail page
--- Documentation
+    - Documentation
 - Maturity
--- 20 or so APIs, specific to IBM
+    - 20 or so APIs, specific to IBM
 - Development
--- A key is required for testing?
+    - A key is required for testing?
 - Community
--- Bookmarking
--- No features for community
+    - Bookmarking
+    - No features for community
 - Legal
--- No info
+    - No info
 
 ### UI
 Minimal information. Simple UI.
