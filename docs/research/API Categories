@@ -1,0 +1,59 @@
+### Market Mashup
+
+https://market.mashape.com/explore
+
+- API Categories
+    - Tools
+    - Education
+    - Device
+    - Finance
+    - Advertising
+    - Commerce
+    - Other
+    - Location
+    - Business
+    - Social
+    - Communication
+    - Entertainment
+    - Media
+    - Medical
+    - Sports
+    - Reward
+    - Data
+    - Travel
+
+### IBM
+
+- API Categories
+    - Documentation (based on swagger 1.2)
+    - Pricing: handled on the site (PCI)
+    - Announcements
+    - Overview
+- Add own API
+- Maturity
+    - 10,000+ APIs
+- Development
+    - 8 SDKs for You
+    - Test API
+- Community
+    - Bookmark APIs and Follow Developers
+    - Community Issues and Reviews
+    - Report broken API
+    - Followers and Developers
+- Legal
+    - Terms
+
+### UI
+Simple UI, clear navigation.
+Snapping menu is nice.
+No pagination.
+
+### Strengths
+A lot of APIs
+Quite some users already, so good metadata.
+
+### Weaknesses
+Search does not take into account semantics: recipes and cooking did not return results, food did.
+Search is in a strange location, not intuitive.
+No multiple tags can be selected.
+Some functionality does not work (well), feels a bit buggy
