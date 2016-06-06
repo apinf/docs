@@ -25,10 +25,24 @@ https://market.mashape.com/explore
 ### IBM
 
 - API Categories
-    - Documentation (based on swagger 1.2)
-    - Pricing: handled on the site (PCI)
-    - Announcements
-    - Overview
+    - Analytics
+    - Business Support
+    - Data Sources
+    - Development Tools
+    - Infrastructure
+    - Integration
+    - Internet of Things
+    - Messaging
+    - Mobile
+    - Operation Support
+    - Others
+    - Process Automation
+    - Risk and Compliance
+    - Runtime
+    - Sales and Marketiing
+    - Security
+    - Technical Computing
+    - Video
 - Add own API
 - Maturity
     - 10,000+ APIs
