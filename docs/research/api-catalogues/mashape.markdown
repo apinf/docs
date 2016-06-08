@@ -10,7 +10,7 @@ Determine whether a given solution supports common features, such as:
 - API list page
     - Browsing and searching
     - Metadata: categories
-    - Sorting: relevant, recent, poular, my APIs
+    - Sorting: relevant, recent, popular, my APIs
 - API detail page
     - Documentation (based on swagger 1.2)
     - Pricing: handled on the site (PCI)
