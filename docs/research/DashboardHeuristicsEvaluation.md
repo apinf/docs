@@ -1,4 +1,4 @@
-### Dashboard Heuristic Evaluation od APINF
+### Dashboard Heuristic Evaluation of APINF
 
 * Forsell, C., & Johansson, J. (2010, May). An heuristic set for evaluation in information visualization. In Proceedings of the International Conference on Advanced Visual Interfaces (pp. 199-206). ACM.
 
@@ -84,4 +84,16 @@
     21. Redesigning the table 
     [1][3]
     
+    22. The focus finder in the overview chart is not visible. User needs to click around the chart to enable it automatically. Any first time user will never know the existence of the focus finder
+    [7][3]
+    Make the focus finder visible whenever the page is loaded
+    
+    23. When focus is changed in the overview chart, in the main chart, it takes a lot of time for the rendering to take place.
+    Severity: 3
+    
+    24. Focus finder tool in overview chart is very slow to work.
+    Severity: 2
+    
+    25. Remove the background grid from both charts. It clutters the display and makes the charts difficult to understand
+    [1][2]
         
