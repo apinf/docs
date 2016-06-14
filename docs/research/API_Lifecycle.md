@@ -70,3 +70,8 @@ Once the API has served its functional lifespan, it is time for it to be retired
 *   CA Technologies - [API Lifecycle Management](http://www.ca.com/us/products/api-management/solutions/api-management-solutions/api-lifecycle-management.aspx) 
 *   Nordic APIs - [The Entire API Lifecycle](http://nordicapis.com/envisioning-the-entire-api-lifecycle/) 
 *   WSO2 - [Managing an API Lifecycle](https://docs.wso2.com/display/AM110/Managing+an+API+Life+Cycle) 
+
+## IBM Phases
+* Preview
+* Beta
+* Live
