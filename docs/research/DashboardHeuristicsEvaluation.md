@@ -7,8 +7,8 @@
 *         [Solution]
 
     1. Dashboard page does not have any Page Title. When user navigates to dashboard from landing page, lack of title can confuse  him/her about the location in the web service.
-    [5, 7][3]
-    Add Page title "Dashboard" on the top of the page
+        [5, 7][3]
+        Add Page title "Dashboard" on the top of the page
     
     2. When navigated to dashboard, left side menu name appears as "Analytics" although user just came to the dashboard page.
     [5, 7][3]
