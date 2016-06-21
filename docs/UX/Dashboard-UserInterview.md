@@ -1,5 +1,5 @@
 ###User Interview about Dashbaoard and Analytics Usage
-    User: Tuukka Hastrup
+    User: TH
     Date: 20.06.2016
 
     * High Priority Requirements:
