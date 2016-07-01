@@ -1,1 +1,0 @@
-# IBM API Management
