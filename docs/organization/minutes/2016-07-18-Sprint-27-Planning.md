@@ -1,4 +1,4 @@
-# Sprint 25 Planning
+# Sprint 27 Planning
   *  Date: 18.07.2016 10:00-10.30
   *  Participants: Ilya, Damir, Sandhya, Nazia
 
