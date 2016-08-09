@@ -28,8 +28,9 @@
   * Do you want to see aggregrated information? or separate information for each API presented side by side?
 
 * API Lifecycle Management
-  * 
-  * 
+  * What lifecycle phases do you usually use in your prototype management
+  * how do you wish to make 2 versions of an API in the API catalogue? Or you simply update the first version and make it available for consumers?
+  * What support do you usually provide for oldder versions of an API?
 
 * API Dashboard
   * What information would you like to see as overview about your API? Would you like some comparison to see how the usage has changed?
