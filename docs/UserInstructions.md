@@ -57,9 +57,9 @@ To make your explorations in the API portal simple and easy, we present a small 
         2. API consumers can know information about API owner, can bookmark the API for future reference 
         and can get API key to make calls to the API from top view. 
         (API key is avaiable if API owner has attached the API with a proxy).
-        3. "Details" tab gives information about the what the API does and its usage instructions (if provided by owner). 
-        API consumers can also make a test call from here.
-        4. from "Documentation" tab, you can checkout the available methods for this API and can make call using them 
+        3. "Details" tab gives information about the what the API does and its usage instructions 
+        (if provided by owner). API consumers can also make a test call from here.
+        4. from "Documentation" tab, you can vhrvk the available methods for this API and make calls using them. 
         (if owner makes it available to make calls). 
         You can also download an SDK in your preferred language from the Manage button.
         API owners can upload a swagger documentation as well as update it. 
