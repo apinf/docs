@@ -28,8 +28,9 @@ To make your explorations in the API portal simple and easy, we present a small 
     1. You can access Dashboard after you have signed in to APINF.
     2. To view statistics about your API, you should add it and connect it to a proxie. 
     To add an API,  (from top bar)go to API Backend -> Add API Backend. You can attch it to a proxie via the API profile.
-    3. You can see "Number of Calls" made to your API, "HTTP status of the responses", and "Average Response Time" 
-    of your API by differnt interactive charts. You can filter the information with timeline features. 
+    3. You can see "Number of Calls" made to your API, "HTTP status of the responses"
+    and "Average Response Time" of your API by differnt interactive charts. 
+    You can filter the information with timeline features. 
     In Addition, overview information lets you know Response Rate of your API and who is using it.
     4. You can get more detailed statistics about your API from a table at the bottom of the page.
     
