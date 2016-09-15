@@ -40,8 +40,8 @@ To make your explorations in the API portal simple and easy, we present a small 
     2. You can view the list either in "card view" or "list view"
     3. The APIs can be sorted by Name, Number of Bookmarks, Average Rating and Creation Date.
     4. Once you have added your own APIs here, you can further filter the list as "ALL", "My APIs" and "My Bookmarks".
-    5. From to card/list view, you can directly go to the API profile, see its status (red/yellow/green circle at top left corner)
-    or bookmark the API for future reference.
+    5. From to card/list view, you can directly go to the API profile, see its status 
+    (red/yellow/green circle at top left corner) or bookmark the API for future reference.
 
 # Add API Backend
     1. From this option, you can add your own API in the APINF platform for mass viewing. 
