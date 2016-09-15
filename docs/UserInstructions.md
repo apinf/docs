@@ -43,5 +43,15 @@ To make your explorations in the API portal simple and easy, we present a small 
 
 
  # API profile
-    1. 
-    
+    1. API owners can make their API public or private from the top view. This determines if the API would appear in catalog view.
+    2. API consumers can know information about API owner, can bookmark the API for future reference and can get API key to make calls to the API from top view. (API key is avaiable if API owner has attached the API with a proxy).
+    3. The "Details" tab gives information about the what the API does and its usage instructions (if provided by owner). API consumers can also make a test call from here.
+    3. from "Documentation" tab, you can checkout the available methods for this API and can make call using them (if owner makes it available to make calls). You can also download an SDK in your preferred language from the Manage button.
+    API owners can upload a swagger documentation as well as update it. They can also provide a link to the documenation which will appear in the Documentation tab view.
+    3. API consumers can find out organizational and service related information about the API from "Metadata" tab. API owners can edit this information when required.
+    4. From "Feedback" tab, API consumers can let the owners know about their experience on using this API. This also functions if consumers wish to report about an error or request for a feature.
+    5. From Backlog tab, API owners can add new or upcoming features of the API. The backlogs can be prioritized and will appear in the top view from high to low. 
+    API consumers can find out about upcoming features of the API from this tab.
+    6. API consumers can download .json or .yaml files describing the API methods from "Export" tab.
+    7. From "Settings" tab,API owners can modify their API related information. They can also delete the API from this tab.
+    8. From "Proxy" tab, API owners can attach their API to the available proxy. Attaching API to a proxy enables the owner to use the Dashboard feature for their API. It also allows to provide API keys for the consumers.
