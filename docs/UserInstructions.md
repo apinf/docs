@@ -13,7 +13,8 @@ To make your explorations in the API portal simple and easy, we present a small 
     to look in details to the APIs most recently added
     and find out what APINF offers with its different features.
     1. Click on "API Catalogue" (topbar) to see existing APIs hosted in APINF.
-    2. With recently added APIs, you can learn more about their features, documentation, etc. by clicking on "More Info".
+    2. With recently added APIs, you can learn more about their features, documentation, etc. 
+    by clicking on "More Info".
     3. You can get information about what features you can access and use through APINF by browsing down the page.
     4. You can select either English or Finnish as APINF user interface language.
     4. If you have an account, Sign in and start using APINF.
@@ -64,7 +65,8 @@ To make your explorations in the API portal simple and easy, we present a small 
         
         4. from "Documentation" tab, you can view the available methods for this API and make calls using them. 
         (if owner makes it available to make calls). 
-        You can also download an SDK in your preferred language from the Manage button. (only is swagger file is available)
+        You can also download an SDK in your preferred language from the Manage button. 
+        (only is swagger file is available)
         API owners can upload a swagger documentation as well as update it. 
         They can also provide a link to the documenation which will appear in the Documentation tab view.
         
