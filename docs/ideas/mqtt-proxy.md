@@ -44,18 +44,18 @@ Fields:
     - https://gist.github.com/frenchbread/d20fc93906c2d4d6f66857e99d5e6f4d
     
 ## Erlang elasticsearch plugin(s) or libraries
-https://github.com/joaohf/emqttd_elasticsearch - This looks incomplete, and makes its own assumptions
-https://github.com/snorecone/elasticsearch-erlang/blob/master/src/elasticsearch.erl
-https://github.com/zalando/esio
+- https://github.com/joaohf/emqttd_elasticsearch 
+  - This looks incomplete, and makes its own assumptions
+- https://github.com/snorecone/elasticsearch-erlang/blob/master/src/elasticsearch.erl
+- https://github.com/zalando/esio
 
 # User experience
-Our information/data is stored as 'time series' observations:
-    https://en.wikipedia.org/wiki/Time_series
+Our information/data is stored as ['time series'](https://en.wikipedia.org/wiki/Time_series) observations.
 
 ## Time series visualization
 We need wireframes, based on existing open-source time series chart libraries.
 
-## Time series charts
-Metrics Graphics: http://metricsgraphicsjs.org/examples.htm
-Rickshaw: http://code.shutterstock.com/rickshaw/
-Facette: https://facette.io/
+## Time series charts libraries
+- [Metrics Graphics](http://metricsgraphicsjs.org/) 
+- [Rickshaw](http://code.shutterstock.com/rickshaw/)
+- [Facette](https://facette.io/) 
