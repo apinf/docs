@@ -18,10 +18,10 @@
 - streaming as MQTT topic
   - Ingest via, e.g., NodeRed, JavaScript, etc.
   
-  # Storing MQTT analytics
+### Storing MQTT analytics
   emqtt plugin repository
     https://github.com/apinf/emqttd_plugin_apinf
-  33  
+
 ###  MQTT analytics structure
 Fields:
 - time: timestamp
