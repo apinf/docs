@@ -22,7 +22,8 @@
   - emqtt plugin repository https://github.com/apinf/emqttd_plugin_apinf
   - Development TODOs:
     - [x] Store data in Elasticsearch instead of MongoDB
-    - [ ] Specify selected elasticsearch library for elarng in plugin dependencies
+    - [x] Specify selected elasticsearch library for elarng in plugin dependencies
+    - [ ] Refactor existing Apinf dashboard to fit MQT analytics data structure
 
 ###  MQTT analytics structure
 Fields:
