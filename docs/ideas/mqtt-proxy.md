@@ -21,7 +21,7 @@
 ### Storing MQTT analytics
   - emqtt plugin repository https://github.com/apinf/emqttd_plugin_apinf
   - Development TODOs:
-    - [ ] Store data in Elasticsearch instead of MongoDB
+    - [x] Store data in Elasticsearch instead of MongoDB
     - [ ] Specify selected elasticsearch library for elarng in plugin dependencies
 
 ###  MQTT analytics structure
