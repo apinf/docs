@@ -1,6 +1,6 @@
 # Sprint 35 Planning Meeting
 * Date: 07.11.2016 10:00 - 10:45
-* Participants: Brylie, Nazia, Taija, Ville
+* Participants: Brylie, Laura, Nazia, Taija, Ville
 
 # Task Assignments:
 * 1882 - Automated testcase suite for signed in user - Nazia -3
