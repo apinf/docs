@@ -1,6 +1,6 @@
 # APIKA Sprint 2 Planning Meeting
 * Date: 12.05.2016 11:30 - 12:00
-* Participants: Brylie, Ilya, Nazia, Taija
+* Participants: Brylie, Nazia, Taija, Ville
 
 # Task Assignment
 * 88 - Set up email configurations for APIKA - Ville - 1
