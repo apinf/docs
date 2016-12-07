@@ -1,0 +1,62 @@
+# 2016-06-20 Meeting minutes: Sprint 25 planning
+
+## Present:
+* Taija Björklund
+* Ville Jyrkkä
+* Illya Nizyev
+* Nazia Hasan
+* Damir Mustafin
+* Chandra Challagonda
+
+## Tasks
+1151 Delay and error message when uploading swagger.json
+* Assigned to Illya Nizyev
+* Time estimate 1
+
+1156 Upload swagger.yaml delayed with error message
+* Assigned to Illya Nizyev
+* Time estimate 1
+
+1157 Documentation Editor 'host' not defined
+* Assigned to Ville Jyrkkä
+* Time estimate 1
+
+1136 Add a Cancel button and close buttonin API Documentation Manage dialogue
+* Assigned to Illya Nizyev
+* Time estimate 1
+
+1126 Exception in Github onLogin callback
+* Assigned to Ville Jyrkkä
+* Time estimate 1
+
+1040 Refactor dashboard code
+* Assigned to Damir Mustafin
+* Time estimate 2
+
+1105 Dashboard charts threadlock system
+* Assigned to Damir Mustafin
+* Time estimate 2
+
+1066 Select charting library and research available data types
+* Assigned to Damir Mustafin
+* Time estimate 2
+
+1158 Design the dashboard analytics for API owners
+* Assigned to Illya Nizyev
+* Time estimate 5
+
+999 Allow owner to select the API they are viewing the analytics for
+* Assigned to Damir Mustafin
+* Time estimate 5
+
+1009 Allow owner to select the API they are viewing the analytics for
+* Assigned to Ville Jyrkkä
+* Time estimate 3
+
+1009 Selecting analytics timeframe
+* Assigned to Ville Jyrkkä
+* Time estimate 3
+
+1002 Show average response time per API
+* Assigned to Ville Jyrkkä
+* Time estimate 3
