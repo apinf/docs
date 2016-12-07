@@ -1,0 +1,81 @@
+# 2016-06-06 Meeting minutes: Sprint 24 planning
+
+## Present:
+* Brylie Oxley
+* Taija Björklund
+* Ville Jyrkkä
+* Illya Nizyev
+* Laura Ekman
+* Nazia Hasan
+* Damir Mustafin
+* Vesa Harkonen
+
+## Tasks
+1028 Install and configure Prometheus for internal service monitoring
+* Assigned to Shaliko
+* Time estimate x
+
+1033 Documentation viewer testing
+* Assigned to Sarala
+* Time estimate x
+
+1034 Create Apinf test cases
+* Assigned to Sarala
+* Time estimate x
+
+965 Add missing i18n tags to UI texts
+* Assigned to Illya
+* Time estimate 1
+
+557 Create open source project website
+* Assigned to Taija
+* Time estimate x
+
+1027 Update automatic deployment for nightly
+* Assigned to Ville
+* Time estimate 1
+
+1014 Allow community to flag inappropriate/defunct APIs
+* Assigned to x
+* Time estimate 8
+
+997 Catalog filtering based on API owner
+* Assigned to Ville
+* Time estimate 3
+
+996 Create functionality for uploading an API logo
+* Assigned to Iliya
+* Time estimate 3
+
+990 Show most popular APIs on landing page
+* Assigned to Brylie
+* Time estimate 1
+
+989 Allow API catalog sorting by popularity, recency
+* Assigned to Brylie
+* Time estimate 3
+
+988 UCreate card view for API catalog
+* Assigned to Iliya
+* Time estimate 5
+
+991 Add API categories to API backends catalog
+* Assigned to Brylie
+* Time estimate 3
+
+1039 LoFi wireframe(s) for dashboards
+* Assigned to Nazia
+* Time estimate 8
+
+1026 Selection of API categories
+* Assigned to Nazia
+* Time estimate 2
+
+1038 HiFi wireframe for catalog table view
+* Assigned to Nazia
+* Time estimate 3
+
+1037 HiFi wireframe for catalog sorting
+* Assigned to Nazia
+* Time estimate 3
+
