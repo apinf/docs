@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: Apinf Documentation
+theme: readthedocs
+repo_url: https://github.com/apinf/docs
+repo_name: Github
+copyright: CreativeCommons Zero (public domain)
