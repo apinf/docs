@@ -16,7 +16,7 @@
     - Issues:
     - PRs:
 * Nazia:
-    - Issues: 85, 82, 81, 79, 141, 83, 80
+    - Issues: 85, 82, 81, 79, 141, 83, 80, 132
     - PRs: 117
 * Taija:
     - Issues:
