@@ -3,6 +3,16 @@
 * Participants: Brylie, Nazia, Taija, Ville
 
 # Tasks
+* 164 - Test normal deployment conditions for ElasticSearch - 
+* 121 - Use API Umbrella Admin API to get Dashboard Analytics
+* 161 - Test adding a user and access control rule to a particular MQTT topic
+* 162 - Unify organizations and apis routes
+* 160 - Modify schemas for API and organization relationship 
+* 159 - Connect API to an organization from organization profile
+* 158 - Connect API to an organization from API settings
+* 157 - Remove organization from Add API form
+* 163 - Build a proper connection between API metadata and organization
+* 1976 - Research getting admin API data to dashboard
 * 132 - Modify workflow for connecting an API to an organization -
 * 133 - Organization managers inherit API manager rights for connected APIs
 * 131 - Allow organization managers to define organization contant person
