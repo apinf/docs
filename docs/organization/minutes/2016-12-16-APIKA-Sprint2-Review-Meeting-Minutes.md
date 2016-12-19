@@ -16,5 +16,9 @@
       - Closed: 43, 108, 109, 110
 * Nazia:
     - Issues: 85, 82, 81, 79, 141, 83, 80, 132
-    - PRs: 117
+    - PRs: 117 
+* Dasha
+    - Issues: 
+      - Closed: 73, 74, 84, 106, 135, 139
+      - In progress: 104 
 
