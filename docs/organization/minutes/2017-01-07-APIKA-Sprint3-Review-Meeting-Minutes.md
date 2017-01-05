@@ -4,22 +4,22 @@
 
 # Showcase:
 * Brylie
-    Issues:
-    PRs:
+    - Issues:
+    - PRs:
 * Damir
-    Issues:
-    PRs:
+    - Issues:
+    - PRs:
 * Ilya
-    Issues:
-    PRs:
+    - Issues:
+    - PRs:
 * Nazia:
-    Issues:
+    - Issues:
 * Sridevi
-    Issues:
-    PRs:
+    - Issues:
+    - PRs:
 * Taija
-    Issues:
-    PRs:
+    - Issues:
+    - PRs:
 * Ville
-    Issues
-    PRs:
+    - Issues
+    - PRs:
