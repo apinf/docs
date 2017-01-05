@@ -9,6 +9,9 @@
 * Damir
     - Issues:
     - PRs:
+* Daria
+    - Issues:
+    - PRs: 
 * Ilya
     - Issues:
     - PRs:
