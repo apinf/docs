@@ -16,7 +16,7 @@
     - Issues:
     - PRs:
 * Nazia:
-    - Issues:
+    - Issues: 83, 145, 80, 146, wireframes for issue 170 and 8,
 * Sridevi
     - Issues:
     - PRs:
