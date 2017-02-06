@@ -18,3 +18,5 @@
 * 1965 - Add 'Append Query String Parameters' field to Proxy Backend form
 * 127 - Allow API owner to add oembed content for an API
 * 2009 - New translation round for Finnish UI translations
+* 121 - Use API Umbrella Admin API to get Dashboard Analytics
+* 284 - Filter APIs by Lifecycle status, 'Clear all' button not available in results view
