@@ -8,7 +8,9 @@ Under the new regulation, banks are asked to “open up”, but the burden of de
 The main scope of the PSD2 is to encourage new players to enter the payment market, and it does this by mandating banks to “open up the bank account” to external parties. These Third Party Players (TPP) are divided in two types:
 
 1) Account Information Service Providers (AISPs)
+
 2) Payment Initiation Service Providers (PISPs)
+
 
 ## Who gains benefit?
 
