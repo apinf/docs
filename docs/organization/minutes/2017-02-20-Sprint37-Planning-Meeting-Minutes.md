@@ -3,15 +3,15 @@
 * Participants: Brylie, Jarkko, Jawid, Matti, Nazia, Taija
 
 # Task Assignments:
-* 2135 - APIOps community plan - Jarkko, Philippe -
-* 2002 - Define Privacy policy and terms of use texts for apinf.io
+* 2135 - APIOps community plan - Jarkko, Philippe - 2
+* 2002 - Define Privacy policy and terms of use texts for apinf.io - Taija - 1
 * 2112 - Add UI to add and view Privacy policy and terms of use
 * 2137 - wireframe for "Add UI to add and view Privacy policy and terms of use" - Nazia - 1
 * 2065 - API cards with "added a few seconds ago" are confusing
 * 3 - Document the data available for dashboard charts -
-* 4 - Build the first dashboard chart
-* 2 - Deploy and configure an instance of the analytics dashboard
-* 2129 - Research API monitoring options
+* 4 - Build the first dashboard chart - 
+* 2 - Deploy and configure an instance of the analytics dashboard - 
+* 2129 - Research API monitoring options - 
 * 1953 - Study options for DDoS attack prevention
 * 2102 - Add POST methods to APInf REST API for Catalog endpoints
 * 2056 - Publication permissions for Users publication
@@ -31,6 +31,7 @@
 * 2054 - Title and page title should be the same
 * 2055 - Bookmark API, info text remains displayed in Organization profile 
 * 2133 - In catalog, make life-cycle phase icon a link to filtered list
+* 2144 - wireframe for "In catalog, make life-cycle phase icon a link to filtered list"
 * 8 - Add deployment instructions
 * 1957 - Automatic changelog
 * 1933 - Add html ids for following elements in APINF.
