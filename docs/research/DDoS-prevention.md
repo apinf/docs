@@ -20,4 +20,4 @@ Actively check/monitor servers to allow/disallow bots, crawlers. Sometimes, comp
 
 To undrestand DDos attacks, it is wise to abstract down the attacks to the layers of OSI (Open Systems Interconnection model ) model.
 
-![Alt text](https://www.google.fi/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwi29ufJ8q_SAhWBXSwKHWHUAwEQjRwIBw&url=https%3A%2F%2Fwww.pinterest.com%2Fexplore%2Fosi-model%2F&psig=AFQjCNGsQ_3sbaL3EQkbR_VvLFIKHZrM2A&ust=1488271780527713 "OSI MODEL")
+![Alt text](https://s-media-cache-ak0.pinimg.com/originals/55/53/bd/5553bdf0a193142af2976db02c4bb920.gif?raw=true "OSI MODEL")
