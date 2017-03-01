@@ -1,7 +1,11 @@
 This document outlines our research on DDoS prevention strategies.
 
 DDOS attack is type of attack, which causes performance issue to a server, or even sometimes it causes a server to stop functioning. The victims of DDOS attacks are usually servers that provies inbound and outbound traffics. Also, interfaces that are invovled in exchagenging information throughout the Internet, can be the target of the attacks. DDoS attack is launched from numerous compromised devices, often distributed globally in what is referred to as a botnet.
-Motives for these attacks appear equally diverse such as personal reasons, the prestige, criminal, commercial, or ideological in nature.
+Motives for these attacks appear equally diverse such as personal reasons, the prestige, criminal, commercial, or ideological in nature. People behind the DDoS attacks are,
+Extortionists: They menace to inactivate the web service and then ask for the ransom money to put a stop to an attack.
+Exfiltrators: They use a DoS attack to distract interest from their actual aim – stealing data for money in a form of intellectual property or credit card numbers.
+Hacktivists: They are different than rest of the opponents. They are irritated and look for making a political announcement or stand out a focus on a cause.
+Competitors: Your competitors may cause your site inactive to gain an advantage; or they might screen scratch information on your site, for example, to determine and beat your pricing.
 
 Ahead to mitigating the DDOS attacks, the hardware/software systems must be optimized precisely. At software level, consider the following cases for the sake of optimization:
 
@@ -18,7 +22,7 @@ Consider using Round-robin DNS, which returns multiple IP addresses and the user
 
 Actively check/monitor servers to allow/disallow bots, crawlers. Sometimes, companies that are collecting statistical data about a website/webservice, are sending too many requests that causes performance issues.
 
-To undrestand DDos attacks, it is wise to abstract down the attacks to the layers of OSI (Open Systems Interconnection) model.
+To undrestand DDos attacks, it is wise to abstract down the attacks to the layers of OSI (Open Systems Interconnection) model. Because the OSI reference model details each phase of the process involved to connect a computer to the network and communication of data, most of the researchers, developers and manufacturers use the OSI model as a common platform to improve network communications. 
 ![Alt text](https://s-media-cache-ak0.pinimg.com/originals/55/53/bd/5553bdf0a193142af2976db02c4bb920.gif?raw=true "OSI MODEL")
 
 A Layer 7 DoS attack is often perpetrated through the use of HTTP GET. The attacker looks like a legitimate connection, and is therefore passed on to the web or application server. The attacker begins requesting large numbers of files/objects using HTTP GET. That the server quickly becomes focused on responding to those requests and has a hard time responding to new, legitimate requests.  
