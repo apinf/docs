@@ -48,7 +48,7 @@ As the attacker is a part of the network, the attacker will also get the data pa
 After launching a MAC Flood attack successfully, the attacker can also follow up with an ARP spoofing attack. This will help the attacker retaining access to the privileged data even after the attacked switches recover from the MAC Flooding attack.
 The ARP Spoofing is an attack where the attacker sends falsified ARP Messages (Address Resolution Protocol) so that the attackers MAC address will be linked with the IP address of a legitimated user in the network. The Address Resolution Protocol is a protocol used by the Internet Protocol usually by the IPv4 to map the IP address of a machine to a physical address like MAC address, also called Ethernet address. 
 We can prevent the MAC Flooding attack with various methods. 
-* Port Security
+* Port Security, switches are configured to limit the number of MAC addresses that can be learned on ports connected to the end stations. Also a small table of ‘secure’ MAC addresses is maintained with the traditional MAC address table. This table also acts as a subset of the MAC address table. Cisco switches are available with in-built port security system.
 * Authentication with AAA server, is a server program that handles user requests for access to computer resources and, for an enterprise, provides authentication, authorization, and accounting (AAA) services. 
 * Security measures to prevent ARP Spoofing or IP Spoofing
 * Implement IEEE 802.1X suites, will allow packet filtering rules to be installed explicitly by an AAA server based on dynamically learned information about clients, including the MAC address. 
