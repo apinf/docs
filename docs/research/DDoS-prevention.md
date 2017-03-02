@@ -49,7 +49,7 @@ After launching a MAC Flood attack successfully, the attacker can also follow up
 The ARP Spoofing is an attack where the attacker sends falsified ARP Messages (Address Resolution Protocol) so that the attackers MAC address will be linked with the IP address of a legitimated user in the network. The Address Resolution Protocol is a protocol used by the Internet Protocol usually by the IPv4 to map the IP address of a machine to a physical address like MAC address, also called Ethernet address. 
 The ARP Spoofing is an attack where the attacker sends falsified ARP Messages (Address Resolution Protocol) so that the attackers MAC address will be linked with the IP address of a legitimated user in the network. The Address Resolution Protocol is a protocol used by the Internet Protocol usually by the IPv4 to map the IP address of a machine to a physical address like MAC address, also called Ethernet address. 
 We can prevent the MAC Flooding attack with various methods. 
-*Port Security
-*Authentication with AAA server, is a server program that handles user requests for access to computer resources and, for an enterprise, provides authentication, authorization, and accounting (AAA) services. 
-*Security measures to prevent ARP Spoofing or IP Spoofing
-*Implement IEEE 802.1X suites, will allow packet filtering rules to be installed explicitly by an AAA server based on dynamically learned information about clients, including the MAC address. 
+* Port Security
+* Authentication with AAA server, is a server program that handles user requests for access to computer resources and, for an enterprise, provides authentication, authorization, and accounting (AAA) services. 
+* Security measures to prevent ARP Spoofing or IP Spoofing
+* Implement IEEE 802.1X suites, will allow packet filtering rules to be installed explicitly by an AAA server based on dynamically learned information about clients, including the MAC address. 
