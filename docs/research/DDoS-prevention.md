@@ -19,7 +19,7 @@ The C10k problem is the problem of optimising network sockets to handle a large 
 
 OWASP Top Ten Cheat: 
 
-![Alt text](http://www.cs.tut.fi/~seitti/2015/kalvot/img/owasptop10.png?raw=true "OWASP Risks")
+![Alt text](http://1.bp.blogspot.com/-FzFzOfzb92I/USi8VWXPn9I/AAAAAAAABl8/K9rcqKxpkZE/s1600/OWASP+Top+10+-+2013+-+RC1_Page_07.jpg?raw=true "OWASP Risks")
 
 OWASP Mobile security awareness 
 
