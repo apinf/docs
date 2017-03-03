@@ -33,9 +33,12 @@ Ahead to mitigating the DDoS attacks, the hardware/software systems must be opti
 The C10k problem is the problem of optimising network sockets to handle a large number of clients at the same time.
 
 OWASP Top Ten Cheat: 
-https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
 
-OWASP Mobile security awareness https://www.owasp.org/index.php/Mobile_Top_10_2016-Top_10
+![Alt text](http://www.cs.tut.fi/~seitti/2015/kalvot/img/owasptop10.png?raw=true "OWASP Risks")
+
+OWASP Mobile security awareness 
+
+![Alt text](http://3.bp.blogspot.com/-9ijvyGcEjBQ/UM7usnFiTzI/AAAAAAAADpM/0oz23vmAl5k/s1600/OWASP-Top_10_risks.png?raw=true "OWASP Mobile")
 
 At hardware level, consider the following cases for the sake of optimization:
 
