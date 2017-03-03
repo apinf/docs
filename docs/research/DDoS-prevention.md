@@ -1,6 +1,9 @@
 DDoS attack
 
 DDoS attack is type of attack, which causes performance issue to a server, or sometimes it even causes a server to stop functioning. The victims of DDoS attacks are usually servers that provide inbound and outbound traffic. Also, interfaces that are involved in exchanging information throughout the Internet, can be the target of the attacks. 
+
+A DDoS attack would effectively disable access to the API. As mobile app penetration and usage grows, and bank customers use apps as their main channel to perform banking transactions, the impact an API attack can have on an economy grows exponentially. Customers are unable to pay bills, transfer money, or ensure they have funds to make purchases. 
+
 DDoS attack can be launched from numerous compromised devices, often distributed globally in what is referred to as a botnet. Motives for these attacks appear equally diverse such as personal reasons, the prestige, criminal, commercial, or ideological in nature.
  People behind the DDoS attacks are:
 Extortionists: They menace to inactivate the web service and then ask for the ransom money to put a stop to an attack. 
