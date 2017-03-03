@@ -12,21 +12,6 @@ Hacktivists: They are different than rest of the opponents. They are irritated a
 Competitors: Your competitors may cause your site inactive to gain an advantage; or they might screen scratch information on your site, for example, to determine and beat your pricing.
 
 Optimizing systems
-Ahead to mitigating the DDoS attacks, the hardware/software systems must be optimized precisely. At software level, consider the following cases for the sake of optimization:
-
-The C10k problem is the problem of optimising network sockets to handle a large number of clients at the same time.
-
-OWASP Top Ten Cheat: 
-
-https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
-
-OWASP Mobile security awareness https://www.owasp.org/index.php/Mobile_Top_10_2016-Top_10
-
-At hardware level, consider the following cases for the sake of optimization:
-Use loadbalancers to distribute the load of requests. Consider using Round-robin DNS, which returns multiple IP addresses and the user will connect to one of those IP addresses.
-Actively check/monitor servers to allow/disallow bots and crawlers. Sometimes, companies that are collecting statistical data about a website/webservice, are sending too many requests that causes performance issues.
-
-Optimizing systems
 
 Ahead to mitigating the DDoS attacks, the hardware/software systems must be optimized precisely. At software level, consider the following cases for the sake of optimization:
 
