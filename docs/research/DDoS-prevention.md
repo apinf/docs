@@ -38,6 +38,7 @@ To understand DDoS attacks, it is wise to abstract down the attacks to the layer
 ![Alt text](https://s-media-cache-ak0.pinimg.com/originals/55/53/bd/5553bdf0a193142af2976db02c4bb920.gif?raw=true "OSI MODEL")
 
 Layer 7 DDoS attack
+
 A Layer 7 DDoS attack is often perpetrated through the use of HTTP GET. The attacker looks like a legitimate connection, and is therefore passed on to the web or application server. The attacker begins requesting large numbers of files/objects using HTTP GET, so the server quickly becomes focused on responding to those requests and has a hard time responding to new, legitimate requests.
 
 An HTTP flood attack is a type of Layer 7 application attack that utilizes the standard valid GET/POST requests used to fetch information, as in typical URL data retrievals (images, information, etc.) during SSL sessions. 
@@ -47,6 +48,8 @@ The attacker uses malware and trojans to deposit a bot on servers and clients, a
 Layer 7 DDoS attacks are more difficult to detect because the TCP connection is valid and so are the requests. Application monitoring is the practice of monitoring software applications using a dedicated set of algorithms, technologies, and approaches to detect zero day and application layer (Layer 7 attacks). Once identified these attacks can be stopped and traced back to a specific source more easily than other types of DDoS attacks. 
 Layer 7 firewall (application firewall) gets smarter about stopping layer 7 DDoS attacks without affecting legitimate clients. It is a subtle dance and requires a bit more understanding of the application and its flow, but if implemented correctly it can improve the ability of such devices to detect and prevent layer 7 DDoS attacks from reaching web and application servers and taking a site down.
 DDoS attack involves sending malformed SSL requests to target SSL servers and attempt to exhaust the servers’ resources, and thus deny service from legitimate users. 
+
+DDoS attack on presentation layer
 
 Pushdo botnet is an example tool which sends garbage data toward the target SSL server. To mitigate, consider options like offloading the SSL from the origin infrastructure and inspecting the application traffic for signs of attacks traffic or violations of policy at an applications delivery platform (ADP). A good ADP will also ensure that your traffic is then reencrypted and forwarded back to the origin infrastructure with unencrypted content only ever residing in protected memory on a secure bastion host.
 
@@ -58,12 +61,14 @@ SYN Flood Mitigation
 DDoS attack blocking, commonly referred to as blackholing, is a method typically used by ISPs to stop a DDoS attack on one of its customers. This approach to block DDoS attacks makes the site in question completely inaccessible to all traffic, both malicious attack traffic and legitimate user traffic. Blackholing is typically deployed by the ISP to protect other customers on its network from the adverse effects of DDoS attacks such as slow network performance and disrupted service.
 
 Layer 3 DDoS Attack
+
 Layer 3 infrastructure DDoS attack method uses ICMP messages to overload the targeted network's bandwidth. Attacks on the ICMP protocol, including smurf attacks, ICMP floods, and ping floods. Huge numbers of ICMP requests are sent to the victim's IP address. The source destination IP address is spoofed. The hosts on the victim's network respond to the ICMP requests, which creates a significant amount of traffic on the victim’s network, resulting in consumption of bandwidth and ultimately causing the victim’s server to crash. 
 
 Smurf attack mitigation
 To prevent a smurf attack, individual hosts and routers can be configured to be non-responsive to external ping requests or broadcasts. Routers can also be configured to ensure that packets directed to broadcast addresses are not forwarded.
 
 Layer 2 DDoS Attack
+
 The most critical attacks at the data link layer involve Content Address Table (CAM) exhaustion, ARP spoofing, DHCP starvation attacks, MAC address spoofing, VLAN attacks and many more. 
 These attacks generally disrupt the normal traffic flow from sender to receiver. The aim of the MAC Flooding is to takedown this MAC Table. In a typical MAC Flooding attack, the attacker sends Ethernet Frames in a huge number. When sending many Ethernet Frames to the switch, these frames will have various sender addresses. The intention of the attacker is consuming the memory of the switch that is used to store the MAC address table. The MAC addresses of legitimate users will be pushed out of the MAC Table. Now the switch cannot deliver the incoming data to the destination system. So considerable number of incoming frames will be flooded at all ports. MAC Address Table is full and it is unable to save new MAC addresses. It will lead the switch to enter into a fail-open mode and the switch will now behave same way as a network hub. It will forward the incoming data to all ports like a broadcasting. 
 
@@ -73,6 +78,7 @@ The ARP Spoofing is an attack where the attacker sends falsified ARP Messages (A
 The Address Resolution Protocol is a protocol used by the Internet Protocol usually by the IPv4 to map the IP address of a machine to a physical address like MAC address, also called Ethernet address. 
 
 Layer 2 attack mitigation
+
 We can prevent the MAC Flooding attack with various methods.
 Port Security, switches are configured to limit the number of MAC addresses that can be learned on ports connected to the end stations. Also a small table of ‘secure’ MAC addresses is maintained with the traditional MAC address table. This table also acts as a subset of the MAC address table. Cisco switches are available with in-built port security system.
 
