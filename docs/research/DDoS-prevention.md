@@ -8,6 +8,7 @@ A DDoS attack would effectively disable access to the API. As mobile app penetra
 I'm not sure if they are trying to guess a key (mathematically impossible as 64bit keys) or trying to DOS attack the server. The attack is distributed, so I cannot ban all of the IP address, as it occurs from hundreds of clients.” case from stackoverflow.com
 
 How to cope with brute force attack?
+
 A brute force attack simply uses cryptography algorithm. Using the algorithm the attackers made a program that automatically break into autentication systems.when we attempt to login and our page request is sent from the server to the client machine hackers are more active to access the account.
 The standard way to do this is by implementing a lockout or a progressive delay. A lockout prevents an IP from making a login request for X minutes if they fail to log in N times. A progressive delay adds a longer and longer delay to processing each bad login request. 
 Copin through some server-side preventions:
@@ -16,8 +17,9 @@ Installing and configuring a web-application firewall, like mod_security, to rej
 Fail2Ban is able to reduce the rate of incorrect authentications attempts however it cannot eliminate the risk that weak authentication presents. 
 Increase the API key length to 128 (or 256, or 512) won't cost much, and you'll tremendously increase the search space 
 In case the application is deployed on cloud i.e, Amazon Web Services, it is possible to safegaurd the application with some services:
-1. Use CloudFlare.
-2. Consider using AWS API gateway as the second stage for your API requests. AWS API gateway provides filtering, throttling, security,auto-scaling and HA for your API. And then forward the valid requests to your machines (in or outside amazon)
+- Use CloudFlare.
+- Consider using AWS API gateway as the second stage for your API requests. AWS API gateway provides filtering, throttling, security,auto-scaling and HA for your API. 
+- And then forward the valid requests to your machines (in or outside amazon)
 
 DDoS attack can be launched from numerous compromised devices, often distributed globally in what is referred to as a botnet. Motives for these attacks appear equally diverse such as personal reasons, the prestige, criminal, commercial, or ideological in nature.
  People behind the DDoS attacks are:
