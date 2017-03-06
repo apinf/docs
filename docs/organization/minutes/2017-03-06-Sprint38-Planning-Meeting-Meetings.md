@@ -3,14 +3,15 @@
 * Participants: Brylie, Ilya, Jarkko, Jawid, Matti, Nazia, Taija
 
 # Task Assignments
-* 2002 - Define Privacy policy and terms of use texts for apinf.io - - 1
-* 2191 - Include template text about license in each source file in apinf/platform
-* 2197 - Communicate about license change
-* 2176 - Update to API Umbrella 0.14
-* 2152 - Proxy path validation blocks adding huuto.net API
+* 2002 - Define Privacy policy and terms of use texts for apinf.io - Taija, Philippe - 1
+* 2238 - Privacy Policy and Terms of Use texts not saving correctly on update - Ilya - 2
+* 2191 - Include template text about license in each source file in apinf/platform - Brylie - 1
+* 2197 - Communicate about license change - Taija, Philippe - 1
+* 2176 - Update to API Umbrella 0.14 - Brylie - 
+* 2152 - Proxy path validation blocks adding huuto.net API - Matti - 1
 * 1926 - Proxy view: Delete 'Proxy backend configuration' details and save not working
-* 2166 - Effect of General Data Protection Regulation (GDPR) to apinf
-* 1986 - Capture and track application exceptions
+* 2166 - Effect of General Data Protection Regulation (GDPR) to apinf - Brylie, Jarkko - 2
+* 1986 - Capture and track application exceptions - Jawid - 3
 * 2184 - Normalize ApiMetadata and Organizations collections
 * 2185 - UI changes based on normalization task
 * 2188 - Allow Organization manager to add media content
@@ -22,3 +23,6 @@
 * 2160 - If a regular expression fails, inform user about the reason
 * 1303 - Catalogue sorting doesn't follow i18n recommendations - Manzapanza - 
 * 2187 - Create user documentation for administrator
+* 2162 - Check how to get data about API key from Elastic - Brylie - 2
+* 1957 - Automatic changelog - Ilya - 2
+* 2184 - Normalize ApiMetadata and Organizations collections - Dasha -
