@@ -12,14 +12,14 @@
 * 1926 - Proxy view: Delete 'Proxy backend configuration' details and save not working
 * 2166 - Effect of General Data Protection Regulation (GDPR) to apinf - Brylie, Jarkko - 2
 * 1986 - Capture and track application exceptions - Jawid - 3
-* 2184 - Normalize ApiMetadata and Organizations collections
-* 2185 - UI changes based on normalization task
-* 2188 - Allow Organization manager to add media content
+* 2184 - Normalize ApiMetadata and Organizations collections - Dasha - 3
+* 2185 - UI changes based on normalization task - Dasha - 3
+* 2188 - Allow Organization manager to add media content - Matti, Jawid
 * 2230 - wireframe for "Allow Organization manager to add media content" - Nazia - 1
 * 2183 - Show times and dates in user's actual timezone
 * 2231 - wireframe for "Show times and dates in user's actual timezone" - Nazia - 1
 * 2186 - Create a description about Catalogue harvester
-* 2175 - Translation round to Finnish
+* 2175 - Translation round to Finnish - taija, Matti - 1
 * 2160 - If a regular expression fails, inform user about the reason
 * 1303 - Catalogue sorting doesn't follow i18n recommendations - Manzapanza - 
 * 2187 - Create user documentation for administrator
