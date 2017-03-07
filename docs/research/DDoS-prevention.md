@@ -9,7 +9,7 @@ I'm not sure if they are trying to guess a key (mathematically impossible as 64b
 
 # How to cope with brute force attack?
 
-A brute force attack simply uses cryptography algorithm. Using the algorithm the attackers made a program that automatically break into autentication systems.when we attempt to login and our page request is sent from the server to the client machine hackers are more active to access the account.
+A brute force attack simply uses cryptography algorithm. Using the algorithm the attackers made a program that automatically break into autentication systems. When we attempt to login and our page request is sent from the server to the client machine hackers are more active to access the account.
 The standard way to do this is by implementing a lockout or a progressive delay. A lockout prevents an IP from making a login request for X minutes if they fail to log in N times. A progressive delay adds a longer and longer delay to processing each bad login request. 
 Copin through some server-side preventions:
 Setting up an IDS system, like Snort, to detect when a DDOS attack is occurring and take the first steps to mitigate it
@@ -23,9 +23,13 @@ In case the application is deployed on cloud i.e, Amazon Web Services, it is pos
 
 DDoS attack can be launched from numerous compromised devices, often distributed globally in what is referred to as a botnet. Motives for these attacks appear equally diverse such as personal reasons, the prestige, criminal, commercial, or ideological in nature.
  People behind the DDoS attacks are:
+ 
 Extortionists: They menace to inactivate the web service and then ask for the ransom money to put a stop to an attack. 
+
 Exfiltrators: They use a DoS attack to distract interest from their actual aim – stealing data for money in a form of intellectual property or credit card numbers. 
+
 Hacktivists: They are different than rest of the opponents. They are irritated and look for making a political announcement or stand out a focus on a cause. 
+
 Competitors: Your competitors may cause your site inactive to gain an advantage; or they might screen scratch information on your site, for example, to determine and beat your pricing.
 
 # Optimizing systems
@@ -36,11 +40,11 @@ The C10k problem is the problem of optimising network sockets to handle a large 
 
 OWASP Top Ten Cheat: 
 
-![Alt text](http://1.bp.blogspot.com/-FzFzOfzb92I/USi8VWXPn9I/AAAAAAAABl8/K9rcqKxpkZE/s1600/OWASP+Top+10+-+2013+-+RC1_Page_07.jpg?raw=true "OWASP Risks")
+![Image from blogspot.com](http://1.bp.blogspot.com/-FzFzOfzb92I/USi8VWXPn9I/AAAAAAAABl8/K9rcqKxpkZE/s1600/OWASP+Top+10+-+2013+-+RC1_Page_07.jpg?raw=true "OWASP Risks")
 
 OWASP Mobile security awareness 
 
-![Alt text](http://3.bp.blogspot.com/-9ijvyGcEjBQ/UM7usnFiTzI/AAAAAAAADpM/0oz23vmAl5k/s1600/OWASP-Top_10_risks.png?raw=true "OWASP Mobile")
+![Image from blogspot.com](http://3.bp.blogspot.com/-9ijvyGcEjBQ/UM7usnFiTzI/AAAAAAAADpM/0oz23vmAl5k/s1600/OWASP-Top_10_risks.png?raw=true "OWASP Mobile")
 
 At hardware level, consider the following cases for the sake of optimization:
 
@@ -50,7 +54,7 @@ Actively check/monitor servers to allow/disallow bots and crawlers. Sometimes, c
 # Attacks in different OSI layers
 
 To understand DDoS attacks, it is wise to abstract down the attacks to the layers of OSI (Open Systems Interconnection) model. Because the OSI reference model details each phase of the process involved to connect a computer to the network and communication of data, most of the researchers, developers and manufacturers use the OSI model as a common platform to improve network communications.
-![Alt text](https://s-media-cache-ak0.pinimg.com/originals/55/53/bd/5553bdf0a193142af2976db02c4bb920.gif?raw=true "OSI MODEL")
+![Image from s-media.com](https://s-media-cache-ak0.pinimg.com/originals/55/53/bd/5553bdf0a193142af2976db02c4bb920.gif?raw=true "OSI MODEL")
 
 # Layer 7 DDoS attack
 
@@ -108,19 +112,43 @@ Implement IEEE 802.1X suites, will allow packet filtering rules to be installed 
 Attacks on physical layer include physical destruction, obstruction, manipulation and malfunctioning of physical media, which leads to its unavailability to the intended users. It requires the repair to make the physical media resources available.
 
 # References
+
 https://en.wikipedia.org/wiki/C10k_problem
+
 https://en.wikipedia.org/wiki/Ping_of_death
+
 http://www.cisco.com/c/en/us/about/security-center/guide-ddos-defense.html
+
 https://blog.thousandeyes.com/three-types-ddos-attacks/
+
 http://ddosattackprotection.org/blog/layer-7-ddos-attack/
+
 https://www.us-cert.gov/sites/default/files/publications/DDoS%20Quick%20Guide.pdf
+
 https://devcentral.f5.com/articles/layer-4-vs-layer-7-dos-attack
+
 https://documentation.meraki.com/MR/Firewall_and_Traffic_Shaping/Layer_3_and_7_Firewall_Processing_Order
+
 https://security.radware.com/ddos-knowledge-center/ddospedia/ssl-garbage-flood/
+
 http://www.tandfonline.com/doi/full/10.1080/21642583.2016.1241193
+
 http://www.tandfonline.com/doi/full/10.1080/21642583.2016.1241193?cookieSet=1
+
 https://www.interserver.net/tips/kb/mac-flooding-prevent/
+
 http://www.inetdaemon.com/tutorials/basic_concepts/network_models/osi_model/real_world_example.shtml
+
 https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
+
 http://stackoverflow.com/questions/32575924/how-to-stop-hack-dos-attack-on-web-api
+
+
+http://1.bp.blogspot.com/-FzFzOfzb92I/USi8VWXPn9I/AAAAAAAABl8/K9rcqKxpkZE/s1600/OWASP+Top+10+-+2013+-+RC1_Page_07.jpg
+
+http://3.bp.blogspot.com/-9ijvyGcEjBQ/UM7usnFiTzI/AAAAAAAADpM/0oz23vmAl5k/s1600/OWASP-Top_10_risks.png
+
+https://s-media-cache-ak0.pinimg.com/originals/55/53/bd/5553bdf0a193142af2976db02c4bb920.gif
+
+
 
