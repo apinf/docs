@@ -41,10 +41,12 @@ The C10k problem is the problem of optimising network sockets to handle a large 
 OWASP Top Ten Cheat: 
 
 ![Image from blogspot.com](http://1.bp.blogspot.com/-FzFzOfzb92I/USi8VWXPn9I/AAAAAAAABl8/K9rcqKxpkZE/s1600/OWASP+Top+10+-+2013+-+RC1_Page_07.jpg?raw=true "OWASP Risks")
+Figure 1: OWASP Top 10 
 
 OWASP Mobile security awareness 
 
 ![Image from blogspot.com](http://3.bp.blogspot.com/-9ijvyGcEjBQ/UM7usnFiTzI/AAAAAAAADpM/0oz23vmAl5k/s1600/OWASP-Top_10_risks.png?raw=true "OWASP Mobile")
+Figure 2: OWASP Mobile security
 
 At hardware level, consider the following cases for the sake of optimization:
 
@@ -55,6 +57,7 @@ Actively check/monitor servers to allow/disallow bots and crawlers. Sometimes, c
 
 To understand DDoS attacks, it is wise to abstract down the attacks to the layers of OSI (Open Systems Interconnection) model. Because the OSI reference model details each phase of the process involved to connect a computer to the network and communication of data, most of the researchers, developers and manufacturers use the OSI model as a common platform to improve network communications.
 ![Image from s-media.com](https://s-media-cache-ak0.pinimg.com/originals/55/53/bd/5553bdf0a193142af2976db02c4bb920.gif?raw=true "OSI MODEL")
+Figure 3: OSI model
 
 # Layer 7 DDoS attack
 
@@ -144,11 +147,11 @@ https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet
 http://stackoverflow.com/questions/32575924/how-to-stop-hack-dos-attack-on-web-api
 
 
-http://1.bp.blogspot.com/-FzFzOfzb92I/USi8VWXPn9I/AAAAAAAABl8/K9rcqKxpkZE/s1600/OWASP+Top+10+-+2013+-+RC1_Page_07.jpg
+http://1.bp.blogspot.com/-FzFzOfzb92I/USi8VWXPn9I/AAAAAAAABl8/K9rcqKxpkZE/s1600/OWASP+Top+10+-+2013+-+RC1_Page_07.jpg [Figure 1]
 
-http://3.bp.blogspot.com/-9ijvyGcEjBQ/UM7usnFiTzI/AAAAAAAADpM/0oz23vmAl5k/s1600/OWASP-Top_10_risks.png
+http://3.bp.blogspot.com/-9ijvyGcEjBQ/UM7usnFiTzI/AAAAAAAADpM/0oz23vmAl5k/s1600/OWASP-Top_10_risks.png [Figure 2]
 
-https://s-media-cache-ak0.pinimg.com/originals/55/53/bd/5553bdf0a193142af2976db02c4bb920.gif
+https://s-media-cache-ak0.pinimg.com/originals/55/53/bd/5553bdf0a193142af2976db02c4bb920.gif [Figure 3]
 
 
 
