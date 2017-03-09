@@ -1,8 +1,8 @@
 
 Issue 2188: Allow Organization manager to add media content 
 
-The goal is to give Organization manager possibility to attach related media to Organizations 
-same way as related media can be attached to APIs.
+The goal is to give Organization manager possibility to link related media to Organizations 
+same way as related media can be linked to APIs.
 Implementation alternatives:
 
 1. Replicate existing related media functionality concerning APIs
@@ -30,7 +30,7 @@ Implementation alternatives:
 2. Generalize existing related media functionality concerning APIs so that it can also be used 
 
 	What needs to be done:
-	- get indication whether related media in question is attached to APIs or to Organizations
+	- get indication whether related media in question is linked to APIs or to Organizations
 	- rename components (not any more apiSomething but a general prefix)
 	- change references to Apis collection to be selections between Apis collection and Organizations collection
 	- change references to Apis collection helpers to be selections between Apis collection helpers and Organization collection helpers
