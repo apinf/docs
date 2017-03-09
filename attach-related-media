@@ -1,3 +1,4 @@
+
 Issue 2188: Allow Organization manager to add media content 
 
 The goal is to give Organization manager possibility to attach related media to Organizations 
@@ -9,7 +10,7 @@ Implementation alternatives:
 	What needs to be done:
 	- copy existing code in api_media (and in subdirectories)
 	- create new directory (e.g. organization_media)
-	- paste existing code
+	- paste existing code, collections and helpers
 	- rename components (e.g. api --> org)
 	- replace references to Apis collection with references to Organizations collection
 	- replace references to Apis collection helpers with references to Organization	collection helpers
@@ -35,7 +36,7 @@ Implementation alternatives:
 	- change references to Apis collection helpers to be selections between Apis collection helpers and Organization collection helpers
 	- postsSchema collection 
 		- in case mongo collection _id's are unique on db level, 
-      same id field can be used for both API related medias and Organization related medias
+      		  same id field can be used for both API related medias and Organization related medias
 		- in case we can not trust _id's uniqueness, there are two options
 			- a) a separate id field for APIs and for Organizations
 			- b) new field to indicate, whether the id is for API or for Organization
