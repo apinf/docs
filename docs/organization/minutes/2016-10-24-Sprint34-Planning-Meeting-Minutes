@@ -1,0 +1,28 @@
+# Sprint 34 Planning
+  * Date: 24.10.2016 10:00 - 11:00
+  * Participants: Brylie, Laura, Nazia, Taija, Ville
+
+# Assigned Tasks
+  * 1800 - Record or fix automated test cases -
+  * 1793 - Allow users to change branding color - Brylie
+  * 1796 - Set up product/ & project page - Ilya + Laura
+  * 1759: API Details: the wrong description in usage instruction if "Disable API key" is true - Daria
+  * 1762 - Enable 'API key requirement' allows Call API without API Key - Daria
+  * 1562 - User not notified if details missing/invalid while saving the proxy settings - Ville - 2
+  * 1689 - No response while edit and submit 'Proxy' form - 
+  * 1684 - Rate limiting response_headers should work like radio button - Ville - 2
+  * 1744 - Api tabs: anonymous user has access to feedback manipulation - Ville - 1
+  * 1735 - API tabs: doesn't work feedback vote - Ville - 2
+  * 1767 - IE11 - on clicking Bookmark , user gets back to APINF landing page - 
+  * 1261 - TypeError: Cannot read property '_id' of undefined -
+  * 1787 - No notice user about successful deleting user account - Ville - 1
+  * 1170 - Regular users are able to edit others API feedback - Ville - 
+  * 1102 - 'Documentation' tab is visible when no documentation available for an API backend -
+  * 1730 - Dashboard: Future date is clickable in date picker and on click dashboard keeps on loading -
+  * 1319 - Missing i18n texts in navbar - Brylie - 
+  * 1789 - Dashboard: on clicking info icons, no popup appears describing the purpose of the charts and table - Ilya
+  * 1795 - Add Contributor Covenant to Apinf project - Taija - 1
+  * 1801 - Creating Automated Test Suit for "Anonymous User" - Nazia - 8
+  * 1699 - 'Add API backend' not updating dashboard view - Brylie
+  * 1791 - Write Instructions for db migration - Ville - 2
+  * 
