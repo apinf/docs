@@ -28,6 +28,21 @@
 | Database service monitoring   | yes             |                                                                                                                                                                    | yes                                                                                                                         |                                                                                | 
 
 
+# Sources
+## Icinga
+- Passsive monitoring: [general service monitoring](https://docs.icinga.com/icinga2/latest/doc/module/icinga2/toc#!/icinga2/latest/doc/module/icinga2/chapter/service-monitoring#service-monitoring-general)
+- [web service monitoring](https://docs.icinga.com/icinga2/latest/doc/module/icinga2/toc#!/icinga2/latest/doc/module/icinga2/chapter/service-monitoring#service-monitoring-database)
+- [Linux service monitoring](https://docs.icinga.com/icinga2/latest/doc/module/icinga2/toc#!/icinga2/latest/doc/module/icinga2/chapter/service-monitoring#service-monitoring-linux)
+- [Windows service monitoring](https://docs.icinga.com/icinga2/latest/doc/module/icinga2/toc#!/icinga2/latest/doc/module/icinga2/chapter/service-monitoring#service-monitoring-windows)
+- [Database service monitoring](https://docs.icinga.com/icinga2/latest/doc/module/icinga2/toc#!/icinga2/latest/doc/module/icinga2/chapter/service-monitoring#service-monitoring-database)
+- [web service monitoring](https://docs.icinga.com/icinga2/latest/doc/module/icinga2/toc#!/icinga2/latest/doc/module/icinga2/chapter/service-monitoring#service-monitoring-web)
+
+## Prometheus
+
+## Zabbix
+
+
+# Conclusions
 ## Zabbix
 
 ### Pros:
