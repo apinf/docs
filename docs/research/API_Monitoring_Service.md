@@ -11,10 +11,11 @@
 | Data-collection               |                 | Pull/Push (preferable pull)                                                                                                                                        | Pull/Push (preferable pull)                                                                                                 |
 | Communication protocol        |                 | HTTP                                                                                                                                                               | TCP                                                                                                                         |
 | Admin REST API                | Yes             | No                                                                                                                                                                 | Yes                                                                                                                         |
-| Admin UI                      | Yes (plugin)    | No                                                                                                                                                                 | Yes                                                                                                                         |
+| Admin UI | Yes (plugin) | No  | Yes|
 | Monitoring UI                 | Yes             | No                                                                                                                                                                 | Yes                                                                                                                         |
 | Analytics UI                  | Yes (plugin)    | Yes, Grafana                                                                                                                                                       | Yes                                                                                                                         |
-| Language(s)                   | C++, PHP        | Go                                                                                                                                                                 | C, PHP                                                                                                                      |
+|  Analytics API                 |   | Yes | Yes |
+| Language(s) | C++, PHP | Go | C, PHP |
 | Notifications                 | UI, e-mail, SMS | Email, PagerDuty, Slack                                                                                                                                            | UI, e-mail,                                                                                                                 |
 | Query language                |                 | own functional expression language                                                                                                                                 | SQL                                                                                                                         |
 | Passive moitoring (agentless) | yes             |                                                                                                                                                                    | yes                                                                                                                         |
@@ -38,6 +39,8 @@
 - [web service monitoring](https://docs.icinga.com/icinga2/latest/doc/module/icinga2/toc#!/icinga2/latest/doc/module/icinga2/chapter/service-monitoring#service-monitoring-web)
 
 ## Prometheus
+- [Analytics API](https://prometheus.io/docs/querying/api/)
+- [Query language](https://prometheus.io/docs/querying/basics/)
 
 ## Zabbix
 
