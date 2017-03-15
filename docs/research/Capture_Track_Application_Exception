@@ -27,9 +27,7 @@ the actual error message and stack trace.
 Sentry
 
 A tiny bit of open source code grew to became a full-blown error monitoring tool, that identifies and debugs errors in production.
-Sentry's dashboard provides stack traces, with support for source maps, along with detecting each error’s URL, parameters and session information. Each trace can be filtered with app, framework or raw error views.  
-![](http://384uqqh5pka2ma24ild282mv.wpengine.netdna-cdn.com/wp-content/uploads/2016/09/sentry-dashboard.jpg?raw=true)
-Sentry’s Dashboard 
+Sentry's dashboard provides stack traces, with support for source maps, along with detecting each error’s URL, parameters and session information. Each trace can be filtered with app, framework or raw error views. 
 
 - catch errors in real-time as you deploy
 - every error includes information about software, environment and the users themselves.
@@ -37,3 +35,13 @@ Sentry’s Dashboard
 - Integration with githubs.
 
 Hobbyists can use Sentry for free, with up to 5,000 events/day. The next pricing step range between $29–$249/month for up to 288,000 events/day, and the last step offers unlimited events for $999/month. 
+
+Airbrake
+
+Rackspace’s Airbrake has a web based dashboard to capture and track the exceptions and errors in an application. The dashboard makes it possible to filter errors based on resolved and unresolved errors, and visualize the informaiton about each error graphically. Each error includes the environment in which it happened, when it was first identified, error type and more. 
+- Includes stack trace and metadata for each error, which are grouped by type, users and environment variables.
+- Enables to see when each error was fixed and deployed, therefore using the information determine if the error is re-occuring. 
+- option to see which team member caused which error, or which one is responsible for fixing them. 
+- Integration with githubs.
+
+At first a 30-day trail is offered. The price plan starts from $40 per month, which include 25 errors/minute in up to 5 applications. The last step costs $249/month for 200 errors/minute for an unlimited number of applications.
