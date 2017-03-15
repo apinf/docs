@@ -28,7 +28,7 @@ Sentry
 
 A tiny bit of open source code grew to became a full-blown error monitoring tool, that identifies and debugs errors in production.
 Sentry's dashboard provides stack traces, with support for source maps, along with detecting each error’s URL, parameters and session information. Each trace can be filtered with app, framework or raw error views.  
-http://384uqqh5pka2ma24ild282mv.wpengine.netdna-cdn.com/wp-content/uploads/2016/09/sentry-dashboard.jpg
+![](http://384uqqh5pka2ma24ild282mv.wpengine.netdna-cdn.com/wp-content/uploads/2016/09/sentry-dashboard.jpg?raw=true)
 Sentry’s Dashboard 
 
 - catch errors in real-time as you deploy
