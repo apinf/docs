@@ -56,25 +56,25 @@ sort: [ 1489580360900 ]
 ```
 
 ## Fields description:
-- `api_key`:
+- `api_key`: API key used to make the request
 - `backend_response_time`:
 - `gatekeeper_denied_code`:
 - `internal_gatekeeper_time`:
 - `proxy_overhead`:
 - `request_accept`:
 - `request_accept_encoding`:
-- `request_at`:
+- `request_at`: Timestamp of a request
 - `request_basic_auth_username`:
 - `request_connection`:
 - `request_content_type`:
 - `request_hierarchy`:
 - `request_host`:
-- `request_ip`:
-- `request_ip_city`:
-- `request_ip_country`:
+- `request_ip`: IP address
+- `request_ip_city`: City
+- `request_ip_country`: Country
 - `request_ip_location`:
 - `request_ip_region`:
-- `request_method`:
+- `request_method`: Method used to make a request. Can be **POST**, **GET**, **PUT**, **PATCH**, **DELETE**
 - `request_origin`:
 - `request_path`:
 - `request_query`:
@@ -92,8 +92,8 @@ sort: [ 1489580360900 ]
 - `response_content_type`:
 - `response_server`:
 - `response_size`:
-- `response_status`:
-- `response_time`:
+- `response_status`: Response status code
+- `response_time`: Response time
 - `response_transfer_encoding`:
 - `user_email`:
 - `user_id`:
