@@ -40,6 +40,7 @@ Sentry's dashboard provides stack traces, with support for source maps, along wi
 - Related issues.
 - Report about the occurance of the issue in old version of javascript.
 - Provide a Json package.
+- Can create release track.
 
 Hobbyists can use Sentry for free, with up to 5,000 events/day. The next pricing step range between $29–$249/month for up to 288,000 events/day, and the last step offers unlimited events for $999/month. 
 
