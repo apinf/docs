@@ -31,7 +31,7 @@ Sentry's dashboard provides stack traces, with support for source maps, along wi
 
 - catch errors in real-time as you deploy
 - every error includes information about software, environment and the users themselves.
-- E-mail notification
+- Alert and E-mail notification
 - Integration with githubs.
 - Can track local, development, staging and production environmnets separetely.
 - Create organization→projects and→ teams.
