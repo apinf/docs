@@ -18,7 +18,7 @@ Inside the dashboard there is an error management, which errors are categorized 
 - Client errors, method errors, Subscription errors, server crash, and internal server error.
 It is possible to group errors based on status,
 - New errors, ignored errors, fixed errors, and fixing errors.
--  Kadira Debug UI is not open source.
+- Kadira Debug UI is not open source.
 
 Sentry
 
