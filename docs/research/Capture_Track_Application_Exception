@@ -13,7 +13,7 @@ Solution for Meteor Apps with Kadira
 Kadira is a performance monitoring solution, which comes with built in error tracking solution for Meteor apps. Kadira is issuing the MIT License (MIT).
 Kadira helps to capture any error, as well as the context and events related to the error. Therefore it is easy to utilize kadira to reproduce, identify and fix any issues in a development environment.
 
-Kadira's dashboard is focusing on publication/subscription (  response.Time, Method Res.Time, Memory Usage/host, CPU Usage, Sessions/host)
+Kadira's dashboard is focusing on publication/subscription metrics (  response.Time, Method Res.Time, Memory Usage/host, CPU Usage, Sessions/host)
 Inside the dashboard there is an error management, which errors are categorized based on types,
 - Client errors, method errors, Subscription errors, server crash, and internal server error.
 It is possible to group errors based on status,
