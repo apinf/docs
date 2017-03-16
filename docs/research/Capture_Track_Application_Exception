@@ -31,8 +31,15 @@ Sentry's dashboard provides stack traces, with support for source maps, along wi
 
 - catch errors in real-time as you deploy
 - every error includes information about software, environment and the users themselves.
-- Can prompt developers for feedback whenever they encounter errors, which allows to enhance development experience.
+- E-mail notification
 - Integration with githubs.
+- Can track local, development, staging and production environmnets separetely.
+- Create organization→projects and→ teams.
+- Assign issues to a team member.
+- Group issues basesed on resolved and unresolved.
+- Related issues.
+- Report about the occurance of the issue in old version of javascript.
+- Provide a Json package.
 
 Hobbyists can use Sentry for free, with up to 5,000 events/day. The next pricing step range between $29–$249/month for up to 288,000 events/day, and the last step offers unlimited events for $999/month. 
 
