@@ -1,7 +1,7 @@
 # Elasticsearch data structure
 
 This is the data structure of the Elasticsearch response for each call.
-We use it to design our dashboard charts. Object are in use right now: **request_at, request_url, request_ip, request_ip_country, response_time.**
+We use it to design our dashboard charts. Fields are in use right now: **request_at, request_url, request_ip, request_ip_country, response_time.**
 
 ```
 { _index: 'api-umbrella-logs-v1-2017-03',
@@ -54,3 +54,48 @@ We use it to design our dashboard charts. Object are in use right now: **request
 sort: [ 1489580360900 ]
 }
 ```
+
+## Fields description:
+- `api_key`:
+- `backend_response_time`:
+- `gatekeeper_denied_code`:
+- `internal_gatekeeper_time`:
+- `proxy_overhead`:
+- `request_accept`:
+- `request_accept_encoding`:
+- `request_at: 1489580360900`:
+- `request_basic_auth_username: null`:
+- `request_connection`:
+- `request_content_type`:
+- `request_hierarchy`:
+- `request_host`:
+- `request_ip`:
+- `request_ip_city`:
+- `request_ip_country`:
+- `request_ip_location`:
+- `request_ip_region`:
+- `request_method`:
+- `request_origin`:
+- `request_path`:
+- `request_query`:
+- `request_referer`:
+- `request_scheme`:
+- `request_size`:
+- `request_url`:
+- `request_user_agent`:
+- `request_user_agent_family`:
+- `request_user_agent_type`:
+- `response_age`:
+- `response_cache`:
+- `response_content_encoding`:
+- `response_content_length`:
+- `response_content_type`:
+- `response_server`:
+- `response_size`:
+- `response_status`:
+- `response_time`:
+- `response_transfer_encoding`:
+- `user_email`:
+- `user_id`:
+- `user_registration_source`:
+- `sort`:
