@@ -63,8 +63,8 @@ sort: [ 1489580360900 ]
 - `proxy_overhead`:
 - `request_accept`:
 - `request_accept_encoding`:
-- `request_at: 1489580360900`:
-- `request_basic_auth_username: null`:
+- `request_at`:
+- `request_basic_auth_username`:
 - `request_connection`:
 - `request_content_type`:
 - `request_hierarchy`:
