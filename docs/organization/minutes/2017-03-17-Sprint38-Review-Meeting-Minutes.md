@@ -22,7 +22,7 @@ For the APInf specific texts like front-end paths, the error also lists allowed 
 ### 2162: https://github.com/apinf/platform/issues/2162
 
 Illya studied and experimented with the data available from API Umbrella analytics through Elastic Search. There is now a document
-desribing Elastic Search data structure. The conlusion was that API key data is available through Elastic Search and that it would be 
+describing Elastic Search data structure. The conclusion was that API key data is available through Elastic Search and that it would be 
 for example possible to build a user-specific dashboard based on API key usage.
 
 Document can be found from APInf docs repository: https://github.com/apinf/docs/blob/master/docs/develop/Integration/Elasticsearch-data-structure.md
@@ -30,7 +30,7 @@ Document can be found from APInf docs repository: https://github.com/apinf/docs/
 ### 2191: https://github.com/apinf/platform/issues/2191
 
 Every source file starts with copyright and license information, except for files we have taken into use and not modified (e.g. libraries), which 
-keep the original copy right.
+keep the original copyright.
 
 ### 8: https://github.com/apinf/apinf.github.io/issues/8
 
@@ -66,7 +66,7 @@ Monitoring document can be found from: https://github.com/apinf/docs/blob/master
 
 Jawid has researched and experimented with options for capturing and tracking application exceptions.
 
-This is work in progress, bdocument not available in docs repository at the time of writing the minutes.
+This is work in progress, document not available in docs repository at the time of writing the minutes.
 
 ## Matti and Jawid
 
