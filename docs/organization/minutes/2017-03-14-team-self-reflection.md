@@ -5,7 +5,7 @@ Nazia, Brylie, Illya, Matti, Jawid, Philippe, Vesa, Taija
 
 ## Self-reflection
 
-The followimg themes were suggested as possible themes for discussion 
+The following themes were suggested as possible themes for discussion 
 * decision making
 * developer ownership
 * customer feedback loop
@@ -23,7 +23,7 @@ For each of the selected items we discussed the current status (problems) and th
 * "too much" communication, especially on RocketChat
 * RocketChat difficult to follow
 * Channel purposes unclear, too many channels to follow
-* a lot of discussion, but not necessarily actionable conclusions
+* a lot of discussions, but not necessarily actionable conclusions
 * How to involve and include remote team members: online, real-time discussions
 * Onboarding process
 * Knowledge management
@@ -39,7 +39,7 @@ For each of the selected items we discussed the current status (problems) and th
 * Skype welcome meeting for newcomers
 * Chilling area in "Mexico", bean bags, should also have screen AP Taija)
 * Code of conduct review (AP Brylie)
-* Welcome/survival guide for newcomers (should be printable odf)
+* Welcome/survival guide for newcomers (should be printable pdf)
 * Rocket chat gardening
   * Make sure channels have descriptions (AP channel owners)
   * removing and possibly adding channels: each channel should have a clear purpose
