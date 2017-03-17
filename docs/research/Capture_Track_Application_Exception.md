@@ -58,3 +58,8 @@ Airebrake is providing a free trial, however there is a need for credit card aut
 
 Newrelic has a dashboard that give information about application performance, CPU usage, memory usage, health, error tracking. Newrelic doesn't seem to have a github integration, neither it seams an opensource product. 
 
+# Appdynamics
+
+appdynamics is a hug platform that is used by big organizations. It tracks application errors, database errors, server errors. It is possible to make own dashboards. 
+There are not any specifi documentation about integration of Appdynamics with meteor. 
+There is not specific mentioning of opensource lincese of Appdynamics. The company provides a trial version that is possible to install it in local machine. 
