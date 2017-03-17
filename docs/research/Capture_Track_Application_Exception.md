@@ -1,14 +1,5 @@
 
-https://airbrake.io
-
-
-
-https://docs.sentry.io
-https://newrelic.com/
-https://www.appdynamics.com/
-https://www.datadoghq.com/ 
-
-Solution for Meteor Apps with Kadira
+# Exception tracking solution for Meteor Apps
 
 # Kadira
 Kadira is a performance monitoring solution, which comes with built in error tracking solution for Meteor apps. Kadira is issuing the MIT License (MIT).
@@ -63,3 +54,39 @@ Newrelic has a dashboard that give information about application performance, CP
 appdynamics is a hug platform that is used by big organizations. It tracks application errors, database errors, server errors. It is possible to make own dashboards. 
 There are not any specifi documentation about integration of Appdynamics with meteor. 
 There is not specific mentioning of opensource lincese of Appdynamics. The company provides a trial version that is possible to install it in local machine. 
+
+# Datadog 
+
+Similar to Appdynamics the datadog provides a free trial, which is a downloadable package specific to OS. Datadog has a github rapository, which is not public. Google search represents an increase in searching demands for datadog comparing to sentry. 
+
+- Monitoring and instrumentation
+- Source control and bug tracking
+- provides github integration
+- Provides notifications
+
+Dashboards, Datadog offers all high-resolution metrics and events for manipulation and graphing:
+
+- See graphs across sources in real-time
+- Slice data by host, device, user (browser)
+- Compute rates, ratios, averages or integrals
+- Easily customize views, interactively or in code
+
+Datadog has a free version and paid versions. The proversion is 15$ per host permonth. 
+
+# Reference
+
+https://airbrake.io
+
+https://docs.sentry.io
+
+https://newrelic.com/
+
+https://www.appdynamics.com/
+
+https://www.datadoghq.com/ 
+
+https://medium.com/@jico/the-fine-art-of-javascript-error-tracking-bc031f24c659#.n21umzyjh
+
+https://stackshare.io/
+
+http://blog.takipi.com/the-complete-guide-to-error-tracking-tools-rollbar-vs-raygun-vs-sentry-vs-airbrake-vs-bugsnag-vs-overops/
