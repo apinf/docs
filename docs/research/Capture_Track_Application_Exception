@@ -40,6 +40,7 @@ Sentry's dashboard provides stack traces, with support for source maps, along wi
 - Can create release track.
 
 Hobbyists can use Sentry for free, with up to 5,000 events/day. The next pricing step range between $29–$249/month for up to 288,000 events/day, and the last step offers unlimited events for $999/month. 
+Sentry is providing a 30 day trial, which enables companies to try sentry and its features. 
 
 Airbrake
 
@@ -50,3 +51,9 @@ Rackspace’s Airbrake has a web based dashboard to capture and track the except
 - Integration with githubs.
 
 At first a 30-day trail is offered. The price plan starts from $40 per month, which include 25 errors/minute in up to 5 applications. The last step costs $249/month for 200 errors/minute for an unlimited number of applications.
+Airebrake is providing a free trial, however there is a need for credit card authorization to try airebrake and its features.
+
+Newrelic
+
+Newrelic has a dashboard that give information about application performance, CPU usage, memory usage, health, error tracking. Newrelic doesn't seem to have a github integration, neither it seams an opensource product. 
+
