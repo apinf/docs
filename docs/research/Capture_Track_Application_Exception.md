@@ -10,6 +10,7 @@ https://www.datadoghq.com/
 
 Solution for Meteor Apps with Kadira
 
+# Kadira
 Kadira is a performance monitoring solution, which comes with built in error tracking solution for Meteor apps. Kadira is issuing the MIT License (MIT).
 Kadira helps to capture any error, as well as the context and events related to the error. Therefore it is easy to utilize kadira to reproduce, identify and fix any issues in a development environment.
 
@@ -21,7 +22,7 @@ It is possible to group errors based on status,
 - Kadira Debug UI is not open source.
 Kadira offers a free plan for 24hrs of data retention. Business plan offers service for 45 hosts and 3 months of data retension for $360 per month. All plans including Error tracking.
 
-Sentry
+# Sentry
 
 A tiny bit of open source code grew to became a full-blown error monitoring tool, that identifies and debugs errors in production.
 Sentry's dashboard provides stack traces, with support for source maps, along with detecting each error’s URL, parameters and session information. Each trace can be filtered with app, framework or raw error views. 
@@ -42,7 +43,7 @@ Sentry's dashboard provides stack traces, with support for source maps, along wi
 Hobbyists can use Sentry for free, with up to 5,000 events/day. The next pricing step range between $29–$249/month for up to 288,000 events/day, and the last step offers unlimited events for $999/month. 
 Sentry is providing a 30 day trial, which enables companies to try sentry and its features. 
 
-Airbrake
+# Airbrake
 
 Rackspace’s Airbrake has a web based dashboard to capture and track the exceptions and errors in an application. The dashboard makes it possible to filter errors based on resolved and unresolved errors, and visualize the informaiton about each error graphically. Each error includes the environment in which it happened, when it was first identified, error type and more. 
 - Includes stack trace and metadata for each error, which are grouped by type, users and environment variables.
@@ -53,7 +54,7 @@ Rackspace’s Airbrake has a web based dashboard to capture and track the except
 At first a 30-day trail is offered. The price plan starts from $40 per month, which include 25 errors/minute in up to 5 applications. The last step costs $249/month for 200 errors/minute for an unlimited number of applications.
 Airebrake is providing a free trial, however there is a need for credit card authorization to try airebrake and its features.
 
-Newrelic
+# Newrelic
 
 Newrelic has a dashboard that give information about application performance, CPU usage, memory usage, health, error tracking. Newrelic doesn't seem to have a github integration, neither it seams an opensource product. 
 
