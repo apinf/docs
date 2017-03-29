@@ -1,9 +1,9 @@
-**Name:** Aleksi Jokinen
-**Nationality:** Finnish
-**Age:** 30+
-**Expertise:** Graduated in Computer Science from Tampere University of Technology; builds Android app
-**Occupation:** Android Developer in "XYZ" Organization, GitHub community contributor
-**Hobbies:** Playing Video Games and Cats
+* **Name:** Aleksi Jokinen
+* **Nationality:** Finnish
+* **Age:** 30+
+* **Expertise:** Graduated in Computer Science from Tampere University of Technology; builds Android app
+* **Occupation:** Android Developer in "XYZ" Organization, GitHub community contributor
+* **Hobbies:** Playing Video Games and Cats
 
 **Preference:**
 
