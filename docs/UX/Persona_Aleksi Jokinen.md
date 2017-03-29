@@ -21,6 +21,7 @@
 
 
 Aleks decides to design an Android app.
+<br></br>
 The app would allow a user to set a 5-minute reminder for a preferred bus route. The user can select a bus route and preferred busstop based on the city s/he been living. The app is functional across Finland.
 Aleks searches in google with "bussiaikataulu API" and sees that the search result is returning APIs designed specifically for Helsinki and Tampere city.
 Aleks wants to add services of Turku as well, but don't see anything specific for the city in the search result.
