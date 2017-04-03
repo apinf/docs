@@ -31,3 +31,4 @@
 * 2224 - No effective using of data on client side:  organisation profile & dashboard page
 * 2074 - Drop URL validation on ElasticSearch host in proxy settings
 * 2389 - Test Umbrella version 0.14.0
+* 2166 - Effect of General Data Protection Regulation (GDPR) to apinf - Jarkko - 2
