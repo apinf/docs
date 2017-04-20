@@ -1,0 +1,54 @@
+
+Issue 2188: Allow Organization manager to add media content 
+
+The goal is to give Organization manager possibility to link related media to Organizations 
+same way as related media can be linked to APIs.
+
+Implementation alternatives:
+
+1. Replicate existing related media functionality concerning APIs
+
+	What needs to be done:
+	- copy existing code in api_media (and in subdirectories)
+	- create new directory (e.g. organization_media)
+	- paste existing code, collections and helpers
+	- rename components, fields and collections (e.g. api --> org)
+	- replace references to Apis collection with references to Organizations collection
+	- replace references to Apis collection helpers with references to Organization	collection helpers
+	- add call for orgRelatedMedia template into organizationApis template
+  
+	Pros and cons
+  
+	Pros:
+	- straight-forward solution implementation
+	- testing is easier, when new functionality does not affect existing API related media functionality 
+  
+	Cons:
+	- redundancy both in code and in collection, in case in future changes are needed in related media functionality in general, 
+  	  the changes need to be implemented twice
+
+
+2. Generalize existing related media functionality concerning APIs so that it can also be used with Organizations
+
+	What needs to be done:
+	- in code: get indication whether related media in question is linked to APIs or to Organizations
+	- rename components (not any more apiSomething but a general prefix)
+	- change references to Apis collection to be selections between Apis collection and Organizations collection
+	- change references to Apis collection helpers to be selections between Apis collection helpers and Organization collection helpers
+	- postsSchema collection (probably needs to be destroyed and recreated)
+		- in case mongo collection _id's are unique on db level, 
+      		  same id field can be used for both API related medias and Organization related medias
+		- in case we can not trust _id's uniqueness, there are two options
+			- a) a separate id field for APIs and for Organizations (<-- perhaps most feasible)
+			- b) new field to indicate, whether the id is for API or for Organization
+	- add call for orgRelatedMedia template into organizationApis template
+  
+	Pros and cons
+  
+	Pros:
+	- no redundancy either in code or in collections
+	- in future possible changes need to be implemented only in one place
+	  
+	Cons:
+	- more complicated solution to implement, when existing code needs to be generalized
+  	- needs testing both old and new functionality 
