@@ -1,3 +1,7 @@
+# Sprint 41 Review Meeting
+* Participants: Brylie, Dasha, Jawid, Matti, Mauricio, Nazia
+* Date: 28.04.2017
+
 *Brylie
 2336 - Create an A
 
