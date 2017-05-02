@@ -28,16 +28,18 @@ This feature would allow to harvest organization API information to outside syst
 
 
 * Mauricio
-Writing an Unit case 1714
-S alert was not appearing when branding was changed
+[1714]() - Writing an Unit case 1714
+
+An unit case is being written down for APInf in for the first time. It is relate to the issue [1506](https://github.com/apinf/platform/issues/1506) where S alert doesn't appear when user changes and saves Branding settings.
 
 * Dasha
-Redesigning organization card that looks quite like API card
-cleaned up subscribing and public functions
-implementing new swagger I, cleanup. need issue to position try out button
-making footer available everywhere: 
+
+Dasha Redesigned organization card so that now it looks quite like API card.
+Also she made clean-ups in subscribing and public functions.
+She integrated the new swagger 3.0 UI to APInf with issue [2349](https://github.com/apinf/platform/issues/2349). She would be fix position of the Try out button in the US in a new issue
+She also worked with the issue [2378](https://github.com/apinf/platform/issues/2378), which would make APINf Footer appear all around the platform. Some work still needs to be done here, so it is still in progress
 
 * Nazia
-API owner persona
-APIBot chatbot logo and picture
-DX conceptr
+Nazia created an API owner persona based on the scenarios from the customer journey in issue [2406](https://github.com/apinf/platform/issues/2406). It is mutually agreed upon that the persona created should be kept alive with contexts and scenarios added time to time.
+She also contributed in launching APIbot by creating a logo for it and some pictures for the landing page.
+She is also creating a concept for Developer Experience in APInf with some Gamification feature and making low fidelity wireframes in the issue [2452](https://github.com/apinf/platform/issues/2452). The concept involves showing completeness of an API profile based on fields completed, documentation added, etc. This work is still in progress
