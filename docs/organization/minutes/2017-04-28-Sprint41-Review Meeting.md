@@ -40,6 +40,7 @@ She integrated the new swagger 3.0 UI to APInf with issue [2349](https://github.
 She also worked with the issue [2378](https://github.com/apinf/platform/issues/2378), which would make APINf Footer appear all around the platform. Some work still needs to be done here, so it is still in progress
 
 * Nazia
+
 Nazia created an API owner persona based on the scenarios from the customer journey in issue [2406](https://github.com/apinf/platform/issues/2406). It is mutually agreed upon that the persona created should be kept alive with contexts and scenarios added time to time.
 She also contributed in launching APIbot by creating a logo for it and some pictures for the landing page.
 She is also creating a concept for Developer Experience in APInf with some Gamification feature and making low fidelity wireframes in the issue [2452](https://github.com/apinf/platform/issues/2452). The concept involves showing completeness of an API profile based on fields completed, documentation added, etc. This work is still in progress
