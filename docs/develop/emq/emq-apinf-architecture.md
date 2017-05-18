@@ -1,5 +1,5 @@
 # EMQ <-> APInf architecture
- 
+
 This document describes architecture and the way how EMQ is being integrated to work with APInf.
 
 ## Components
@@ -27,22 +27,26 @@ Database for storing ACL and Auth data.
 ```
 
    +---------+
-   |         |                  HTTP
+   |         |
    |  APInf  |<----------------------------------------+
    |         |                                         |
    +---------+                                         |
        ^                                               |
        |                                               |
-     P |                                               |
-     R |                                               |
-     O |  HTTP  +--------------+                       |
-     X +------->| API Umbrella |                       |
-     I |        +--------------+                       |
-     E |                                               |
-     S |                                               |
-       |                                               V
-       |  MQTT  +--------------+                +--------------+
-       +------->| EMQ (EMQTTD) |                | EMQ-REST-API |
+       |                                               |
+       |                                               |
+       |        +--------------+                       |
+       +------->| API Umbrella |                       |
+                +--------------+                       |
+                        ^                              |
+---+        HTTP        |                              |
+ A |--------------------+                              |
+ P |                                                   |
+ I |--------------------+                              |
+ s |        MQTT        |                              |
+---+                    V                              V
+                +--------------+                +--------------+
+                | EMQ (EMQTTD) |                | EMQ-REST-API |
                 +--------------+                +--------------+
                        ^                               ^
                        |                               |
