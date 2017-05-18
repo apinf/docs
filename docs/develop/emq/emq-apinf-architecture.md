@@ -118,3 +118,31 @@ Database for storing ACL and Auth data.
                                +---------------+
 
 ```
+
+## Data flow between EMQ and APInf
+
+APInf stores ACL data (including API proxy backend) in Meteor MongoDB collection `proxyBackends` when ACL rules added for the first time. APInf uses a package for dynamic HTML form construction called `[aldeed:autoform](https://github.com/aldeed/meteor-autoform)`. It takes care of `INSERT`, `UPDATE` and `DELETE` of items in Meteor collection.
+
+`aldeed:autoform` has a number of pre-defined hooks which are called when certain event occurs. Those [hooks](https://github.com/apinf/platform/blob/develop/proxy_backends/client/form/autoform.js) which are used by `proxyBackendsForm` collection are: `before insert`, `before update`, `onSuccess` and `onError`.
+
+##### `before insert`
+
+If `EMQ` is selected as a proxy backends for an API, we iterate though all ACL rules to be added and attach unique identifier (`id`) & proxy id related to it (`proxyId`).
+
+##### `before update`
+
+Almost the similar pattern as in `before insert` hook, but additional check is needed before attaching `id` and `proxyId` in order to make sure either new ACL rule was added in addition to existing ones (in that case attaching `id` and `proxyId` is needed) or only edit already exiting rules.
+
+##### `onSuccess`
+
+When `before insert` and `before update` passed, we can push ACL rules to `EMQ-REST-API` via `POST` request. `emqAclRequest` meteor method is called which handles `EMQ-APInf` talking.
+
+###### `Meteor.call('emqAclRequest', method, proxyId, rules)`
+
+- method - `String` - HTTP method, either `POST` or `PUT`
+- proxyId - `String` - related API proxy backend - `String`
+- rules - `Array` - list of ACL rules to update or insert
+
+##### `orError`
+
+Throws an error when any submit operation fails.
