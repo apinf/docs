@@ -19,6 +19,69 @@ data from `EMQ`'s data store which is `PostgreSQL`. It was created due
 to lack of REST API on `EMQ` side. Uses [`sails-postgresql`](https://github.com/balderdashy/sails-postgresql) adapter
 to communicate with PostgreSQL DB.
 
+#### Schemas
+DB schemas in EMQ-REST0-API pretty much replicate initial schemas provided in [emq-auth-pgsql](https://github.com/emqtt/emq-auth-pgsql) with certain additions.
+
+##### `emq-user`
+```js
+module.exports = {
+  attributes: {
+    username: {
+      type: 'string',
+      unique: true,
+    },
+    password: {
+      type: 'string',
+    },
+    is_superuser: {
+      type: 'boolean',
+      defaultsTo: false
+    },
+    salt: {
+      type: 'string'
+    }
+  }
+}
+```
+
+##### `emq-acl`
+
+```js
+module.exports = {
+  attributes: {
+    id: {
+      type: 'string',
+    },
+    allow: {
+      type: 'integer',
+    },
+    ipaddr: {
+      type: 'string',
+      size: 60
+    },
+    username: {
+      type: 'string',
+      size: 100
+    },
+    clientid: {
+      type: 'string',
+      size: 1024
+    },
+    access: {
+      type: 'integer'
+    },
+    topic: {
+      type: 'string',
+      size: 100
+    },
+    proxyId: {
+      type: 'string',
+      size: 100
+    }
+  }
+};
+```
+
 ### `PostgreSQL` - Database
 Database for storing ACL and Auth data.
 
