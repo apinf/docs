@@ -105,9 +105,10 @@ Database for storing ACL and Auth data.
 ---+        HTTP        |                              |
  A |--------------------+                              |
  P |                                                   |
- I |--------------------+                              |
- s |        MQTT        |                              |
----+                    V                              V
+ I |                                                   |
+ s |--------------------+                              |
+---+        MQTT        |                              |
+                        V                              V
                 +--------------+                +--------------+
                 | EMQ (EMQTTD) |                | EMQ-REST-API |
                 +--------------+                +--------------+
@@ -143,6 +144,6 @@ When `before insert` and `before update` passed, we can push ACL rules to `EMQ-R
 - proxyId - `String` - related API proxy backend - `String`
 - rules - `Array` - list of ACL rules to update or insert
 
-##### `orError`
+##### `onError`
 
 Throws an error when any submit operation fails.
