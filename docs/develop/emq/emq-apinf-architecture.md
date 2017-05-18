@@ -122,7 +122,7 @@ Database for storing ACL and Auth data.
 
 ## Data flow between EMQ and APInf
 
-APInf stores ACL data (including API proxy backend) in Meteor MongoDB collection `proxyBackends` when ACL rules added for the first time. APInf uses a package for dynamic HTML form construction called `[aldeed:autoform](https://github.com/aldeed/meteor-autoform)`. It takes care of `INSERT`, `UPDATE` and `DELETE` of items in Meteor collection.
+APInf stores ACL data (including API proxy backend) in Meteor MongoDB collection `proxyBackends` when ACL rules added for the first time. APInf uses a package for dynamic HTML form construction called [`aldeed:autoform`](https://github.com/aldeed/meteor-autoform). It takes care of `INSERT`, `UPDATE` and `DELETE` of items in Meteor collection.
 
 `aldeed:autoform` has a number of pre-defined hooks which are called when certain event occurs. Those [hooks](https://github.com/apinf/platform/blob/develop/proxy_backends/client/form/autoform.js) which are used by `proxyBackendsForm` collection are: `before insert`, `before update`, `onSuccess` and `onError`.
 
