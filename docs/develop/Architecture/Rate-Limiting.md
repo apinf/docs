@@ -41,8 +41,8 @@ Since all the features needed for MVP are already in place in the original proje
 
 Created tasks:
 
-*   Add helper information to API backend fields. Task [#245](https://github.com/apinf/api-umbrella-dashboard/issues/245) 
-*   Add field for limiting by IP address. Task [#246](https://github.com/apinf/api-umbrella-dashboard/issues/246)  
+*   Add helper information to API backend fields. Task [#245](https://github.com/apinf/platform/issues/245) 
+*   Add field for limiting by IP address. Task [#246](https://github.com/apinf/platform/issues/246)  
 
 For the missing features: limit by time and country feature requests are posted at the original project.
 
