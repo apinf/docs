@@ -16,4 +16,4 @@ Participants:
 
 **Personas**
 
-*   We had a brainstorming session, where we created two user personas. The personas are API consumers (developers) and the purpose is to personify user groups and their needs concerning APINF. See the [pdf](https://github.com/apinf/api-umbrella-dashboard/blob/e7f64dbcd57c81926d4809a464da87445385de9f/docs/UX/APINF%20consumer%20personas.pdf) containing the descriptions of the two personas.
+*   We had a brainstorming session, where we created two user personas. The personas are API consumers (developers) and the purpose is to personify user groups and their needs concerning APINF. See the [pdf](https://github.com/apinf/platform/blob/e7f64dbcd57c81926d4809a464da87445385de9f/docs/UX/APINF%20consumer%20personas.pdf) containing the descriptions of the two personas.

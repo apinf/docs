@@ -1,6 +1,6 @@
 # API Status notification to user
 
-GitHub story: [apinf/api umbrella dashboard#332](https://github.com/apinf/api-umbrella-dashboard/issues/332)
+GitHub story: [apinf/api umbrella dashboard#332](https://github.com/apinf/platform/issues/332)
 
 Ultimate goal is to show something like: [](https://dev.twitter.com/overview/status)https://dev.twitter.com/overview/status (see screenshot below)
 
