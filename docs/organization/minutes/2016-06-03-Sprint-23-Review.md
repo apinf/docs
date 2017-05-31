@@ -51,4 +51,4 @@
   - Catalog search
   - Filtering by format/protocol
 - Issue #978 - Heuristic Evaluation
-  - Report: https://github.com/apinf/api-umbrella-dashboard/blob/develop/docs/UX/APINF-Catalogue-Heuristic-Evaluation-Report
+  - Report: https://github.com/apinf/platform/blob/develop/docs/UX/APINF-Catalogue-Heuristic-Evaluation-Report

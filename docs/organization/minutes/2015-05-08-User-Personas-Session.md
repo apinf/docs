@@ -21,7 +21,7 @@ We used the following resources
 
 **API Users**
 
-As a first stage, the API User role personas were outlined. [Taija Bjorklund](/ep/profile/qMJYdtOf8Ww) will present the personas in a cohesive form. See: [APINF consumer personas](https://github.com/apinf/api-umbrella-dashboard/blob/e7f64dbcd57c81926d4809a464da87445385de9f/docs/UX/APINF%20consumer%20personas.pdf)
+As a first stage, the API User role personas were outlined. [Taija Bjorklund](/ep/profile/qMJYdtOf8Ww) will present the personas in a cohesive form. See: [APINF consumer personas](https://github.com/apinf/platform/blob/e7f64dbcd57c81926d4809a464da87445385de9f/docs/UX/APINF%20consumer%20personas.pdf)
 
 The second stage will be to create user personas based on the API Owner role. To this end, we collected the following general characteristics.
 

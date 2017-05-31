@@ -25,7 +25,7 @@ The Sprint 10 review meeting consisted of the following team members:
 
 Taija contributed the following efforts during Sprint 10:
 
-*   Improved [System Model diagram](https://github.com/apinf/api-umbrella-dashboard/blob/master/docs/developers/system_model_diagram.svg)
+*   Improved [System Model diagram](https://github.com/apinf/platform/blob/master/docs/developers/system_model_diagram.svg)
 *   Outreach presentation for corporate stakeholders
 *   Worked on Hackathon site texts
 
@@ -48,4 +48,4 @@ Brylie contributed the following efforts during Sprint 10:
     *   [brylie:create-admin-role](https://atmospherejs.com/brylie/create-admin-role)
     *   [brylie:create-role-if-undefined](https://atmospherejs.com/brylie/create-role-if-undefined)
 
-*   Worked on [System Model Diagram](https://github.com/apinf/api-umbrella-dashboard/blob/master/docs/developers/system_model_diagram.svg)
+*   Worked on [System Model Diagram](https://github.com/apinf/platform/blob/master/docs/developers/system_model_diagram.svg)

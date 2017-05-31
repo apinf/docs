@@ -20,10 +20,10 @@
 
         *   Unit tests for custom code
 
-*   Did research on [charts and graphs packages](/SoftwareTechnologies-comparison-RnvuTLGnWW9#:h=Chart/graph-packages)  for Meteor ([Issue #56](https://waffle.io/apinf/api-umbrella-dashboard/cards/5551d6755e14776500120a34))
+*   Did research on [charts and graphs packages](/SoftwareTechnologies-comparison-RnvuTLGnWW9#:h=Chart/graph-packages)  for Meteor ([Issue #56](https://waffle.io/apinf/platform/cards/5551d6755e14776500120a34))
 *   Opened [issue in API Umbrella to access analytics data](https://github.com/NREL/api-umbrella/issues/140) , still no answer
-*   Was able to display Admin API data in boilerplate UI ([Issue #48](https://waffle.io/apinf/api-umbrella-dashboard/cards/5559a1d31e33101500bea624) )
-*   Tested API Umbrella Admin API ([Issue #42](https://waffle.io/apinf/api-umbrella-dashboard/cards/5551d6755e14776500120a34) )
+*   Was able to display Admin API data in boilerplate UI ([Issue #48](https://waffle.io/apinf/platform/cards/5559a1d31e33101500bea624) )
+*   Tested API Umbrella Admin API ([Issue #42](https://waffle.io/apinf/platform/cards/5551d6755e14776500120a34) )
 
 **Illya**
 
@@ -45,7 +45,7 @@
 
 **Taija**
 
-- #47[ Persona for API admin](https://github.com/apinf/api-umbrella-dashboard/blob/master/docs/UX/APINF%20owner%20persona.pdf) created and documented. 
+- #47[ Persona for API admin](https://github.com/apinf/platform/blob/master/docs/UX/APINF%20owner%20persona.pdf) created and documented. 
 
 **Laura**
 

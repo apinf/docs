@@ -1,0 +1,9 @@
+Client->Proxy: Authenticate
+Note right of Proxy: Generate session token
+Proxy->Client: Return session token
+Client->Proxy: Backend request (authenticated)
+Note right of Proxy: Process request
+Proxy-->Backend: Send request
+Backend-->Proxy: Send response
+Note right of Proxy: Process response
+Proxy->Client: Send processed response

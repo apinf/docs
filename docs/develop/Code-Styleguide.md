@@ -1,13 +1,3 @@
 # Code styleguide
 
-Standards for developing Apinf code.
-
-## CSS styleguide
-
-File structure:
-
-*   Each template - own style file
-*   Each style file - overriding section, function section
-*   Everything global - global.less file
-
- 
+The standards for developing APInf code are on the [Contributing Guide](https://github.com/apinf/platform/blob/master/CONTRIBUTING.md)
