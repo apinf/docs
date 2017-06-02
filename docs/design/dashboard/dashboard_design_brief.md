@@ -22,6 +22,10 @@ In order to agree on what to build, it is important to define basic terminology.
 - [What is a Dashboard?](http://www.dashboardinsight.com/articles/digital-dashboards/fundamentals/what-is-a-dashboard.aspx)
 - [What is a data dashboard?](http://businessintelligence.com/dictionary/dashboard/)
 
+### Data visualisation
+> [Data visualisation is] the representation and presentation of data in order to facilitate understanding
+>
+> -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
 
 ### Situation awareness
 > [Situation awareness] is informed by a particular set of facts that add up to an overview of the situation. People want those facts to be readily avaiilable, displayed in a way that makes them easy and efficient to percieve, understand, and if necessary, respond. That display is a dashboard.
