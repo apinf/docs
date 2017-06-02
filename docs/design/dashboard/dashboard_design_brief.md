@@ -17,3 +17,9 @@ In order to agree on what to build, it is important to define basic terminology.
 *Related resources:*
 - [What is a Dashboard?](http://www.dashboardinsight.com/articles/digital-dashboards/fundamentals/what-is-a-dashboard.aspx)
 - [What is a data dashboard?](http://businessintelligence.com/dictionary/dashboard/)
+
+
+### Situation awareness
+> [Situation awareness] is informed by a particular set of facts that add up to an overview of the situation. People want those facts to be readily avaiilable, displayed in a way that makes them easy and efficient to percieve, understand, and if necessary, respond. That display is a dashboard.
+>
+> Few, S. (2013). Information dashboard design: displaying data for at-a-glance monitoring. Burlingame, CA: Analytics Press.
