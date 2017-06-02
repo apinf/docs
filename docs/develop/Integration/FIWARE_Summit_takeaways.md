@@ -21,3 +21,13 @@ By integrating more tightly with the FIWARE components, we could accellerate our
 
 ## Technology
 The principle FIWARE components, related to our business model, are written with Python (backend), JavaScript (frontend), HTML, and CSS. Our developers already have JavaScript proficiency, as well as familiarity with other web standards. We would need more time to work with the FIWARE components' source code, as well as gaining practical experience with Python web frameworks (Flask, and Django).
+
+## Additional benefits
+The FIWARE ecosystem already contains many beneficial components that would support our business process, including:
+
+- Identity management
+- Access control management
+- Tooling for high availability
+- Components to process real-time (or just in time) data sources
+
+Adopting the FIWARE components could save APInf considerable resources, in terms of developer time and business capital. We could focus our efforts more narrowly on our unique value, rather than spreading ourselves widely trying to cover such a wide terrain.
