@@ -26,7 +26,7 @@ The principle FIWARE components, related to our business model, are written with
 The FIWARE ecosystem already contains many beneficial components that would support our business process, including:
 
 - [Identity management](https://catalogue.fiware.org/enablers/identity-management-keyrock)
-- Access control management
+- [Authorization management](https://catalogue.fiware.org/enablers/authorization-pdp-authzforce)
 - Tooling for high availability
 - [Components to process real-time (or just in time) data sources](http://fiwaretourguide.readthedocs.io/en/latest/real-time-processing-of-context-events/introduction/)
 - [Standards](https://github.com/Fiware/dataModels) and tooling to process data from a wide variety of [IoT devices](http://fiwaretourguide.readthedocs.org/en/latest/connection-to-the-internet-of-things/introduction/)
