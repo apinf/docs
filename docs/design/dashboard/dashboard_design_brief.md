@@ -41,6 +41,20 @@ Several core principles can guide the design process.
 > - elegant
 >
 > -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
+## Circumstances
+> Defining your project's circumstances involves identifying all the requirements and restrictions that are inherited by you, imposed *on* you or determined *by* you.
+>
+> -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
+
+### People
+
+### Constraints
+
+### Consumption
+
+### Deliverables
+
+### Resources
 
 ## Purpose
 > When setting out to design a dashboard, we must, before anything else, clearly define the dashboard's purpose.
@@ -64,17 +78,7 @@ Several core principles can guide the design process.
 ### Discussion questions
 - What types of understanding to we want to help facilitate?
 
-## Circumstances
-> Defining your project's circumstances involves identifying all the requirements and restrictions that are inherited by you, imposed *on* you or determined *by* you.
+## Vision
+> What you need to consider here is what can you envision being the most suitable type(s) of visualisation that might be most capable of accomplishing what you intend.
 >
-> -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
-
-### People
-
-### Constraints
-
-### Consumption
-
-### Deliverables
-
-### Resources
+> -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications
