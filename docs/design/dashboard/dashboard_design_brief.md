@@ -7,15 +7,15 @@ In order to agree on what to build, it is important to define basic terminology.
 ### Dashboard
 > A dashboard is a visual display of the most important information needed to achieve one or more objectives, consolidated and arranged on a single screen so the information can be monitored at a glance.
 >
-> Stephen Few "Dashboard Confusion." *Intelligent Enterprise*.
+> -- Stephen Few "Dashboard Confusion." *Intelligent Enterprise*.
 
 > Dashboards often provide at-a-glance views of KPIs (key performance indicators) relevant to a particular objective or business process
 >
-> Wikipedia contributors. ["Dashboard (business)."](https://en.wikipedia.org/wiki/Dashboard_(business)) Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 4 Apr. 2017. Web.
+> -- Wikipedia contributors. ["Dashboard (business)."](https://en.wikipedia.org/wiki/Dashboard_(business)) Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 4 Apr. 2017. Web.
 
 > All dashboards should display a quantitative analysis of what is going on with immediacy and intuitiveness.
 >
-> Hetherington, V. (September 23). *[The Dashboard Demystified: What is a Dashboard?](http://www.dashboardinsight.com/articles/digital-dashboards/fundamentals/the-dashboard-demystified.aspx)* Retrieved June 02, 2009
+> -- Hetherington, V. (September 23). *[The Dashboard Demystified: What is a Dashboard?](http://www.dashboardinsight.com/articles/digital-dashboards/fundamentals/the-dashboard-demystified.aspx)* Retrieved June 02, 2009
 
 
 *Related resources:*
