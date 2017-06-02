@@ -20,4 +20,4 @@ In order to move towards a more cohesive user experience, it might mean shifting
 By integrating more tightly with the FIWARE components, we could accellerate our development process. For example, we would almost immediately gain a functional monetization component to support our business case.
 
 ## Technology
-The principle FIWARE components, related to our business model, are written with Python (backend), JavaScript (frontend), HTML, and CSS. Our developers already have JavaScript proficiency, as well as familiarity with other web standards. We would need more time to work with the FIWARE components' source code, as well as gaining practical experience with Python web frameworks (Flas, and Django).
+The principle FIWARE components, related to our business model, are written with Python (backend), JavaScript (frontend), HTML, and CSS. Our developers already have JavaScript proficiency, as well as familiarity with other web standards. We would need more time to work with the FIWARE components' source code, as well as gaining practical experience with Python web frameworks (Flask, and Django).
