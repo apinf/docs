@@ -25,7 +25,7 @@ The principle FIWARE components, related to our business model, are written with
 ## Additional benefits
 The FIWARE ecosystem already contains many beneficial components that would support our business process, including:
 
-- [Identity management](https://github.com/ging/fiware-idm)
+- [Identity management](https://catalogue.fiware.org/enablers/identity-management-keyrock)
 - Access control management
 - Tooling for high availability
 - [Components to process real-time (or just in time) data sources](http://fiwaretourguide.readthedocs.io/en/latest/real-time-processing-of-context-events/introduction/)
