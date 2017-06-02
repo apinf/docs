@@ -30,4 +30,4 @@ The FIWARE ecosystem already contains many beneficial components that would supp
 - Tooling for high availability
 - Components to process real-time (or just in time) data sources
 
-Adopting the FIWARE components could save APInf considerable resources, in terms of developer time and business capital. We could focus our efforts more narrowly on our unique value, rather than spreading ourselves widely trying to cover such a wide terrain.
+Adopting the FIWARE components could save APInf considerable resources, in terms of developer time and business capital. We could focus our efforts more narrowly on our unique value, rather than spreading ourselves widely trying to cover such a wide landscape.
