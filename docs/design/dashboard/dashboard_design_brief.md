@@ -51,3 +51,11 @@ Several core principles can guide the design process.
 > to design an effetive dashbard, we must get into the clients' minds and examine the mental models for the activities that the dashboard will help them monitor.
 >
 > Few, S. (2013). *Information dashboard design: displaying data for at-a-glance monitoring.* Burlingame, CA: Analytics Press.
+
+> A worthwhile data visualization project should commence from a starting point of curiosity, [since the goal of] data visualisation is to facilitate understanding.
+>
+> - Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
+
+Qs:
+- Why are we building this dashboard/data visualisation?
+- What types of understanding to we want to help facilitate?
