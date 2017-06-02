@@ -2,11 +2,11 @@
 
 ## Integration
 The current progress towards integrating APInf and FIWARE includes:
-- Monetization via FIWARE Business Ecosystem
+- [Monetization via FIWARE Business Ecosystem](https://github.com/FIWARE-TMForum/Business-API-Ecosystem#introducction)
 - Analytics from API Umbrella
-- Analytics dashboard with FIWARE WireCloud
+- [Analytics dashboard with FIWARE WireCloud](http://fiwaretourguide.readthedocs.io/en/latest/creating-application-dashboards/introduction/)
 - API Management from APInf
-- Data Catalogue with CKAN
+- [Data Catalogue with CKAN](http://fiwaretourguide.readthedocs.io/en/latest/publishing-open-data-in-fiware/introduction/)
 - Payments via Paypal
 
 
@@ -28,6 +28,7 @@ The FIWARE ecosystem already contains many beneficial components that would supp
 - Identity management
 - Access control management
 - Tooling for high availability
-- Components to process real-time (or just in time) data sources
+- [Components to process real-time (or just in time) data sources](http://fiwaretourguide.readthedocs.io/en/latest/real-time-processing-of-context-events/introduction/)
+- [Standards](https://github.com/Fiware/dataModels) and tooling to process data from a wide variety of [IoT devices](http://fiwaretourguide.readthedocs.org/en/latest/connection-to-the-internet-of-things/introduction/)
 
 Adopting the FIWARE components could save APInf considerable resources, in terms of developer time and business capital. We could focus our efforts more narrowly on our unique value, rather than spreading ourselves widely trying to cover such a wide landscape.
