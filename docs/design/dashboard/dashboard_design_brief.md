@@ -1,7 +1,7 @@
 # APInf Dashboard design brief
 This document is meant serve as a **common basis for understanding** the scope and purpose of the APInf Dashboard component.
 
-## First principles
+## Key concepts
 In order to agree on what to build, it is important to define basic terminology. That way, our conversation can share a common vocabulary.
 
 ### Dashboard
