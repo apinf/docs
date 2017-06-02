@@ -32,3 +32,6 @@ The FIWARE ecosystem already contains many beneficial components that would supp
 - [Standards](https://github.com/Fiware/dataModels) and tooling to process data from a wide variety of [IoT devices](http://fiwaretourguide.readthedocs.org/en/latest/connection-to-the-internet-of-things/introduction/)
 
 Adopting the FIWARE components could save APInf considerable resources, in terms of developer time and business capital. We could focus our efforts more narrowly on our unique value, rather than spreading ourselves widely trying to cover such a wide landscape.
+
+## Partnerships
+The FIWARE Foundation is already strongly aligned with international initiatives such as [https://catalogue.fiware.org/enablers/software-deployment-configuration-sagitta](http://www.oascities.org/). Additionally, FIWARE is partnered with prominent organizations, such as [TM Forum](https://www.tmforum.org/). By working directly on FIWARE technologies, and aligning with the FIWARE ecosystem, we would benefit from the knowledge and expertise of people and organizations around the globe.
