@@ -1,2 +1,10 @@
 # APInf Dashboard design brief
-This document is meant to describe the purpose of the APInf Dashboard.
+This document is meant serve as a **common basis for understanding** the scope and purpose of the APInf Dashboard component.
+
+## First principles
+In order to agree on what to build, it is important to define basic terminology. That way, our conversation can share a common vocabulary.
+
+## Dashboard
+> A dashboard is a visual display of the most important information needed to achieve one or more objectives, consolidated and arranged on a single screen so the information can be monitored at a glance.
+>
+> Stephen Few "Dashboard Confusion." *Intelligent Enterprise*.
