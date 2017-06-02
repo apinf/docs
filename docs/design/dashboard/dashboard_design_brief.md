@@ -49,6 +49,8 @@ Several core principles can guide the design process.
 
 ### Discussion questions
 - Why are we building this dashboard/data visualisation?
+- What are we trying to accomplish with this dashboard?
+- What does a successful outcome of using the dashboard look like?
 
 ## Goals
 > to design an effetive dashbard, we must get into the clients' minds and examine the mental models for the activities that the dashboard will help them monitor.
@@ -66,3 +68,13 @@ Several core principles can guide the design process.
 > Defining your project's circumstances involves identifying all the requirements and restrictions that are inherited by you, imposed *on* you or determined *by* you.
 >
 > -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
+
+### People
+
+### Constraints
+
+### Consumption
+
+### Deliverables
+
+### Resources
