@@ -27,7 +27,7 @@ The FIWARE ecosystem already contains many beneficial components that would supp
 
 - [Identity management](https://catalogue.fiware.org/enablers/identity-management-keyrock)
 - [Authorization management](https://catalogue.fiware.org/enablers/authorization-pdp-authzforce)
-- Tooling for high availability
+- [Tooling for continuous delivery, high availability, etc.](https://catalogue.fiware.org/enablers/software-deployment-configuration-sagitta)
 - [Components to process real-time (or just in time) data sources](http://fiwaretourguide.readthedocs.io/en/latest/real-time-processing-of-context-events/introduction/)
 - [Standards](https://github.com/Fiware/dataModels) and tooling to process data from a wide variety of [IoT devices](http://fiwaretourguide.readthedocs.org/en/latest/connection-to-the-internet-of-things/introduction/)
 
