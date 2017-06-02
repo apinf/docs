@@ -47,6 +47,9 @@ Several core principles can guide the design process.
 >
 > Few, S. (2013). *Information dashboard design: displaying data for at-a-glance monitoring.* Burlingame, CA: Analytics Press.
 
+### Discussion questions
+- Why are we building this dashboard/data visualisation?
+
 ## Goals
 > to design an effetive dashbard, we must get into the clients' minds and examine the mental models for the activities that the dashboard will help them monitor.
 >
@@ -56,6 +59,10 @@ Several core principles can guide the design process.
 >
 > - Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
 
-Qs:
-- Why are we building this dashboard/data visualisation?
+### Discussion questions
 - What types of understanding to we want to help facilitate?
+
+## Circumstances
+> Defining your project's circumstances involves identifying all the requirements and restrictions that are inherited by you, imposed *on* you or determined *by* you.
+>
+> - Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
