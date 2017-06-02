@@ -11,7 +11,11 @@ In order to agree on what to build, it is important to define basic terminology.
 
 > Dashboards often provide at-a-glance views of KPIs (key performance indicators) relevant to a particular objective or business process
 >
-> Wikipedia contributors. ["Dashboard (business)."](https://en.wikipedia.org/wiki/Dashboard_(business)) Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 4 Apr. 2017. Web. 
+> Wikipedia contributors. ["Dashboard (business)."](https://en.wikipedia.org/wiki/Dashboard_(business)) Wikipedia, The Free Encyclopedia. Wikipedia, The Free Encyclopedia, 4 Apr. 2017. Web.
+
+> A dashboard is a business tool that displays a set of PIs (performance indicators), KPIs (key performance indicators), and any other relevant information to a business user.  Dashboard data is often displayed in real-time after retrieval from one or more data sources in a business. Dashboards are interactive, allowing an executive to drill into particular aspects of the display or switch between facets or views of the data. Key performance indicators need special consideration because they are high-level measurements of how well an organization is doing in achieving critical success factors – in other words, the goals or targets set by an organization in their strategic plani. Dashboards are composed of data visualization tools like charts, grids, gauges and maps. All dashboards should display a quantitative analysis of what is going on with immediacy and intuitiveness.
+>
+> Hetherington, V. (September 23). *[The Dashboard Demystified: What is a Dashboard?](http://www.dashboardinsight.com/articles/digital-dashboards/fundamentals/the-dashboard-demystified.aspx)* Retrieved June 02, 2009
 
 
 *Related resources:*
