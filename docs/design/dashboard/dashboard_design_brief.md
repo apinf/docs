@@ -78,6 +78,10 @@ Several core principles can guide the design process.
 - What does a successful outcome of using the dashboard look like?
 
 ## Goals
+> the user and their goals often become lost in the lengthy debates over features, designs, and implementations. Empathy is at the heart of great products and services.
+>
+> Gothelf, Jeff, and Josh Seiden. "Running the Exercise: User Outcomes." Lean UX: Applying Lean Principles to Improve User Experience. Beijing: O'Reilly, 2016. N. pag. Print.
+
 > to design an effetive dashbard, we must get into the clients' minds and examine the mental models for the activities that the dashboard will help them monitor.
 >
 > -- Few, S. (2013). *Information dashboard design: displaying data for at-a-glance monitoring.* Burlingame, CA: Analytics Press.
