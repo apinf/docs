@@ -99,3 +99,4 @@ Several core principles can guide the design process.
 - What will it look like for someone to use this information dashboard?
 - How will it improve their work, life, etc.?
 - What would be a basic narrative of one or more people as they interact with the dashboard?
+- How can we design the dashboard to help people achieve their desired goals and outcomes?
