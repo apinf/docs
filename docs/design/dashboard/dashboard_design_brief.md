@@ -1,4 +1,4 @@
-# APInf Dashboard design brief
+# APInf Information Dashboard design brief
 This document is meant serve as a **common basis for understanding** the scope and purpose of the **APInf Information Dashboard**.
 
 ## Intent
