@@ -2,7 +2,7 @@
 This document is meant serve as a **common basis for understanding** the scope and purpose of the **APInf Information Dashboard**.
 
 ## Intent
-The **APInf Information Dashboard** is intended to help **APInf stakeholders** (end-users) gain an **awareness/understanding of the current situation** through the use of **data visualisation**.
+The **APInf Information Dashboard** is intended to help **APInf stakeholders** (end-users) gain an **awareness/understanding of their current situation** at any given point in time through the use of **data visualisation**.
 
 ## Key concepts
 In order to agree on what to build, it is important to define basic terminology. That way, our conversation can share a common vocabulary. Shared definitions of key concepts will also give our team a basis to evaluate any proposed designs/solutions.
