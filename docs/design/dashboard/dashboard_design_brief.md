@@ -48,13 +48,24 @@ Several core principles can guide the design process.
 
 ### People
 
+* Who are the project's primary stakeholders?
+
 ### Constraints
 
+* What are some limitations of this project?
+* What are the time constraints?
+
 ### Consumption
+
+- How will people access this project?
+- What (basic) screen sizes, and other media will they use to percieve the visualizations?
 
 ### Deliverables
 
 ### Resources
+
+- What types of skills do we have available as a team?
+- How much time does each member of the team have to commit to the completion of this project?
 
 ## Purpose
 > When setting out to design a dashboard, we must, before anything else, clearly define the dashboard's purpose.
