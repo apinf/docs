@@ -93,3 +93,9 @@ Several core principles can guide the design process.
 > What you need to consider here is what can you envision being the most suitable type(s) of visualisation that might be most capable of accomplishing what you intend.
 >
 > -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications
+
+### Discussion questions
+
+- What will it look like for someone to use this information dashboard?
+- How will it improve their work, life, etc.?
+- What would be a basic narrative of one or more people as they interact with the dashboard?
