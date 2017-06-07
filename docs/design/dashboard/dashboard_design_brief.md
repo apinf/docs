@@ -62,6 +62,17 @@ Several core principles can guide the design process.
 
 ### Deliverables
 
+- What types of output, or deliverables, will we produce during the design/development process? E.g.
+  - dashboard project design brief
+  - new/improved proto-personas
+  - user journey/storyboards
+  - wireframes/paper prototypes
+    - user feedback (interviews, survey results)
+  - HTML mock-ups
+  - prototype web application
+    - usability tests (notes from user observation sessions, interviews)
+  - improvements to/revitalization of dashboard implementation
+
 ### Resources
 
 - What types of skills do we have available as a team?
