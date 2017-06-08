@@ -4,7 +4,7 @@ This document contains the general roadmap of the Apinf project. It is organized
 
 ## Minimum viable product
 
-The initial public unveiling will take place at [Mindtrek 2015](http://www.mindtrek.org/2015/) . This unveiling should contain all features outlined in our [Minimum Viable Product](/Minimum-viable-platform-specification-T1e6HzUYgYk)  document. In the [project backlog](https://github.com/apinf/api-umbrella-dashboard/issues), the MVP issues are labeled with Minimum viable product label.
+The initial public unveiling will take place at [Mindtrek 2015](http://www.mindtrek.org/2015/) . This unveiling should contain all features outlined in our [Minimum Viable Product](/Minimum-viable-platform-specification-T1e6HzUYgYk)  document. In the [project backlog](https://github.com/apinf/platform/issues), the MVP issues are labeled with Minimum viable product label.
 
 ## Roadmap
 

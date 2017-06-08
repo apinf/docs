@@ -11,12 +11,12 @@
 *   Technological decisions and common guidelines
 <undefined><li>**Main channels and frequency**</li></undefined>
 
-*   [Github](https://github.com/apinf/api-umbrella-dashboard): Software code and finalized specifications
-*   [Waffle](https://waffle.io/apinf/api-umbrella-dashboard): Used for managing project backlog and assignment of tasks
+*   [Github](https://github.com/apinf/platform): Software code and finalized specifications
+*   [Waffle](https://waffle.io/apinf/platform): Used for managing project backlog and assignment of tasks
 *   [Hackpad](/): 
 
         *   Used for creating specifications and other project documents collaboratively. 
-    *   Finalized versions of specifications to be stored in the Github [Wiki section](https://github.com/apinf/api-umbrella-dashboard/wiki).
+    *   Finalized versions of specifications to be stored in the Github [Wiki section](https://github.com/apinf/platform/wiki).
     *   Other project documentation is stored in Hackpad.
 
 *   Project meetings:
