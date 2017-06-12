@@ -3,6 +3,50 @@
 This is the data structure of the Elasticsearch response for each call.
 We use it to design our dashboard charts. Fields are in use right now: **request_at, request_url, request_ip, request_ip_country, response_time.**
 
+## Overview
+| field                       | type          | example                                                                                                                                                           | notes                   |
+|-----------------------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| api_key                     | string        | 8Uq3GR9sHiTrazBlEnNyGAfCNlPXULakC6s12ka2                                                                                                                          |                         |
+| user_id                     | string        |                                                                                                                                                                   |                         |
+| request_accept              | string        | application/json                                                                                                                                                  |                         |
+| request_at                  | date          | 1475148774275                                                                                                                                                     |                         |
+| request_basic_auth_username | string        |                                                                                                                                                                   |                         |
+| request_connection          | string        | close                                                                                                                                                             |                         |
+| request_content_type        | string        | application/json                                                                                                                                                  |                         |
+| request_host                | string        | nightly.apinf.io:3002                                                                                                                                             |                         |
+| request_ip                  | string        | 87.94.164.76                                                                                                                                                      |                         |
+| request_ip_country          | string        | FI                                                                                                                                                                |                         |
+| request_ip_region           | string        | 15                                                                                                                                                                |                         |
+| request_ip_city             | string        | Tampere                                                                                                                                                           |                         |
+| request_path                | string        | /api-umbrella/v1/apis/                                                                                                                                            |                         |
+| request_path_hierarchy      | array(string) | ["0/nightly.apinf.io:3002/", "1/nightly.apinf.io:3002/api-umbrella/", "2/nightly.apinf.io:3002/api-umbrella/v1/", "3/nightly.apinf.io:3002/api-umbrella/v1/apis"] |                         |
+| request_query               | string        |                                                                                                                                                                   |                         |
+| request_referer             |               |                                                                                                                                                                   |                         |
+| request_scheme              | string        | https                                                                                                                                                             |                         |
+| request_size                | integer       | 590                                                                                                                                                               |                         |
+| response_cache              | string        | MISS                                                                                                                                                              |                         |
+| response_content_encoding   |               |                                                                                                                                                                   |                         |
+| response_status             | short         |                                                                                                                                                                   |                         |
+| response_age                | integer       |                                                                                                                                                                   |                         |
+| response_content_length     | integer       | 1436                                                                                                                                                              |                         |
+| response_content_type       | string        | application/json; charset=utf-8                                                                                                                                   |                         |
+| response_size               | integer       | 2280                                                                                                                                                              |                         |
+| response_server             | string        | openresty                                                                                                                                                         |                         |
+| response_status             | string        | 201                                                                                                                                                               |                         |
+| response_time               | integer       | 149                                                                                                                                                               |                         |
+| request_method              | string        | POST                                                                                                                                                              |                         |
+| backend_response_time       | integer       | 131                                                                                                                                                               |                         |
+| proxy_overhead              | integer       | 3                                                                                                                                                                 |                         |
+| user_email                  | string        | nightly@apinf.io                                                                                                                                                  |                         |
+| user_id                     | string        | 844433ba-5dfd-4734-af0d-09bd40636660                                                                                                                              |                         |
+| user_registration_source    | string        | web                                                                                                                                                               |                         |
+| internal_response_time      | float         | ??                                                                                                                                                                | May no longer be in use |
+| internal_gatekeeper_time    | float         | 0                                                                                                                                                                 |                         |
+| request_ip_location         | geo_point     | { lat: 61.5, lon: 23.75 }                                                                                                                                         |                         |
+
+
+## Raw example
+
 ```
 { _index: 'api-umbrella-logs-v1-2017-03',
   _type: 'log',

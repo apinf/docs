@@ -73,20 +73,19 @@ Dashboards, Datadog offers all high-resolution metrics and events for manipulati
 
 Datadog has a free and paid versions. The pro-version is 15$ per host per month. 
 
+# ELK stack + open source logger
+
+Another solution would be to install ELK Stack ([ElasticSearch](https://www.elastic.co/), [LogStash](https://www.elastic.co/products/logstash) and [Kibana](https://www.elastic.co/products/kibana)) specificaly to track logs, and use a free software package like [bunyan npm package](https://www.npmjs.com/package/bunyan), or [FiLog Meteor package](https://github.com/FGM/filog). The pros are that Apinf holds complete control and there is no fees, the cons is that we'd have to install and maintain everything. 
+
 # Reference
 
-https://airbrake.io
-
-https://docs.sentry.io
-
-https://newrelic.com/
-
-https://www.appdynamics.com/
-
-https://www.datadoghq.com/ 
-
-https://medium.com/@jico/the-fine-art-of-javascript-error-tracking-bc031f24c659#.n21umzyjh
-
-https://stackshare.io/
-
-http://blog.takipi.com/the-complete-guide-to-error-tracking-tools-rollbar-vs-raygun-vs-sentry-vs-airbrake-vs-bugsnag-vs-overops/
+* https://airbrake.io
+* https://docs.sentry.io
+* https://newrelic.com/
+* https://www.appdynamics.com/
+* https://www.datadoghq.com/
+* https://medium.com/@jico/the-fine-art-of-javascript-error-tracking-bc031f24c659#.n21umzyjh
+* https://stackshare.io/
+* http://blog.takipi.com/the-complete-guide-to-error-tracking-tools-rollbar-vs-raygun-vs-sentry-vs-airbrake-vs-bugsnag-vs-overops/
+* [How to install elasticsearch, logstash and kibana on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-ubuntu-16-04)
+* [Discussion on 'proper logging meteor'](https://forums.meteor.com/t/proper-logging-with-meteor/31191/1)

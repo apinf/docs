@@ -31,7 +31,7 @@ Illya Nizyev
 * #486 Add a link to Community portal from apinf.io
   * Closed. Link added to both apinf.io and Readme.
 * #427 Add or edit help text for the fields of Add API Backend form
-  * In progress. All required help texts are listed in a [document](https://github.com/apinf/api-umbrella-dashboard/wiki/Add-API-Backend-form-help-text). The texts still need to be defined.
+  * In progress. All required help texts are listed in a [document](https://github.com/apinf/platform/wiki/Add-API-Backend-form-help-text). The texts still need to be defined.
 
 Brylie Oxley
 -------------

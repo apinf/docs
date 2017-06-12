@@ -30,7 +30,7 @@ The following tasks were decided for Sprint 0.
 
 **Planning brainstorming session**
 
-Task is related to the user story#4: _As a product owner, I want personas to be defined, so that I know for whom to create user stories_ ([apinf/api umbrella dashboard#4](https://github.com/apinf/api-umbrella-dashboard/issues/4))
+Task is related to the user story#4: _As a product owner, I want personas to be defined, so that I know for whom to create user stories_ ([apinf/api umbrella dashboard#4](https://github.com/apinf/platform/issues/4))
 
 The idea behind the user story is to ensure we will take the typical users into account when designing the product and create the requirements and user stories. This is done by identifying user groups, their needs and motives for using the product or service. Personas are fictional profiles and their purpose is to represent entire user groups. The fictional profiles typically have a name, age, needs, motives, dreams, fears, even hobbies. Personal should help us perceive the product from the user's perspective.
 

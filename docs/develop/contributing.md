@@ -5,7 +5,7 @@
 * Hang out in the [Apinf IRC chatroom](https://webchat.freenode.net/?channels=apinf) ([#Apinf](irc://irc.freenode.net/apinf) on Freenode)
 
 ## Contribute effort
-* Report bugs on our [issue tracker](https://github.com/apinf/api-umbrella-dashboard/issues/new)
+* Report bugs on our [issue tracker](https://github.com/apinf/platform/issues/new)
 * Add documentation via our [documentation repository](https://github.com/apinf/docs)
 * Improve the code with pull requests
-  * Choose a [task from our backlog](https://github.com/apinf/api-umbrella-dashboard/issues)
+  * Choose a [task from our backlog](https://github.com/apinf/platform/issues)

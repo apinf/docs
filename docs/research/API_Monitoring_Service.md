@@ -79,7 +79,7 @@
 
 
 
-Based on pros and cons of both tool and target that was set by story/research [“Study what monitoring service to be used”](https://github.com/apinf/api-umbrella-dashboard/issues/966), recommendation to use Prometheus as modern tool with good architecture (modules), great performance and [great documentation](https://prometheus.io/docs/introduction/overview/).
+Based on pros and cons of both tool and target that was set by story/research [“Study what monitoring service to be used”](https://github.com/apinf/platform/issues/966), recommendation to use Prometheus as modern tool with good architecture (modules), great performance and [great documentation](https://prometheus.io/docs/introduction/overview/).
 
 Prometheus is a open source monitoring system that includes built-in and active scraping, storing, querying, graphing, and alerting based on time series data. 
 
