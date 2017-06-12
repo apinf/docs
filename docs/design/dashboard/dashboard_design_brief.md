@@ -62,6 +62,8 @@ Several core principles can guide the design process.
 ### People
 
 * Who are the project's primary stakeholders?
+* What levels of expertise might our users have?
+* What information might our stakeholders need to access?
 
 ### Constraints
 
