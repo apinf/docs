@@ -1,6 +1,6 @@
 # Sprint 45 Planning Meeing
 * **Date**: 12.06.2017
-* **Participants**: 
+* **Participants**: Brylie, Ilya, Joonas, Kerkko, Matti, Nazia, Philippe, Taija
 
 # Task Assignments
 * 2642 - Allow apinf.io admin to add pricing information
