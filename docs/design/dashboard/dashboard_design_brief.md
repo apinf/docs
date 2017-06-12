@@ -40,6 +40,10 @@ In order to agree on what to build, it is important to define basic terminology.
 > -- Few, S. (2013). *Information dashboard design: displaying data for at-a-glance monitoring.* Burlingame, CA: Analytics Press.
 
 ## Principles
+> Rules are for practitioners who don’t really know the value of this process, while principles demand wisdom and maturity.
+>
+> -- Viviano, Anthony. "The Lean UX Manifesto: Principle-Driven Design." Smashing Magazine. N.p., 8 Jan. 2014. Web. 12 June 2017. 
+
 Several core principles can guide the design process.
 
 ### Three Principles of Good Visualization Design
