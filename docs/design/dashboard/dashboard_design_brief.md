@@ -24,6 +24,18 @@ In order to agree on what to build, it is important to define basic terminology.
 >
 > -- Hetherington, V. (September 23). *[The Dashboard Demystified: What is a Dashboard?](http://www.dashboardinsight.com/articles/digital-dashboards/fundamentals/the-dashboard-demystified.aspx)* Retrieved June 02, 2009
 
+The APInf Dashboard Design Working Group came up with the following concepts we believe define the concept of a Dashboard:
+
+- one view
+  - at-a-glance understanding with no/minimal scrolling
+- show the big picture
+  - overview
+- synthesis
+- allow user to get to deeper levels (of data/understanding)
+- enhance contextual awareness
+- show things that need immediate attention
+  - suggest appropriate action
+
 
 *Related resources:*
 - [What is a Dashboard?](http://www.dashboardinsight.com/articles/digital-dashboards/fundamentals/what-is-a-dashboard.aspx)
@@ -66,10 +78,23 @@ Several core principles can guide the design process.
 * What information might our stakeholders need to access?
 * How might users be able to adjust the dashboard to meet their individual needs?
 
+We explored the above questions during a workshop (on 12.06.2017), and came up with the following personas/needs:
+
+![APInf user personas and information needs](https://cdn.rawgit.com/apinf/docs/master/docs/design/dashboard/APInfInformationDashboard-stakeholderNeeds.png)
+
 ### Constraints
 
 * What are some limitations of this project?
 * What are the time constraints?
+
+After a brief, and slightly difficult, discussion, we came up with the following constraints:
+
+- we are a **small team**
+- we are dependent on existing solutions
+  - e.g. data sources/structure not always determined by us
+- we have a short time to complete this project (aprox. 1 month)
+  - one sprint for basic design/implementation
+  - one sprint for testing and user feedback 
 
 ### Consumption
 
