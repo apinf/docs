@@ -64,6 +64,7 @@ Several core principles can guide the design process.
 * Who are the project's primary stakeholders?
 * What levels of expertise might our users have?
 * What information might our stakeholders need to access?
+* How might users be able to adjust the dashboard to meet their individual needs?
 
 ### Constraints
 
@@ -73,7 +74,7 @@ Several core principles can guide the design process.
 ### Consumption
 
 - How will people access this project?
-- What (basic) screen sizes, and other media will they use to percieve the visualizations?
+- What (basic) screen sizes, and other media will they use to perceive the visualizations?
 
 ### Deliverables
 
