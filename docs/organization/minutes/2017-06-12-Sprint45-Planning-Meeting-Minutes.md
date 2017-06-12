@@ -7,9 +7,9 @@
 * 2568 - Allow apinf.io user to see pricing information - Ilya - 1
 * 2637 - Implement server-aggregated Nr of calls chart - Brylie - 2
 * 2636 - Implement server-aggregated aver. response time chart -
-* 2644 - Implement usage figures for single API -
-* 2643 - User research for dashboard wireframes -
-* 2638 - Add/create Swagger file(s) for APInf API(s) to apinf.io -
+* 2644 - Implement usage figures for single API - 
+* 2643 - User research for dashboard wireframes - Nazia, Ilya - 2
+* 2638 - Add/create Swagger file(s) for APInf API(s) to apinf.io - 
 * 2639 - Create branding guidelines -
 * 2628 - Privacy policy and Terms of use start with site title -
 * 2641 - Organization settings: User unable to upload logo/cover image -
