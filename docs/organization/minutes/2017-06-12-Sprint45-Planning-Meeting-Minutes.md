@@ -1,5 +1,5 @@
 # Sprint 45 Planning Meeing
-* **Date**: 12.06.2017
+* **Date**: 12.06.2017 10:00 - 11:00
 * **Participants**: Brylie, Ilya, Joonas, Kerkko, Matti, Nazia, Philippe, Taija
 
 # Task Assignments
@@ -9,11 +9,11 @@
 * 2636 - Implement server-aggregated aver. response time chart -
 * 2644 - Implement usage figures for single API - 
 * 2643 - User research for dashboard wireframes - Nazia, Ilya - 2
-* 2638 - Add/create Swagger file(s) for APInf API(s) to apinf.io - 
-* 2639 - Create branding guidelines -
-* 2628 - Privacy policy and Terms of use start with site title -
-* 2641 - Organization settings: User unable to upload logo/cover image -
-* 2381 - Adding Proxy settings fails in staging -
+* 2638 - Add/create Swagger file(s) for APInf API(s) to apinf.io - Nazia - 1
+* 2639 - Create branding guidelines - Nazia, Ilya - 2
+* 2628 - Privacy policy and Terms of use start with site title - Ilya - 1
+* 2641 - Organization settings: User unable to upload logo/cover image - Brylie - 
+* 2381 - Adding Proxy settings fails in staging - Taija
 * 2508 - Wireframe and implement RSS feed buttons for API Catalog and Organization Profile -
 * 2521 - Add RSS meta tag when appropriate -
 * 2529 - New localisation round -
