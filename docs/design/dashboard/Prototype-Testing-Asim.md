@@ -36,7 +36,7 @@ That should differe based on the type of metric user is viewing.
 - Refreshing and the repopulation of data should be information not older than 2 minute.
 for weekly purpose: from now until the same time in past week.
 
-** Question 5: what do you think happens when you touch a card here?**
+**Question 5: what do you think happens when you touch a card here?**
 - on clicking a card, it gives the participant a detailed overview
 (we switched into the second wireframe)
 - a new dialogue, not a new page. Because page would loose all the context for the user
@@ -52,19 +52,19 @@ This reduces redundant development and system calls to fetch the data.
 - Refresh should fetch the most recent data. If the participant was in detailed view 10 seconds earlier, he would expect to get weekly data from the current time to x+7 days.
 He wants to get the data the last time it was updated.
 
-** Question 8: what you like about the (1st wireframe)? Are the shown information enough to know about your APi statuses?**
+**Question 8: what you like about the (1st wireframe)? Are the shown information enough to know about your APi statuses?**
 - it depends on usecases. For example, unique user may be needed for a specific API only. For other APIs, unique users may be of no use.
 - it may me useful for the participant to see number of calls and average response time based on endpoints of a specific API.
 - in a generalized perspective, No. of calls and average response time are the only two metrics which is important for the participant for all the APIs he owns. increase or decrease in the amount may be interesting.
 
-** Question 9: what improvements would you like to see there (1st wireframe)?**
+**Question 9: what improvements would you like to see there (1st wireframe)?**
 - manual configuration of metrics as per every API (e.g. seeing average response time of the same API with three different endpoints,
 - endpoints are very important  for the participnat. (because access to an endpoint might be done via different paths by different users)
 
-** Question 10: what you like about the (2nd wireframe)? Are the shown information enough to know about your APi statuses?**
+**Question 10: what you like about the (2nd wireframe)? Are the shown information enough to know about your APi statuses?**
 - yes, may be.
 
-** Question 10: what improvements would you like to see there (2nd wireframe)?**
+**Question 10: what improvements would you like to see there (2nd wireframe)?**
 - Participant were not clear about how the week view works. He assumed that he can select any of the 252 weeks in the year. 
 - He was uncertain if the refresh shows information from the last day to the past week or current time to same time last week.
 - He suggested for a date picker where he can configure a specific week with start and end dates to see the data
