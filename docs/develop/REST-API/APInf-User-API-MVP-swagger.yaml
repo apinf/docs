@@ -2,45 +2,46 @@ swagger: '2.0'
 info:
   description: |
     ## What is APInf?
-
-    APinf is open source API management and catalog. Solution supports both REST and MQTT proxies. You can have multiple proxies under one management.
-
+    
+    APinf is an open source API management tool and a catalog. Solution supports both REST and MQTT proxies. You can have multiple proxies under one management.
+    
     ----
-
-
-    ** Check out free to use community instance at https://apinf.io **
-
+    
+    
+    ** Check out free to use community instance at https://apinf.io ** 
+    
     ----
-
-
-    ### For API owners
-
-    APInf provides you with a unified, simple interface for publishing your APIs to the developer community and performing complex API management tasks. It allows you to gain a better understanding of your API trafﬁc.
-
-     Each organization has organization page which provides single URL to promote to developers.
-
-    ### For developers (API end-user)
+    
+    
+    ### For API owners 
+    
+    APInf provides you with a unified, simple interface for publishing your APIs to the developer community and performing complex API management tasks. It allows you to gain a better understanding of your API trafﬁc. 
+    
+     Each organization has organization page which provides single URL to promote to developers. 
+    
+    ### For developers (API end-user) 
     For developers APInf catalog and dashboard offers a one stop location to discover APIs, track your application API usage, and more.
-
+    
     ### APInf User API
     With this API you can Add, Update and Remove (CRUD) information about APInf service users.
-
+    
     ### Examples for each method to get you started
-
+    
     In documentation each of the methods contain simple examples to get you started. Here's an example.
-
-    Example call: ``` GET /apis?limit=200&lifecycle=production```
-
-    Result: returns maximum of 200 APIs which are in production lifecycle. More examples can be found from each method.
-
-    ### API keys, authentication and dates
-
-    * We require API key in all GET methods. You can get it by creating account to Apinf system. Create it now from https://apinf.io/sign-up
-    * All POST, PUT and DELETE methods require valid authentication.
-    * Dates and times are returned in ISODate format, for example "2012-07-14T01:00:00+01:00".
-
-    ----
-
+    
+    Example call: ``` GET /apis?limit=200&lifecycle=production``` 
+        
+    Result: returns maximum of 200 APIs which are in production lifecycle. More examples can be found under each method. 
+  
+    ### API keys, authentication and dates 
+    
+    * We require API key in all GET methods. You can get it by creating account to Apinf system. Create it now from https://apinf.io/sign-up 
+    * PUT and DELETE methods require valid authentication. 
+    * User with role Admin can manage other users data, too. Other users can manage their own data only.
+    * Dates and times are returned in ISODate format, for example "2012-07-14T01:00:00+01:00". 
+    
+    ---- 
+  
   version: MVP
   title: APInf User API
   termsOfService: http://swagger.io/terms/
@@ -48,14 +49,14 @@ info:
     email: team@apinf.io
   license:
     name: EUPL
-    url: https://joinup.ec.europa.eu/community/eupl/og_page/european-union-public-licence-eupl-v11
+    url: https://joinup.ec.europa.eu/community/eupl/og_page/european-union-public-licence-eupl-v11 
 
 # host: api.apinf.io
 # basePath: /v1
 
 
 tags:
-- name: Users
+- name: Users 
   description: Users related methods
   externalDocs:
     description: Find out more about our store
@@ -68,24 +69,28 @@ paths:
   /users:
     get:
       tags:
-      - Users
+      - Users, authentication required
       security:
         - api_key: []
       summary: List and search users.
       operationId: searchUsers
       description: |
-        By passing in the appropriate options, you can search for users in the system. User can belong to one or more organizations. By default, method returns 100 users sorted by username. You can adjust the amount of returned list with ```limit``` parameter.
-
+        By passing in the appropriate options, you can search for users in the system. User can belong to one or more organizations. By default, method returns 100 users sorted by username. You can adjust the amount of returned list with ```limit``` parameter. 
+        
+        As a response a user with Admin role gets list of all users, other users get their own data.
+        
+        The field named ```_id ``` in response data contains the user id, which is needed, when the users are be queried, updated and deleted.
+        
         ----
-
-          ** A Simple example **
-
-          List maximum of 50 users, sort by username
-
+        
+          ** A Simple example ** 
+        
+          List maximum of 50 users, sort by username 
+        
           ``` GET /users?limit=50&sort_by=username```
-
+        
         ----
-
+      
       produces:
       - application/json
       parameters:
@@ -101,7 +106,7 @@ paths:
         type: string
       - in: query
         name: skip
-        description: number of records to skip for pagination.
+        description: Number of records to skip for pagination.
         required: false
         type: integer
         format: int32
@@ -118,7 +123,7 @@ paths:
         format: int32
         minimum: 0
         maximum: 200
-
+        
       responses:
         "200":
           description: Search results matching critera.
@@ -127,11 +132,11 @@ paths:
         default:
           description: Unexpected error
           schema:
-            $ref: "#/definitions/Error"
-
+            $ref: "#/definitions/Error"  
+    
     post:
       tags:
-      - Users, authentication required
+      - Users
       security:
         - oauth: []
       summary: Adds a user.
@@ -143,8 +148,8 @@ paths:
       - application/json
       parameters:
       - in: body
-        name: api
-        description: User to be added. User's ```id``` will be generated by the system, thus it cannot be given.
+        name: user
+        description: User to be added. User's ```id``` will be generated by the system, thus it cannot be given. 
         schema:
           $ref: '#/definitions/new_user'
       responses:
@@ -160,9 +165,48 @@ paths:
           description: Unexpected error
           schema:
             $ref: "#/definitions/Error"
-
-
+  
+  
   /users/{id}:
+    get:
+      tags:
+      - Users, authentication required
+      security:
+        - api_key: []
+      summary: List and search users.
+      operationId: searchUser
+      description: |
+        By passing in the users id, you can search for users one by one in the system. User can belong to one or more organizations. 
+        
+        ----
+        
+          ** A Simple example ** 
+        
+          List one user data 
+        
+          ``` GET /users/7L4jNtdfNFGH3igPs ```
+        
+        ----
+      
+      produces:
+      - application/json
+      parameters:
+      - in: path
+        name: id
+        description: Id of the user to fetch. 
+        required: true
+        type: string
+
+      responses:
+        "200":
+          description: Search results matching critera.
+          schema:
+            $ref: "#/definitions/get_user_data"
+        default:
+          description: Unexpected error
+          schema:
+            $ref: "#/definitions/Error"  
+
     put:
       tags:
       - Users, authentication required
@@ -170,7 +214,7 @@ paths:
         - oauth: []
       summary: Updates a user.
       operationId: updateUser
-      description: Updates a user in the system. Parameters username, password and company can be updated.
+      description: Updates the identified user in the system. Parameters username, password and company can be updated.
       consumes:
       - application/json
       produces:
@@ -178,12 +222,11 @@ paths:
       parameters:
       - in: path
         name: id
-        description: Id of the user to update.
+        description: Id of the user to update. 
         required: true
-        type: integer
-        format: int64
+        type: string
       - in: body
-        name: api
+        name: user
         description: User to update. At least one of parameters username, company or password is given.
         schema:
           $ref: '#/definitions/update_user'
@@ -200,7 +243,6 @@ paths:
           description: Unexpected error
           schema:
             $ref: "#/definitions/Error"
-
 
     delete:
       tags:
@@ -219,8 +261,7 @@ paths:
         name: id
         description: Id of the user to delete.
         required: true
-        type: integer
-        format: int64
+        type: string
       responses:
         "200":
           description: User deleted
@@ -232,31 +273,31 @@ paths:
           description: Unexpected error
           schema:
             $ref: "#/definitions/Error"
-
+      
   /users/updates/:
     get:
       tags:
-      - Users
+      - Users, authentication required
       security:
         - api_key: []
       summary: List updated users.
       operationId: listUsers
       description: |
-        By passing in the appropriate options, you can get a list of created users in the system. User can belong to one or more organizations. <br />Dates and times are returned in ISODate format, e.g. ```2012-07-14T01:00:00+01:00```.
-
+        By passing in the appropriate options, you can get a list of created users in the system. User can belong to one or more organizations. <br />Dates and times are returned in ISODate format, e.g. ```2012-07-14T01:00:00+01:00```. 
+        
         By default method returns maximum of 100 items. The default value for applied timeframe is past 7 days (see parameter ```since```).
-
+        
         ----
-
+        
         ** A Simple example **
-
-        List maximum of 50 created users
-
+        
+        List maximum of 50 created users 
+        
         ``` GET /users/updates?limit=50```
-
+        
         ----
         ** Get only new users created during past week **
-
+        
         ``` GET /users/updates?since=7```
 
         ----
@@ -265,12 +306,14 @@ paths:
       parameters:
       - in: query
         name: since
-        description: Pass an optional delimiter as days - result will contain created users during given time frame from today. Parameter value is given as an integer.
+        description: Pass an optional delimiter as days - result will contain created users during given time frame from today. Parameter value is given as an integer.  
         required: false
-        type: string
+        type: integer
+        format: int32
+        minimum: 0
       - in: query
         name: organization_id
-        description: Pass an optional id of the organization. Parameter will limit results to the given organization. *When this  parameter is used, other parameters are obsolete*.
+        description: Pass an optional id of the organization. Parameter will limit results to the given organization. *When this  parameter is used, other parameters are obsolete*. 
         required: false
         type: string
       - in: query
@@ -302,10 +345,10 @@ paths:
           description: Unexpected error
           schema:
             $ref: "#/definitions/Error"
-
-
+   
+          
 securityDefinitions:
-  api_key:
+  api_key: 
     type: apiKey
     name: api_key
     in: query
@@ -313,81 +356,10 @@ securityDefinitions:
     type: oauth2
     authorizationUrl: http://api.example.com/api/auth/
     flow: implicit
-    scopes:
+    scopes: 
       write:admins: "update/add data"
-
+      
 definitions:
-  api:
-    required:
-    - name
-    - api_endpoint_url
-    properties:
-      id:
-        type: string
-      name:
-        type: string
-        example: My REST API
-      description:
-        type: string
-        example: My REST API description
-      api_endpoint_url:
-        type: string
-        format: url
-        example: https://my.rest.api.com/v1
-        description: We only support HTTPS.
-      lifecycle:
-        type: string
-        enum:
-          - Design
-          - Development
-          - Testing
-          - Production
-          - Deprecated
-      created_at:
-        type: string
-        example: "2012-07-14T01:00:00+01:00"
-        description: Dates and times are stored in ISODate format, for example "2012-07-14T01:00:00+01:00".
-      updated_at:
-        type: string
-        example: "2012-07-14T01:00:00+01:00"
-        description: Dates and times are stored in ISODate format, for example "2012-07-14T01:00:00+01:00".
-      organization:
-        type: string
-        format: uuid
-        description: API can only belong to one organization.
-        example: 1234
-
-  org:
-    required:
-    - name
-    - url
-    properties:
-      id:
-        type: string
-      name:
-        type: string
-        example: Organization Name
-      url:
-        type: string
-        format: url
-        example: https://apinf.io/organizations/apinf
-      contact_name:
-        type: string
-      contact_phone:
-        type: string
-        example: +358 40 123 4567
-      contact_email:
-        type: string
-        example: firstname.surname@isp.fi
-      created_at:
-        type: string
-        example: "2012-07-14T01:00:00+01:00"
-        description: Dates and times are stored in ISODate format, for example "2012-07-14T01:00:00+01:00".
-      updated_at:
-        type: string
-        example: "2012-07-14T01:00:00+01:00"
-        description: Dates and times are stored in ISODate format, for example "2012-07-14T01:00:00+01:00".
-
   new_user:
     required:
     - username
@@ -403,7 +375,7 @@ definitions:
       password:
         type: string
         example: mypassword
-
+  
   update_user:
     required:
     - username
@@ -438,8 +410,8 @@ definitions:
   get_user_created_at:
     type: string
     example: "2012-07-14T01:00:00+01:00"
-    description: Dates and times are stored in ISODate format, for example "2012-07-14T01:00:00+01:00".
-
+    description: Dates and times are stored in ISODate format, for example "2012-07-14T01:00:00+01:00". 
+  
   get_user_profile:
     type: object
     properties:
@@ -452,7 +424,7 @@ definitions:
     items:
       type: object
       properties:
-        organization_id:
+        organization_id: 
           type: string
           example: eFsLsJH3JTos4HfLc
         organization_name:
@@ -472,14 +444,14 @@ definitions:
       profile:
         $ref: '#/definitions/get_user_profile'
       email:
-        $ref: '#/definitions/post_user_email_address'
+        $ref: '#/definitions/post_user_email_address'    
 
   post_user_email_address:
     type: array
     items:
       type: object
       properties:
-        address:
+        address: 
           type: string
           example: sam.won@apinf.io
         verified:
