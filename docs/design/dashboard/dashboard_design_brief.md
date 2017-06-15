@@ -24,6 +24,12 @@ In order to agree on what to build, it is important to define basic terminology.
 >
 > -- Hetherington, V. (September 23). *[The Dashboard Demystified: What is a Dashboard?](http://www.dashboardinsight.com/articles/digital-dashboards/fundamentals/the-dashboard-demystified.aspx)* Retrieved June 02, 2009
 
+---
+
+> the dashboard should provide all the information that the user needs for a specific analysis in front of his or her eyes.
+>
+> Choudhury, Shilpi. ["Four Cognitive Design Guidelines for Effective Information Dashboards."](http://uxmag.com/articles/four-cognitive-design-guidelines-for-effective-information-dashboards) UX Magazine. N.p., 18 June 2014. Web. 15 June 2017. 
+
 The APInf Dashboard Design Working Group came up with the following concepts we believe define the concept of a Dashboard:
 
 - one view
@@ -45,6 +51,12 @@ The APInf Dashboard Design Working Group came up with the following concepts we 
 > [Data visualisation is] the representation and presentation of data in order to facilitate understanding
 >
 > -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
+
+---
+
+> We are wired for visualization.
+>
+> UX Magazine: [Four Cognitive Design Guidelines for Effective Information Dashboards](http://uxmag.com/articles/four-cognitive-design-guidelines-for-effective-information-dashboards)
 
 ### Situation awareness
 > [Situation awareness] is informed by a particular set of facts that add up to an overview of the situation. People want those facts to be readily avaiilable, displayed in a way that makes them easy and efficient to percieve, understand, and if necessary, respond. That display is a dashboard.
@@ -112,6 +124,8 @@ After a brief, and slightly difficult, discussion, we came up with the following
   - HTML mock-ups
   - prototype web application
     - usability tests (notes from user observation sessions, interviews)
+    - Notes from [1st](https://github.com/apinf/docs/blob/master/docs/design/dashboard/Prototype-Testing-Asim.md) user interview
+    - Notes from [2nd] (https://github.com/apinf/docs/blob/master/docs/design/dashboard/Prototype-Testing-Jarkko.md) user interview.
   - improvements to/revitalization of dashboard implementation
 
 ### Resources
