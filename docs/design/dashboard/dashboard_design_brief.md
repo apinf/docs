@@ -24,6 +24,12 @@ In order to agree on what to build, it is important to define basic terminology.
 >
 > -- Hetherington, V. (September 23). *[The Dashboard Demystified: What is a Dashboard?](http://www.dashboardinsight.com/articles/digital-dashboards/fundamentals/the-dashboard-demystified.aspx)* Retrieved June 02, 2009
 
+---
+
+> the dashboard should provide all the information that the user needs for a specific analysis in front of his or her eyes.
+>
+> Choudhury, Shilpi. " Four Cognitive Design Guidelines for Effective Information Dashboards." UX Magazine. N.p., 18 June 2014. Web. 15 June 2017. 
+
 The APInf Dashboard Design Working Group came up with the following concepts we believe define the concept of a Dashboard:
 
 - one view
