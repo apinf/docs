@@ -28,7 +28,7 @@ In order to agree on what to build, it is important to define basic terminology.
 
 > the dashboard should provide all the information that the user needs for a specific analysis in front of his or her eyes.
 >
-> Choudhury, Shilpi. " Four Cognitive Design Guidelines for Effective Information Dashboards." UX Magazine. N.p., 18 June 2014. Web. 15 June 2017. 
+> Choudhury, Shilpi. ["Four Cognitive Design Guidelines for Effective Information Dashboards."](http://uxmag.com/articles/four-cognitive-design-guidelines-for-effective-information-dashboards) UX Magazine. N.p., 18 June 2014. Web. 15 June 2017. 
 
 The APInf Dashboard Design Working Group came up with the following concepts we believe define the concept of a Dashboard:
 
