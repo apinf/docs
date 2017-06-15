@@ -46,6 +46,12 @@ The APInf Dashboard Design Working Group came up with the following concepts we 
 >
 > -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
 
+---
+
+> We are wired for visualization.
+>
+> UX Magazine: [Four Cognitive Design Guidelines for Effective Information Dashboards](http://uxmag.com/articles/four-cognitive-design-guidelines-for-effective-information-dashboards)
+
 ### Situation awareness
 > [Situation awareness] is informed by a particular set of facts that add up to an overview of the situation. People want those facts to be readily avaiilable, displayed in a way that makes them easy and efficient to percieve, understand, and if necessary, respond. That display is a dashboard.
 >
