@@ -1,0 +1,48 @@
+*** Settings ***
+Library		Selenium2Library
+Suite Setup 	Go to homepage
+Suite Teardown 	Close All Browsers
+
+*** Variables ***
+${BROWSER} 	chrome
+${HOMEPAGE} 	http://localhost:3000
+${APIS}	https://nightly.apinf.io:3002/googol/
+*** Test Cases ***
+Login to apinf
+	Go to login
+	Login to apinf	asdas	asdasd
+
+Go to api
+	Go to api page
+	confirm page loaded	Kokeilen onneani
+
+Copy api url and paste to browser
+	copy api url and check it
+	confirm page loaded	Kokeilen onneani
+*** Keywords *** 
+Go to homepage
+	Open Browser	${HOMEPAGE} 	${BROWSER}
+
+Go to login
+	Click Element 	id=frontpage-button
+	Click Element	id=signin-button
+
+Login to apinf	
+	[Arguments]	${username}	${password}
+	Input Text	id=at-field-username_and_email	${username}
+	Input Password 	id=at-field-password	${password}
+	Click Button	id=at-btn
+
+Go to api page
+	Go To	${APIS}
+
+copy api url and check it
+	String apiurl = driver.findElement(By.id("api-url") ).getText();
+	Go To	apiurl
+
+confirm page loaded
+	[Arguments] 	${searchkey}
+	Wait Until Page Contains 	${searchkey}
+
+Logout of apinf
+	Click Element 	id=footer-signout
