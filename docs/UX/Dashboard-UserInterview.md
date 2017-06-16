@@ -4,7 +4,9 @@ Date: 20.06.2016
 
 ## High Priority Requirements:
  * List of APIs owned
- * Status of API: Good, Alert, Bad [Green, Yellow, Red]
+ * Status of API: 
+   * Good, Alert, Bad 
+   * [Green, Yellow, Red]
  * No. of errors associatesd (if any) --> as Overview information
  * Some comparison of usage from previous times: (last day, same day of last week, same day of last month, same day of last year, etc)
  * Overview Information: 
