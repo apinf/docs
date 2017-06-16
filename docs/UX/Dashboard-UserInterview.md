@@ -7,7 +7,11 @@ Date: 20.06.2016
  * Status of API: Good, Alert, Bad [Green, Yellow, Red]
  * No. of errors associatesd (if any) --> as Overview information
  * Some comparison of usage from previous times: (last day, same day of last week, same day of last month, same day of last year, etc)
- * Overview Information: Amount of Usage, Average Response Time, Errors (percentage of the overall requests), Unique Users
+ * Overview Information: 
+   * Amount of Usage, 
+   * Average Response Time, 
+   * Errors (percentage of the overall requests), 
+   * Unique Users
  * User Information: URL (Referrer header, source header)L if not available: IP address
  * Context Awareness: API name is enough
  * HTTP Status: how many are 200 and how many are 400
