@@ -12,13 +12,10 @@ Login to apinf
 	Go to login
 	Login to apinf	asdas	asdasd
 
-Go to api
+Go to api url
 	Go to api page
-	confirm page loaded	Kokeilen onneani
+	confirm page loaded	Kokeilen onnean
 
-Copy api url and paste to browser
-	copy api url and check it
-	confirm page loaded	Kokeilen onneani
 *** Keywords *** 
 Go to homepage
 	Open Browser	${HOMEPAGE} 	${BROWSER}
@@ -35,10 +32,6 @@ Login to apinf
 
 Go to api page
 	Go To	${APIS}
-
-copy api url and check it
-	String apiurl = driver.findElement(By.id("api-url") ).getText();
-	Go To	apiurl
 
 confirm page loaded
 	[Arguments] 	${searchkey}
