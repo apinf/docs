@@ -6,7 +6,6 @@ Suite Teardown 	Close All Browsers
 *** Variables ***
 ${BROWSER} 	chrome
 ${HOMEPAGE} 	http://localhost:3000
-${APINAME}	Kissa
 
 *** Test Cases ***
 Login to apinf
@@ -14,16 +13,16 @@ Login to apinf
 	Login to apinf	asdas	asdasd
 	confirm page loaded	Users
 
-#Create new api no name (fail)
-	#Create API	${EMPTY}	asdasd	https://www.google.com
-	#confirm page loaded	is required
-
-Create new api no url (fail)
-	Create API	asdasd	${EMPTY}
+Create new api no name (negative)
+	Create API	${EMPTY}	asdasdasd	https://www.google.com
 	confirm page loaded	is required
 
-Create new api (pass)
-	Create API	${EMPTY}	https://www.google.com
+Create new api no url (negative)
+	Create API	Kissa	asdasd	${EMPTY}
+	confirm page loaded	is required
+
+Create new api (positive)
+	Create API	Kissa	${EMPTY}	https://www.google.com
 	confirm page loaded	Kappa
 
 #Delete api
@@ -48,14 +47,14 @@ confirm page loaded
 	Wait Until Page Contains 	${searchkey}
 
 Create API
-	[Arguments] 	${description}	${url}
+	[Arguments] 	${name}	${description}	${url}
 	Click Element 	id=addapi-button
-	Input Text 	id=api-name	${APINAME}
+	Input Text 	id=api-name	${name}
 	Input Text	id=api-description	${description}
 	Input Text	id=api-url	${url}
 	Click Element	id=submitapi-button
 
-#Delete API
+Delete API
 	Go To	http://localhost:3000/apis/kissa
 	Wait Until Page Contains	media
 	Select From List	id=api-settings-tab

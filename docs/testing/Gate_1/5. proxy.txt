@@ -14,7 +14,7 @@ Login to apinf
 
 Go to api url
 	Go to api page
-	confirm page loaded	Kokeilen onnean
+	confirm page loaded	Gmail
 
 *** Keywords *** 
 Go to homepage
