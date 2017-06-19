@@ -43,6 +43,9 @@ And also can include the particular path and method for which, the error calls a
 This helps to correlate the Number of Calls chart and Response Time charts in order to trace the error call.
 - Participant wishes to see failed/error/slow calles in the number of call charts
 - Participant might like a Monthly view that he sees occassionally to find out APi usage pattern.
+- to detect API hard problems (e.g. performance degrade), details such as HTTPS handshake durations, DNS lookup duration, etc. might be needed.
+
+nazia 10:25 AM
 
 
 
