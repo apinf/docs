@@ -43,6 +43,17 @@ And also can include the particular path and method for which, the error calls a
 This helps to correlate the Number of Calls chart and Response Time charts in order to trace the error call.
 - Participant wishes to see failed/error/slow calles in the number of call charts
 - Participant might like a Monthly view that he sees occassionally to find out APi usage pattern.
+- to detect API hard problems (e.g. performance degrade), details such as HTTPS handshake durations, DNS lookup duration, etc. might be needed.
+
+**Question 11: Please give your feedback with this (2nd version) of Dashboard?**
+- Participant's 1st impression of the wireframe is that it looks too crowdy
+- It is hard to see and understand which numbers and visualization is related to each other and how?
+- Participant emphasizes more on the numbers and they should be the 1st thing to attract his attention
+- The small trends graph can be used if they don't compromise the readability.
+- For participant, the numbers should be the main thing to focus first in the 1st glance. The trends are optional.
+There is always a choice between percentage with up/down arroaw and small trend charts.
+- The rating information and bookmarking information are not needed in dashboard. They can be in the details view.
+- Participant wishes to see colors used to represent the number instead of bullet points to indicate status of an API.
 
 
 

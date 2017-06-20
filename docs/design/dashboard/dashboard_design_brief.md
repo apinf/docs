@@ -125,7 +125,8 @@ After a brief, and slightly difficult, discussion, we came up with the following
   - prototype web application
     - usability tests (notes from user observation sessions, interviews)
     - Notes from [1st](https://github.com/apinf/docs/blob/master/docs/design/dashboard/Prototype-Testing-Asim.md) user interview
-    - Notes from [2nd] (https://github.com/apinf/docs/blob/master/docs/design/dashboard/Prototype-Testing-Jarkko.md) user interview.
+    - Notes from [2nd](https://github.com/apinf/docs/blob/master/docs/design/dashboard/Prototype-Testing-Jarkko.md) user interview.
+    - Notes from [3rd](https://github.com/apinf/docs/blob/master/docs/design/dashboard/Prototype-Testing-Vesa.md) user interview.
   - improvements to/revitalization of dashboard implementation
 
 ### Resources
