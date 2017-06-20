@@ -78,18 +78,37 @@ But this won't happen if downtime is not shown.
 - On the otherhand if a backend is down, he can't fix it in the platform. the dashboard should be working as a messenger to inform the participant about it.
 - However, if there is broken user management, down proxy or broken API keys, dashboard should let him know about these.
 
-**Question 14: (facilitator shows the 2nd version of wireframe) Here informaton about bookmarsk, average rating, numbers with percentage and graph are shown.
+**Question 14: (facilitator shows the 2nd version of wireframe) Here informaton about bookmarks, average rating, numbers with percentage and graph are shown.
 What do you think about this?**
 - participants find the information too much
-- (in comparison with 1st wireframe) there is too many things to look at the 1st glance.
+- (in comparison with 1st wireframe)For each API, there is too many things to look at the 1st glance.
 - This makes u stop and think what is a particular information about and how does it map with other elements, even with other APIs.
 - the graphs don't add anything special or are informative in temrs of information.
 - Participnat doesn't like too many graphs in the same place.
 
 **Question 15: (facilitator shows the 2nd version of details view) Here the details view shows some combined problems of the APIs. (like https timeout, downtime, etc.)
-is it useful to you?
+is it useful to you?**
 - This is useful for the participnat. As he is taking care of his customers he need to know about the problems that are arising.
+- The developers using his APIs get affected with the problems, so thi is important for him to know.
 
-** Question 15: 
+** Question 16: If there is a list of problems given in detailed view, would you like to prioritize over the graphs? perhaps
+stating them before the graphs are shown?**
+- If there are some serious problems, (e.g an API is unreachable to developers over the week) participant would like to know about it
+immediately.
+
+** Question 17: For monitoring part, you want to spend as little time as possible to understand if everything is OK?
+How much time would you like to spend in dashboard to understand this?**
+- When participant starts his APi, he wants to see how popular it grows among users
+- When developers are using the API and starting to make more calls, participant wishes to know if they are facing problems, what problems they are facing. Also participant wants to know how happy the customers are.
+
+** Question 18: (Observer) How do you wish to see the users? specific users (id, email, api keys) making call to your API?
+Or actual services using your API?**
+- If Participnat has some unique APIs, he might want to see who follows it. 
+May be categorize the users based on number of calls made (heavy users).
+
+** Question 19: (Observer) Is seeing historical data as week based trends is enough for you? Or would you prefer both weekly and monthly?**
+- For participant, it is enought to see the trend in weekly basis.
+
+
 
 
