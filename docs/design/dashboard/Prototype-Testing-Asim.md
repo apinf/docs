@@ -70,6 +70,15 @@ He wants to get the data the last time it was updated.
 - He suggested for a date picker where he can configure a specific week with start and end dates to see the data
 - For the participant, real time data is more important than weekly data because he treats weekly data as "good-to-know" information.
 
+**Question 11: What is your feedback about (2nd version of) Dashboard Overview?**
+- Participant preferred the former version as numbers were visible and big enough to draw the attention.
+- The 1st version would be easier to develop as responsive UI.
+- Participant might like to use the trend lines, but that is secondary.
+- Participant is not in the favor of having icons associated with specific metrics. (e.g. he pointed out a phone receiver with API calls
+where the usual case, it is not a phone call). He is concerned with the correctness of the metaphore. He'd prefer Text only naming and descriptions of metrics/elements as there may arise to complexity of choosing metaphorically correct icons.
+- Participant favors other way of highlighting an API that needs attention. If only red/yellow bullets are used, this might skip 
+his attention or he may ignore it altogether.
+
 
 
 
