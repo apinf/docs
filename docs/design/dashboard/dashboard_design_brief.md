@@ -94,6 +94,13 @@ We explored the above questions during a workshop (on 12.06.2017), and came up w
 
 ![APInf user personas and information needs](https://cdn.rawgit.com/apinf/docs/master/docs/design/dashboard/APInfInformationDashboard-stakeholderNeeds.png)
 
+Additional notes from in-house discussions:
+
+- API/Organization owner needs to see
+    - errors/problems at a glance (particularly red error flags)
+    - problems are on top of list
+    - access details view on demand
+
 ### Constraints
 
 * What are some limitations of this project?
