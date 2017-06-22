@@ -46,13 +46,13 @@ Under **In Review** column,all PRs that are ready to be merged, along with the c
 
 - A [PR](https://github.com/apinf/open-api-designer/pull/160) have been merged to make big improvements in the UI of OpenAPI Designer.
 The new UI can be found in [here](https://oai.maunium.net/feature/paths-form-mvp/#/paths)
-This would bring changes in the Output view.
+This would bring changes in the **Output view**.
 Now fields that are left empty will not appear in the output view.
-Path module for the OpenAPI Designer have been implemented. Now each path would be able to list only one instance of each HTTP methods.
-A module to declare global definitions have been implemented. The definitions can now be referenced in Response subfield under a method.
-In next sprint, functionality for using global definitions in parameters would be implemented.
-Also tags defined can be referenced now in related fields.
-A list of most populat mime types now appear as suggestion when users type in related fields. On typing an invalid mime type, error is given along with the input.
+**Path module** for the OpenAPI Designer have been implemented. Now each path would be able to list only one instance of each HTTP methods.
+A module to declare global **Definitions** have been implemented. The definitions can now be referenced in **Response** subfield under a method.
+In next sprint, functionality for using global definitions in **Parameters** would be implemented.
+Also **Tags** defined can be referenced now in related fields.
+A list of most populat **Mime types** now appear as suggestion when users type in related fields. On typing an invalid mime type, error is given along with the input.
 
 - A new [Repository](https://github.com/apinf/openapi-hub) have been created for Backend functionality of OpenAPI Designer. 
 The backend would store specifications for OpenAPI
