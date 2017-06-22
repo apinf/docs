@@ -32,6 +32,9 @@ It also lets him to use the url and give to developers to show where the problem
 **Question 9: what improvements would you like to see there (1st wireframe)?**
 - Participant is in more favor of seeing Errors instead of number of unique users. He's rather see errors (e.g. failed calles, etc) instead of errors.
 - Participant wants indications about things that should have in attention. If cards are all in same tone, he might not be figure out about which APIs he should pay attention to.
+- As a part of customization, participant would like to have one or multiple APIs to monitor as sticky.
+That is they should always appear on top.
+This is helpful when a new API is published and is needed to monitor to know how it performs on the fly.
 
 **Question 10: what you like about the (2nd wireframe)? Are the shown information enough to know about your APi statuses?**
 - yes, may be.
