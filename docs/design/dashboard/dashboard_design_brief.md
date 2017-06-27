@@ -164,7 +164,7 @@ After a brief, and slightly difficult, discussion, we came up with the following
 
 ---
 
-> A worthwhile data visualization project should commence from a starting point of curiosity, [since the goal of] data visualisation is to facilitate understanding.
+> [the goal of] data visualisation is to facilitate understanding.
 >
 > -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
 
