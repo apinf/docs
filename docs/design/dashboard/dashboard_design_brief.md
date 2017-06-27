@@ -174,10 +174,13 @@ Based on user interviews (in-house employes chosen to represent customer roles),
 At a high level, at least the following categories of understanding are important:
 
 - errors and trouble
-    - performance (slowdowns, spikes in traffic, etc.)
+    - performance (latency, traffic, etc.)
     - errors
+    - stability (rapid changes, patterns, outages, etc.)
+    - broken user management (authentication)
  - patterns and trends over time
- - compare historic values?
+ - compare historic values
+   - spikes, dips, limits, special cases (outliers), common values (mean/median)
 
 ### Important details
 Several specific details would be useful to see:
@@ -185,16 +188,23 @@ Several specific details would be useful to see:
 - which API needs immediate attention
   - problematic APIs appearing on top of the list
   - see a quick number of APIs that need immediate action before seeing the overview
+  - downtime (current and past)
 - number of calls
   - the number of failed calls
   - see failed/error/slow calls
 - average response time
-- the **correlation** between response time and failed calls
-- details about slow/failed/error calls and their time for a parcitular API
-- details such as HTTPS handshake durations, DNS lookup duration, etc. might be needed.
 - unique users (possibly by API key)
   - unique user may be needed for a specific API only
   - some APIs may not have need for unique users
+- the **correlation** between response time and failed calls
+- details about slow/failed/error calls and their time for a parcitular API
+- details such as HTTPS handshake durations, DNS lookup duration, etc. might be needed
+- how happy the customers are
+  - i.e. average rating? number of feedback reports?
+- how popular API grows among users
+  - number of unique users
+  - number of bookmarks (see who follows API)?
+  - number of visits to API Profile?
 
 ### Useful capabilities
 The following abilities might be useful to one or more of our hypothetical user roles:
@@ -227,6 +237,8 @@ The following abilities might be useful to one or more of our hypothetical user 
 - consider complexity of choosing metaphorically correct icons
   - prefer text descriptions
   - icons may be confusing
+- get all possible data for an API
+- might want to **predict** the next (abnormal) rise/fall of any metrics
     
 ## Vision
 > What you need to consider here is what can you envision being the most suitable type(s) of visualisation that might be most capable of accomplishing what you intend.
