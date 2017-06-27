@@ -170,34 +170,64 @@ After a brief, and slightly difficult, discussion, we came up with the following
 
 Based on user interviews (in-house employes chosen to represent customer roles), we have identified several user goals. 
 
+### High-level goals
 At a high level, at least the following categories of understanding are important:
 
-- see errors and trouble
+- errors and trouble
     - performance (slowdowns, spikes in traffic, etc.)
     - errors
+ - patterns and trends over time
+ - compare historic values?
 
+### Important details
 Several specific details would be useful to see:
 
 - which API needs immediate attention
-    - problematic APIs appearing on top of the list
-    - see a quick number of APIs that need immediate action before seeing the overview
-- the number of failed calls
-    - see failed/error/slow calles
-- the correlation between response time and slow/failed calls in the charts
-- a list of slow/faild/error calls and their time for a parcitular API
+  - problematic APIs appearing on top of the list
+  - see a quick number of APIs that need immediate action before seeing the overview
+- number of calls
+  - the number of failed calls
+  - see failed/error/slow calls
+- average response time
+- the **correlation** between response time and failed calls
+- details about slow/failed/error calls and their time for a parcitular API
 - details such as HTTPS handshake durations, DNS lookup duration, etc. might be needed.
-- numbers should be the main thing to getfocus (1st glance)
+- unique users (possibly by API key)
+  - unique user may be needed for a specific API only
+  - some APIs may not have need for unique users
 
+### Useful capabilities
 The following abilities might be useful to one or more of our hypothetical user roles:
 
 - filter the APIs displayed
 - use the url to show developers where the problem is
 - automatic refresh of chart data (i.e. real-time dashboard)
+  - show data that is updated in 5 minutes or less (as real time or possible)
+  - real time data is more important for monitoring information (e.g. errors and alerts)
+- historic data (e.g. daily, weekly, or monthly aggregations) for showing trends, changes, spikes, etc. over time
+  - weekly aggregations: from now until the same time in previous week
+  - montly aggregations: from now until same time one month ago (30 days?)
 - indications about things that need attention
 - try not to overcrowd the display
 - colors are useful to indicate status of an API (for users who can differentiate red from green)
-
-
+  - indications should be color coded to notify whch is a positive (interpreted as 'good') change and which is not
+- manually configure overview information that would be appearing for each API
+  - e.g. number of calls, avg. response time, unique users, etc.
+- set threshold values to [filter] a specific metric (especially for avg. response time)
+- visual indicator if any of the metric values exceeds some predefined threshold
+- numbers should be the main thing to get focus (1st glance)
+- try to keep user in one context (i.e. no navigation, or change in view)
+  - helps user stay 'oriented'
+  - no need to fetch and repopulate all the data
+- see metrics for individual endpoints (not just at the 'API' level of aggregation)
+- ability to select specific timeframe
+  - e.g. specific week, month, year from historic data
+  - possibly a date picker with start and end dates
+- responsive user interface
+- consider complexity of choosing metaphorically correct icons
+  - prefer text descriptions
+  - icons may be confusing
+    
 ## Vision
 > What you need to consider here is what can you envision being the most suitable type(s) of visualisation that might be most capable of accomplishing what you intend.
 >
