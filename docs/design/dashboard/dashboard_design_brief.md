@@ -168,7 +168,9 @@ After a brief, and slightly difficult, discussion, we came up with the following
 >
 > -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
 
-Based on user interviews (in-house employes chosen to represent customer roles), we have identified several user goals. At a high level, at least the following categories of understanding are important:
+Based on user interviews (in-house employes chosen to represent customer roles), we have identified several user goals. 
+
+At a high level, at least the following categories of understanding are important:
 
 - see errors and trouble
     - performance (slowdowns, spikes in traffic, etc.)
@@ -176,13 +178,13 @@ Based on user interviews (in-house employes chosen to represent customer roles),
 
 Several specific details would be useful to see:
 
-- knowing which API needs immediate attention
+- which API needs immediate attention
     - problematic APIs appearing on top of the list
     - see a quick number of APIs that need immediate action before seeing the overview
-- see the number of failed calls
+- the number of failed calls
     - see failed/error/slow calles
-- see the correlation between response time and slow/failed calls in the charts
-- see a list of slow/faild/error calls and their time for a parcitular API
+- the correlation between response time and slow/failed calls in the charts
+- a list of slow/faild/error calls and their time for a parcitular API
 - details such as HTTPS handshake durations, DNS lookup duration, etc. might be needed.
 - numbers should be the main thing to getfocus (1st glance)
 
