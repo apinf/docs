@@ -168,8 +168,33 @@ After a brief, and slightly difficult, discussion, we came up with the following
 >
 > -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
 
-### Discussion questions
-- What types of understanding to we want to help facilitate?
+Based on user interviews (in-house employes chosen to represent customer roles), we have identified several user goals. At a high level, at least the following categories of understanding are important:
+
+- see errors and trouble
+    - performance (slowdowns, spikes in traffic, etc.)
+    - errors
+
+Several specific details would be useful to see:
+
+- knowing which API needs immediate attention
+    - problematic APIs appearing on top of the list
+    - see a quick number of APIs that need immediate action before seeing the overview
+- see the number of failed calls
+    - see failed/error/slow calles
+- see the correlation between response time and slow/failed calls in the charts
+- see a list of slow/faild/error calls and their time for a parcitular API
+- details such as HTTPS handshake durations, DNS lookup duration, etc. might be needed.
+- numbers should be the main thing to getfocus (1st glance)
+
+The following abilities might be useful to one or more of our hypothetical user roles:
+
+- filter the APIs displayed
+- use the url to show developers where the problem is
+- automatic refresh of chart data (i.e. real-time dashboard)
+- indications about things that need attention
+- try not to overcrowd the display
+- colors are useful to indicate status of an API (for users who can differentiate red from green)
+
 
 ## Vision
 > What you need to consider here is what can you envision being the most suitable type(s) of visualisation that might be most capable of accomplishing what you intend.
