@@ -32,7 +32,7 @@ Aseem Shakuntal
 
     - Estimated 20 hours
 
-**# 202 Write unit tests to ensure API Umbrella user is created when Apinf user signs up**
+**# 202 Write unit tests to ensure API Umbrella user is created when APInf user signs up**
 
     - Assigned to Damir
 
@@ -146,7 +146,7 @@ Aseem Shakuntal
 
     -  Estimated 8 hours
 
-**# 111 Document Apinf and API Umbrella high-level architecture  **
+**# 111 Document APInf and API Umbrella high-level architecture  **
 
     -  Assigned to Aseem 
 

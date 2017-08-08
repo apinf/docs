@@ -42,7 +42,7 @@ There are a lot of new internal teams.
 - Articulating customer needs to internal teams
 
 ### Design and marketing
-- distinguish Apinf in marketplace
+- distinguish APInf in marketplace
 - appeal to customer
 
 # Decisions and Actions
