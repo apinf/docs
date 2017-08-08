@@ -5,9 +5,6 @@ python:
 script:
   - mkdocs build
 
-after_success:
-  - find site
-
 deploy:
   provider: pages
   github_token: $GITHUB_TOKEN
