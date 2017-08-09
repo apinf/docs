@@ -1,4 +1,4 @@
-# 2015-01-04 Meeting minutes: Sprint 20 planning
+# 2016-01-04 Meeting minutes: Sprint 20 planning
 
 ## Present:
 * Brylie Oxley
