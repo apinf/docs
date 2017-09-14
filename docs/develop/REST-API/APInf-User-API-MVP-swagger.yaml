@@ -35,7 +35,7 @@ info:
   
     ### API keys, authentication and dates 
     
-    * We require API key in all GET methods. You can get it by creating account to Apinf system. Create it now from https://apinf.io/sign-up 
+    * We require API key in all GET methods. You can get it by creating account to APInf system. Create it now from https://apinf.io/sign-up 
     * PUT and DELETE methods require valid authentication. 
     * User with role Admin can manage other users data, too. Other users can manage their own data only.
     * Dates and times are returned in ISODate format, for example "2012-07-14T01:00:00+01:00". 

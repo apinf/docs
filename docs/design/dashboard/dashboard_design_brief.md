@@ -24,6 +24,12 @@ In order to agree on what to build, it is important to define basic terminology.
 >
 > -- Hetherington, V. (September 23). *[The Dashboard Demystified: What is a Dashboard?](http://www.dashboardinsight.com/articles/digital-dashboards/fundamentals/the-dashboard-demystified.aspx)* Retrieved June 02, 2009
 
+---
+
+> the dashboard should provide all the information that the user needs for a specific analysis in front of his or her eyes.
+>
+> Choudhury, Shilpi. ["Four Cognitive Design Guidelines for Effective Information Dashboards."](http://uxmag.com/articles/four-cognitive-design-guidelines-for-effective-information-dashboards) UX Magazine. N.p., 18 June 2014. Web. 15 June 2017. 
+
 The APInf Dashboard Design Working Group came up with the following concepts we believe define the concept of a Dashboard:
 
 - one view
@@ -45,6 +51,12 @@ The APInf Dashboard Design Working Group came up with the following concepts we 
 > [Data visualisation is] the representation and presentation of data in order to facilitate understanding
 >
 > -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
+
+---
+
+> We are wired for visualization.
+>
+> UX Magazine: [Four Cognitive Design Guidelines for Effective Information Dashboards](http://uxmag.com/articles/four-cognitive-design-guidelines-for-effective-information-dashboards)
 
 ### Situation awareness
 > [Situation awareness] is informed by a particular set of facts that add up to an overview of the situation. People want those facts to be readily avaiilable, displayed in a way that makes them easy and efficient to percieve, understand, and if necessary, respond. That display is a dashboard.
@@ -82,6 +94,13 @@ We explored the above questions during a workshop (on 12.06.2017), and came up w
 
 ![APInf user personas and information needs](https://cdn.rawgit.com/apinf/docs/master/docs/design/dashboard/APInfInformationDashboard-stakeholderNeeds.png)
 
+Additional notes from in-house discussions:
+
+- API/Organization owner needs to see
+    - errors/problems at a glance (particularly red error flags)
+    - problems are on top of list
+    - access details view on demand
+
 ### Constraints
 
 * What are some limitations of this project?
@@ -113,6 +132,8 @@ After a brief, and slightly difficult, discussion, we came up with the following
   - prototype web application
     - usability tests (notes from user observation sessions, interviews)
     - Notes from [1st](https://github.com/apinf/docs/blob/master/docs/design/dashboard/Prototype-Testing-Asim.md) user interview
+    - Notes from [2nd](https://github.com/apinf/docs/blob/master/docs/design/dashboard/Prototype-Testing-Jarkko.md) user interview.
+    - Notes from [3rd](https://github.com/apinf/docs/blob/master/docs/design/dashboard/Prototype-Testing-Vesa.md) user interview.
   - improvements to/revitalization of dashboard implementation
 
 ### Resources
@@ -143,13 +164,82 @@ After a brief, and slightly difficult, discussion, we came up with the following
 
 ---
 
-> A worthwhile data visualization project should commence from a starting point of curiosity, [since the goal of] data visualisation is to facilitate understanding.
+> [the goal of] data visualisation is to facilitate understanding.
 >
 > -- Kirk, A. (2016). Data visualisation: a handbook for data driven design. Los Angeles: Sage Publications.
 
-### Discussion questions
-- What types of understanding to we want to help facilitate?
+Based on user interviews (in-house employes chosen to represent customer roles), we have identified several user goals. 
 
+### High-level goals
+At a high level, at least the following categories of understanding are important:
+
+- errors and trouble
+    - performance (latency, traffic, etc.)
+    - errors
+    - stability (rapid changes, patterns, outages, etc.)
+    - broken user management (authentication)
+ - patterns and trends over time
+ - compare historic values
+   - spikes, dips, limits, special cases (outliers), common values (mean/median)
+
+### Important details
+Several specific details would be useful to see:
+
+- which API needs immediate attention
+  - problematic APIs appearing on top of the list
+  - see a quick number of APIs that need immediate action before seeing the overview
+  - downtime (current and past)
+- number of calls
+  - the number of failed calls
+  - see failed/error/slow calls
+- average response time
+- unique users (possibly by API key)
+  - unique user may be needed for a specific API only
+  - some APIs may not have need for unique users
+- the **correlation** between response time and failed calls
+- details about slow/failed/error calls and their time for a parcitular API
+- details such as HTTPS handshake durations, DNS lookup duration, etc. might be needed
+- how happy the customers are
+  - i.e. average rating? number of feedback reports?
+- how popular API grows among users
+  - number of unique users
+  - number of bookmarks (see who follows API)?
+  - number of visits to API Profile?
+
+### Useful capabilities
+The following abilities might be useful to one or more of our hypothetical user roles:
+
+- filter the APIs displayed
+- use the url to show developers where the problem is
+- automatic refresh of chart data (i.e. real-time dashboard)
+  - show data that is updated in 5 minutes or less (as real time or possible)
+  - real time data is more important for monitoring information (e.g. errors and alerts)
+- historic data (e.g. daily, weekly, or monthly aggregations) for showing trends, changes, spikes, etc. over time
+  - weekly aggregations: from now until the same time in previous week
+  - montly aggregations: from now until same time one month ago (30 days?)
+- indications about things that need attention
+- try not to overcrowd the display
+- colors are useful to indicate status of an API (for users who can differentiate red from green)
+  - indications should be color coded to notify whch is a positive (interpreted as 'good') change and which is not
+- manually configure overview information that would be appearing for each API
+  - e.g. number of calls, avg. response time, unique users, etc.
+- set threshold values to [filter] a specific metric (especially for avg. response time)
+- visual indicator if any of the metric values exceeds some predefined threshold
+- numbers should be the main thing to get focus (1st glance)
+- try to keep user in one context (i.e. no navigation, or change in view)
+  - helps user stay 'oriented'
+  - no need to fetch and repopulate all the data
+- see metrics for individual endpoints (not just at the 'API' level of aggregation)
+- ability to select specific timeframe
+  - e.g. specific week, month, year from historic data
+  - possibly a date picker with start and end dates
+- responsive user interface
+- consider complexity of choosing metaphorically correct icons
+  - prefer text descriptions
+  - icons may be confusing
+- get all possible data for an API
+- might want to **predict** the next (abnormal) rise/fall of any metrics
+    
 ## Vision
 > What you need to consider here is what can you envision being the most suitable type(s) of visualisation that might be most capable of accomplishing what you intend.
 >
