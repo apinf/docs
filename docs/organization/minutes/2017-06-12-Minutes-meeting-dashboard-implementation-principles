@@ -1,0 +1,48 @@
+# 2017-06-12 Minutes of meeting about dashboard implementation principles
+
+## Present
+Brylie, Nazia, Ilja, Philippe, Matti
+
+As an openning Brylie presented a document about dashboard development scope and purpose.
+Name was changed to "Apinf Dashboard".
+Brylie proposed the subjects of meeting to be:
+* a general discussion about "What dashboard is?".
+* a brief about design principles 
+
+Philippe raised a subject: What are user's needs and how to fulfill them?
+Brylie presented principles from a book "Data Visualization" by Andy Kirk.
+Ilja made a point about dashboard: it should provide information at a glance. He also was concerned whether word 'dashboard' narrows the design options.
+Philippe was thinking, that in case users need something else than dashboard, can it be called something else than dashboard.
+Brylie said the meeting goal to be define principles for developing dashboard.
+
+Brainstorming about stakeholders. A list was gathered: 
+* Organization manager
+* API owners
+* API consumers
+* platform admins
+* marketing people
+* Apitalists
+
+Discussion about whether a protopersona was needed for every stakeholder.
+Discussion about the level of stakeholder expertize affecting the stakeholder needs.
+* maybe different views are needed for different stakeholders
+* what data each stakeholder would need
+* Brainstorming about different types of data needed by different stakeholders.
+* perhaps a configurable dashboard, where user is able to give criteria for data or show/hide parts of data
+
+Discussion about constraints:
+* resources might be a bottleneck. How to estimate need of developers?
+* small group
+* use of third party software
+* time (1 month = 2 sprints) for basic functionality
+
+Discussion about ways to produce hte dashboard.
+Ilja gave an opinion about dashboard in nutshell: information - useful - at a glance - elegant
+
+Nazia: implement at first the basic information and widen the scope later
+Ilja: At first evaluation of what can and what can not be implemented because of limitations
+Nazia: maybe some kind of evaluation in also needed about other subjects related to dashboard
+
+
+
+

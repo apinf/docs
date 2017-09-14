@@ -127,7 +127,7 @@ The 3scale [frontpage](http://www.3scale.net/) is divided into several sections,
 
 ## Wishlist for frontpage
 
-Apinf homepage should contain the following elements:
+APInf homepage should contain the following elements:
 
 *   product logo: top left corner
 *   product name and mission statement: below logo
@@ -142,4 +142,4 @@ Apinf homepage should contain the following elements:
 
 See below for an initial idea of the page elements.
 
-![](https://hackpad-attachments.s3.amazonaws.com/apinf.hackpad.com_CVfSbN1cMk2_p.363414_1437119704904_Apinf front page_v3.png)
+![](https://hackpad-attachments.s3.amazonaws.com/apinf.hackpad.com_CVfSbN1cMk2_p.363414_1437119704904_APInf front page_v3.png)

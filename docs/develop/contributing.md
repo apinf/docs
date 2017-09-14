@@ -1,8 +1,8 @@
-# Apinf contributor guide
+# APInf contributor guide
 
 ## Join the discussion
-* Join the [Apinf Community portal](https://community.apinf.io) - ask and answer questions, share ideas, etc.
-* Hang out in the [Apinf IRC chatroom](https://webchat.freenode.net/?channels=apinf) ([#Apinf](irc://irc.freenode.net/apinf) on Freenode)
+* Join the [APInf Community portal](https://community.apinf.io) - ask and answer questions, share ideas, etc.
+* Hang out in the [APInf IRC chatroom](https://webchat.freenode.net/?channels=apinf) ([#APInf](irc://irc.freenode.net/apinf) on Freenode)
 
 ## Contribute effort
 * Report bugs on our [issue tracker](https://github.com/apinf/platform/issues/new)

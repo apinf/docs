@@ -66,9 +66,9 @@
 
 *   Created a schema for AdminUsers
 
-#102 Synchronize Admin User data between API Umbrella and Apinf, via REST interface
+#102 Synchronize Admin User data between API Umbrella and APInf, via REST interface
 
-Synchronized Admin User data between API Umbrella and Apinf
+Synchronized Admin User data between API Umbrella and APInf
 
 *   Re-wrote condition of adding item to the collection
 *   Fixes for other data synchronization
@@ -81,13 +81,13 @@ Synchronized Admin User data between API Umbrella and Apinf
 *   Made missing elements for mobile view
 *   Style fixes
 
-#123 Create LESS files for Apinf branding
+#123 Create LESS files for APInf branding
 
 *   Practicing with LESS
 
 **Taija**
 
-#129 Make a wishlist for Apinf frontpage content
+#129 Make a wishlist for APInf frontpage content
 
 *   Have created a [Hackpad document](/APInf-frontpage-CVfSbN1cMk2) that contains a list + image of elements that should be included on the frontpage.
 

@@ -46,7 +46,7 @@ Brylie Oxley
 * #488 Document standards for API metadata
   * Closed.
 * #485 Create Getting started package for developers
-  * Closed. Can be found from [Apinf contributer guide](https://github.com/apinf/docs/blob/master/docs/develop/contributing.md)
+  * Closed. Can be found from [APInf contributor guide](https://github.com/apinf/docs/blob/master/docs/develop/contributing.md)
   * This should be moved to the main repository. New task needed.
 * #484
   * Closed. Improvements e.g. in categorization.
@@ -63,16 +63,16 @@ Mauricio Vieira
   * Closed.
 * #357 Inform user of API Umbrella errors when submitting API Backends form
   * In progress.
-  
+
 Damir Mustafin
 -------------
 * #467 Add .txt parsing to the ace editor configuration importer
   * PR open.
 * #418 Study social networks for developers
   * See [Social networks for developers](https://apinf.hackpad.com/Social-networks-for-developers-bR4Cm7P9jBh)
-  
+
 Laura Ekman
 -------------
-  * #489 Promote Community portal on Social Media 
+  * #489 Promote Community portal on Social Media
     * One Facebook post and one [Tweet](https://twitter.com/APInf_io/status/651346905306411008) about the community
     * Laura also modified the icons of badges in [Discourse](http://community.apinf.io/badges)
