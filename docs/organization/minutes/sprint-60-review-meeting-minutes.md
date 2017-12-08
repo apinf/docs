@@ -1,6 +1,6 @@
 # Sprint 60 Review Meeting Minutes
-Date: 08.12.2017
-Participants: Antero, Dasha, Matti, Nazia, Vesa
+* Date: 08.12.2017
+* Participants: Antero, Dasha, Matti, Nazia, Vesa
 
 # Showcase
 
