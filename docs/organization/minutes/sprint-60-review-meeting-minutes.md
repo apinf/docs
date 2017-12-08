@@ -10,7 +10,7 @@ This task is still in progress. With 0.52 release in staging the problem still p
 One client also couldn't access APInf with GitHub.
 There is a possibility that the current version of meteor is causing the problem.
 Investigation on this issue is still in progress.
-* [3091 - Staging: shows empty page in IE and Edge browsers] (https://github.com/apinf/platform/issues/3091)
+* [3091 - Staging: shows empty page in IE and Edge browsers](https://github.com/apinf/platform/issues/3091)
 APInf staging environment appeared empty in IE10 and Edge browser in MS Windows 10.
 An imported swagger UI bundle JavaScript file which has been minified caused the problem
 The compressed product was not compatible with IE.
