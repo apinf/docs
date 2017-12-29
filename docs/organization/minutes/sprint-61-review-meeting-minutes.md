@@ -15,8 +15,9 @@ Illya has been mainly busy with finishing design of dashboard overview and detai
 * In addition to these, mostly reviewing other PRs, giving support to Apitalists and participating searching the cause of Travis failure.
 
 **Daria**
+
 ** Security collections issues **
-* [1416](https://github.com/apinf/platform/issues/1416), [1419](https://github.com/apinf/platform/issues/1419), [1421](https://github.com/apinf/platform/issues/1421), [1422](https://github.com/apinf/platform/issues/1422), [1424](https://github.com/apinf/platform/issues/1424), [1426](https://github.com/apinf/platform/issues/1426) - 
+* [1416](https://github.com/apinf/platform/issues/1416), [1419](https://github.com/apinf/platform/issues/1419), [1421](https://github.com/apinf/platform/issues/1421), [1422](https://github.com/apinf/platform/issues/1422), [1424](https://github.com/apinf/platform/issues/1424), [1426](https://github.com/apinf/platform/issues/1426) - make sure that permissions exist for these collections. Close issues and provide code
 * [1418](https://github.com/apinf/platform/issues/1418) - Users collection, add rules for "remove" action
 * [1420](https://github.com/apinf/platform/issues/1420) - ApiFlag collection, remove all code is related to ApiFlag module
 * [1423](https://github.com/apinf/platform/issues/1423) - APIs collection, update
