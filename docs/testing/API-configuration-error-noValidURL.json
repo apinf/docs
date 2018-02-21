@@ -1,0 +1,6 @@
+{
+  "Name": "TestAPI",
+  "URL": "invalid URL",
+  "description": "Adding an API using configuration file",
+  "lifecycleStatus": "testing"
+}
