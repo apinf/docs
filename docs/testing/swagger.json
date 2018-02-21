@@ -1,0 +1,236 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "API for Shareit bloxcar vehicles (beta)",
+    "version" : "1.1",
+    "title" : "Shareit Bloxcar public API (beta)"
+  },
+  "host" : "shareitbloxcar.fi",
+  "basePath" : "/api",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/vehicles" : {
+      "get" : {
+        "summary" : "List all vehicles",
+        "description" : "List all active vehicles. List is paged to 300 items.",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "page",
+          "in" : "query",
+          "description" : "Page listing number.",
+          "required" : false,
+          "type" : "number"
+        }, {
+          "name" : "at",
+          "in" : "query",
+          "description" : "List vehicles closest first to given point. (tuple)",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "city",
+          "in" : "query",
+          "description" : "List only vehicles in given city.",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "start",
+          "in" : "query",
+          "description" : "start time",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "end",
+          "in" : "query",
+          "description" : "end time",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "duration",
+          "in" : "query",
+          "description" : "Lease duration (alternative to start/end time)",
+          "required" : false,
+          "type" : "integer"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/inline_response_200"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "Vehicle" : {
+      "type" : "object",
+      "properties" : {
+        "details_url" : {
+          "type" : "string",
+          "example" : "https://shareitbloxcar.fi/api/vehicles/1",
+          "description" : "the api url of the current vehicle"
+        },
+        "id" : {
+          "type" : "number",
+          "example" : 184.0,
+          "description" : "Vehicle Id"
+        },
+        "image" : {
+          "type" : "string",
+          "example" : "https://s3-eu-west-1.amazonaws.com/prod-shareit-bloxcar/e12432fe-71c6-48c0-8775-4dcb176fdd52.jpeg",
+          "description" : "Vehicle image url"
+        },
+        "is_active" : {
+          "type" : "boolean",
+          "example" : true,
+          "description" : "Is vehicle active?"
+        },
+        "maker" : {
+          "type" : "string",
+          "example" : "Volvo",
+          "description" : "Vehicle maker"
+        },
+        "model" : {
+          "type" : "string",
+          "example" : "V40",
+          "description" : "model of the vehicle"
+        },
+        "position" : {
+          "$ref" : "#/definitions/Vehicle position"
+        },
+        "prices" : {
+          "type" : "array",
+          "description" : "Vehicle prices",
+          "items" : {
+            "$ref" : "#/definitions/Vehicle pricing"
+          }
+        },
+        "register" : {
+          "type" : "string",
+          "description" : "Registernumber"
+        },
+        "short_description" : {
+          "type" : "string",
+          "description" : "Short vehicle description"
+        },
+        "status" : {
+          "type" : "boolean",
+          "description" : "Vehicle status"
+        },
+        "title" : {
+          "type" : "string",
+          "description" : "A title made of the vehicle model, maker, and register"
+        },
+        "web_url" : {
+          "type" : "string",
+          "description" : "the web url of the current vehicle"
+        },
+        "year" : {
+          "type" : "integer",
+          "description" : "Vehicle first register year"
+        }
+      },
+      "title" : "Vehicle"
+    },
+    "inline_response_200" : {
+      "properties" : {
+        "nb_items" : {
+          "type" : "integer",
+          "example" : 2,
+          "description" : "The total number of users"
+        },
+        "nb_pages" : {
+          "type" : "integer",
+          "example" : 1,
+          "description" : "Total number of pages"
+        },
+        "next_url" : {
+          "type" : "string",
+          "example" : "https://shareitbloxcar.fi/api/vehicles?page=2",
+          "description" : "The URL for the next page"
+        },
+        "page" : {
+          "type" : "number",
+          "example" : 1.0,
+          "description" : "The current page number starting from 0"
+        },
+        "previous_url" : {
+          "type" : "string",
+          "example" : "null",
+          "description" : "The URL for the previous page"
+        },
+        "vehicles" : {
+          "type" : "array",
+          "description" : "List of vehicles",
+          "title" : "Vehicles",
+          "items" : {
+            "$ref" : "#/definitions/Vehicle"
+          }
+        }
+      }
+    },
+    "Vehicle position_location" : {
+      "properties" : {
+        "lat" : {
+          "type" : "number",
+          "description" : "lattitude of the vehicle location"
+        },
+        "lon" : {
+          "type" : "number",
+          "description" : "longitude of the vehicle location"
+        }
+      }
+    },
+    "Vehicle position" : {
+      "properties" : {
+        "address" : {
+          "type" : "string",
+          "example" : "Kyyhkystie 2",
+          "description" : "Address"
+        },
+        "area" : {
+          "type" : "string",
+          "example" : "Lintuvaara",
+          "description" : "Area in city"
+        },
+        "city" : {
+          "type" : "string",
+          "description" : "Location city"
+        },
+        "description" : {
+          "type" : "string",
+          "description" : "Location descriotion"
+        },
+        "location" : {
+          "$ref" : "#/definitions/Vehicle position_location"
+        },
+        "zipcode" : {
+          "type" : "string",
+          "description" : "Zipcode"
+        }
+      }
+    },
+    "Vehicle pricing" : {
+      "properties" : {
+        "extra_km_price" : {
+          "type" : "number",
+          "description" : "the price per kilometer"
+        },
+        "free_km" : {
+          "type" : "number",
+          "description" : "the number of free_km per unit time"
+        },
+        "price" : {
+          "type" : "number",
+          "description" : "the price for the unit"
+        },
+        "pricing" : {
+          "type" : "string",
+          "description" : "(daily, hourly, weekly): the time unit considered for these prices"
+        }
+      },
+      "description" : "Vehicle pricing"
+    }
+  }
+}
